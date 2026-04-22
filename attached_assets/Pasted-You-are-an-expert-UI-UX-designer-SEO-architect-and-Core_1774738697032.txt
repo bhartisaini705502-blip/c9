@@ -1,0 +1,260 @@
+You are an expert UI/UX designer, SEO architect, and Core PHP developer.
+
+Completely TRANSFORM the Business Detail Page into a PREMIUM, HIGH-CONVERSION, AI-POWERED PAGE.
+
+--------------------------------------------------
+⚠️ STRICT RULES
+--------------------------------------------------
+
+- DO NOT break backend logic
+- KEEP existing database structure
+- KEEP data fetching same
+- ONLY improve UI, UX, layout, and features
+- Ensure mobile-first design
+- Ensure fast performance
+
+--------------------------------------------------
+🎯 OBJECTIVE
+--------------------------------------------------
+
+Build a page that:
+
+- Looks premium like Justdial / Practo
+- Converts visitors into leads
+- Builds trust instantly
+- Improves SEO ranking
+- Uses AI-generated content where needed
+
+--------------------------------------------------
+🧱 1. PREMIUM HERO SECTION (TOP PRIORITY)
+--------------------------------------------------
+
+Create a full-width HERO section with:
+
+- Business Name (H1 large bold)
+- Category + City (subtitle)
+- ⭐ Rating (if available)
+- 📍 Location
+- ✔ Verified badge OR
+  ⚠ "Data Source: Google"
+
+--------------------------------------------------
+CTA BUTTON GROUP (VERY IMPORTANT)
+--------------------------------------------------
+
+- 📞 Call Now (primary)
+- 💬 WhatsApp (highlight)
+- 📩 Send Enquiry
+
+--------------------------------------------------
+STYLE:
+
+- Background card/banner
+- Strong spacing
+- Highlight buttons
+
+--------------------------------------------------
+🧱 2. 2-COLUMN PROFESSIONAL LAYOUT
+--------------------------------------------------
+
+Create layout:
+
+LEFT (70% width):
+- About Business (AI content)
+- Business Details
+- Map
+- FAQs
+- Related Businesses
+
+RIGHT (30% width - STICKY):
+
+- Contact box
+- Lead form
+- CTA buttons
+
+--------------------------------------------------
+🧱 3. AI DESCRIPTION SYSTEM
+--------------------------------------------------
+
+IF description is empty:
+
+→ Generate using Gemini API
+
+PROMPT:
+
+"Write a professional, SEO-friendly business description for:
+{name}, a {category} in {city}.
+Keep it engaging, 80-120 words."
+
+--------------------------------------------------
+SAVE in DB
+--------------------------------------------------
+
+--------------------------------------------------
+🧱 4. AI FAQ SYSTEM (ADVANCED)
+--------------------------------------------------
+
+Generate 3–5 FAQs:
+
+Example:
+
+Q: What services does this business provide?
+Q: Where is it located?
+Q: How to contact them?
+
+--------------------------------------------------
+DISPLAY:
+
+<h2>FAQs</h2>
+<ul>
+<li>Q/A</li>
+</ul>
+
+--------------------------------------------------
+🧱 5. BUSINESS DETAILS CARD
+--------------------------------------------------
+
+Create clean card:
+
+- 📞 Phone
+- 📍 Address
+- 🏷 Category
+- 🕒 Timing (if available)
+
+--------------------------------------------------
+🧱 6. GOOGLE MAP SECTION
+--------------------------------------------------
+
+Embed map using lat/lng
+
+--------------------------------------------------
+🧱 7. TRUST SYSTEM (VERY IMPORTANT)
+--------------------------------------------------
+
+Show clearly:
+
+IF verified:
+→ ✔ Verified (green badge)
+
+IF Google data:
+→ ⚠ "Data Source: Google"
+
+--------------------------------------------------
+🧱 8. SIDEBAR (STICKY CONVERSION BOX)
+--------------------------------------------------
+
+Create sticky sidebar:
+
+--------------------------------------------------
+CONTACT BOX:
+--------------------------------------------------
+
+- 📞 Call Now
+- 💬 WhatsApp Now
+
+--------------------------------------------------
+LEAD FORM:
+--------------------------------------------------
+
+Fields:
+
+- Name
+- Phone
+- Service
+
+--------------------------------------------------
+ON SUBMIT:
+--------------------------------------------------
+
+- Save to DB
+- Send email
+- Redirect to WhatsApp
+
+--------------------------------------------------
+🧱 9. RELATED BUSINESSES (ENGAGEMENT)
+--------------------------------------------------
+
+Show:
+
+- Same category
+- Same city
+
+Limit: 4–6 listings
+
+--------------------------------------------------
+🧱 10. SHARE & ACTION BUTTONS
+--------------------------------------------------
+
+Add:
+
+- WhatsApp share
+- Copy phone button
+- Click tracking
+
+--------------------------------------------------
+🧱 11. MOBILE UX (CRITICAL)
+--------------------------------------------------
+
+Add bottom sticky bar:
+
+- Call
+- WhatsApp
+- Enquiry
+
+--------------------------------------------------
+🧱 12. SEO OPTIMIZATION
+--------------------------------------------------
+
+Dynamic title:
+
+"Best {Category} in {City} | {Business Name}"
+
+--------------------------------------------------
+Meta description:
+
+"Find {business name}, top {category} in {city}. Call or WhatsApp now."
+
+--------------------------------------------------
+ADD SCHEMA:
+
+LocalBusiness JSON-LD
+
+--------------------------------------------------
+🧱 13. DESIGN RULES
+--------------------------------------------------
+
+- Card layout everywhere
+- 20px spacing
+- Rounded corners
+- Soft shadows
+- Highlight CTA buttons
+
+--------------------------------------------------
+🧱 14. PERFORMANCE
+--------------------------------------------------
+
+- Lazy load images
+- Avoid repeated API calls
+- Optimize queries
+
+--------------------------------------------------
+🧱 15. FINAL VALIDATION
+--------------------------------------------------
+
+Ensure:
+
+- No empty sections
+- AI content working
+- CTA buttons working
+- Mobile responsive
+- Fast loading
+
+--------------------------------------------------
+📌 FINAL OUTPUT
+--------------------------------------------------
+
+- Premium UI
+- AI-enhanced content
+- High conversion layout
+- SEO optimized page
+- Fully responsive design

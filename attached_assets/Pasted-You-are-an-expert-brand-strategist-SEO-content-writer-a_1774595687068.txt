@@ -1,0 +1,215 @@
+You are an expert brand strategist, SEO content writer, and Core PHP developer.
+
+Create a HIGHLY PROFESSIONAL About Us page aligned with the current website design system.
+
+--------------------------------------------------
+⚠️ IMPORTANT RULES
+--------------------------------------------------
+
+- Use header.php and footer.php
+- Follow same layout as service pages
+- LEFT = main content
+- RIGHT = sidebar (CTA + contact form)
+- Fully responsive
+- Content must build trust + authority + conversion
+
+--------------------------------------------------
+🧱 PAGE LAYOUT STRUCTURE
+--------------------------------------------------
+
+include('header.php');
+
+<div class="container section">
+    <div class="row">
+
+        <!-- MAIN CONTENT -->
+        <div class="col-2 main-content">
+
+            [ALL CONTENT HERE]
+
+        </div>
+
+        <!-- SIDEBAR -->
+        <div class="col-2 sidebar">
+
+            [CONTACT FORM + CTA]
+
+        </div>
+
+    </div>
+</div>
+
+include('footer.php');
+
+--------------------------------------------------
+🧠 HERO SECTION
+--------------------------------------------------
+
+<h1>About ConnectWith – Your Partner in Business Growth</h1>
+
+<p>
+We are a modern business directory and digital marketing platform dedicated to helping businesses grow, connect, and succeed in the digital world.
+</p>
+
+Buttons:
+- 📞 Call Now
+- 💬 WhatsApp Now
+- 🚀 Get Free Consultation
+
+--------------------------------------------------
+📄 WHO WE ARE
+--------------------------------------------------
+
+<h2>Who We Are</h2>
+
+<p>
+ConnectWith is a powerful platform designed to bridge the gap between businesses and customers. We help users discover trusted local services while enabling businesses to expand their reach and grow online.
+</p>
+
+<p>
+Our platform combines a smart business directory with professional digital marketing services, making it a complete growth solution for modern businesses.
+</p>
+
+--------------------------------------------------
+🎯 OUR MISSION
+--------------------------------------------------
+
+<h2>Our Mission</h2>
+
+<p>
+Our mission is to empower businesses of all sizes by providing affordable and effective digital solutions that help them succeed in today’s competitive market.
+</p>
+
+<ul>
+<li>Make businesses easily discoverable</li>
+<li>Provide affordable digital marketing services</li>
+<li>Support startups and local businesses</li>
+<li>Drive growth through technology</li>
+</ul>
+
+--------------------------------------------------
+🚀 WHAT WE DO
+--------------------------------------------------
+
+<h2>What We Do</h2>
+
+<p>
+We offer a wide range of services designed to help businesses establish and grow their online presence.
+</p>
+
+<ul>
+<li>Business Directory Listings</li>
+<li>Website Development Services</li>
+<li>Search Engine Optimization (SEO)</li>
+<li>Social Media Marketing</li>
+<li>Google Ads & Lead Generation</li>
+<li>Content & Digital Marketing Solutions</li>
+</ul>
+
+--------------------------------------------------
+💡 WHY CHOOSE CONNECTWITH
+--------------------------------------------------
+
+<h2>Why Choose ConnectWith?</h2>
+
+<ul>
+<li>Affordable and effective solutions</li>
+<li>All-in-one business growth platform</li>
+<li>Expert team with industry experience</li>
+<li>Customer-focused approach</li>
+<li>Modern tools and strategies</li>
+</ul>
+
+--------------------------------------------------
+📊 OUR VISION
+--------------------------------------------------
+
+<h2>Our Vision</h2>
+
+<p>
+We aim to become one of the leading platforms that not only connects businesses with customers but also helps them grow through innovative digital solutions.
+</p>
+
+--------------------------------------------------
+🤝 OUR VALUES
+--------------------------------------------------
+
+<h2>Our Core Values</h2>
+
+<ul>
+<li>Transparency</li>
+<li>Innovation</li>
+<li>Customer Success</li>
+<li>Quality Service</li>
+<li>Continuous Improvement</li>
+</ul>
+
+--------------------------------------------------
+🌍 WHO WE HELP
+--------------------------------------------------
+
+<h2>Who We Help</h2>
+
+<ul>
+<li>Local Businesses</li>
+<li>Startups</li>
+<li>Service Providers</li>
+<li>E-commerce Brands</li>
+<li>Professionals & Freelancers</li>
+</ul>
+
+--------------------------------------------------
+🚀 STRONG CTA SECTION
+--------------------------------------------------
+
+<h2>Let’s Grow Your Business Together</h2>
+
+<p>
+Whether you want to list your business or grow your online presence, ConnectWith is here to help you succeed.
+</p>
+
+Buttons:
+- 📞 Call Now
+- 💬 WhatsApp Now
+- 🚀 Get Started
+
+--------------------------------------------------
+📞 SIDEBAR (RIGHT SIDE)
+--------------------------------------------------
+
+<div class="sidebar-box">
+
+<h3>Get in Touch</h3>
+
+<button>📞 Call Now</button>
+<button>💬 WhatsApp Now</button>
+
+<h4>Request Free Consultation</h4>
+
+<form>
+<input type="text" placeholder="Your Name">
+<input type="text" placeholder="Phone Number">
+<input type="text" placeholder="Business Type">
+<button type="submit">Submit</button>
+</form>
+
+</div>
+
+--------------------------------------------------
+📱 RESPONSIVE RULES
+--------------------------------------------------
+
+- Stack layout on mobile
+- Sidebar moves below
+- Buttons full width
+- Maintain spacing
+
+--------------------------------------------------
+🎨 DESIGN RULES
+--------------------------------------------------
+
+- Clean professional layout
+- Use card sections
+- Soft shadows
+- Highlight CTA
+- Maintain brand colors

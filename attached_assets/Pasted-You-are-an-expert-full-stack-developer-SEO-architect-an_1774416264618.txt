@@ -1,0 +1,240 @@
+You are an expert full-stack developer, SEO architect, and AI product designer.
+
+We have already built a Business Directory using Core PHP with a remote MySQL database (Hostinger). Listings are fetched from Google Maps data.
+
+Your task is to UPGRADE the entire system into a PROFESSIONAL, SEO-OPTIMIZED, AI-POWERED BUSINESS DIRECTORY PLATFORM.
+
+--------------------------------------------------
+🎯 OBJECTIVES
+--------------------------------------------------
+
+- Improve UI/UX of listing pages
+- Add trust system (Verified vs Unverified)
+- Implement SEO pages for traffic growth
+- Add AI-powered features
+- Improve performance for large datasets
+- Enable business claiming system
+
+--------------------------------------------------
+🟢 TRUST SYSTEM (VERY IMPORTANT)
+--------------------------------------------------
+
+Add 2 types of listings:
+
+1. VERIFIED LISTINGS:
+- Show green badge: "✔ Verified by ConnectWith"
+- Place badge next to business name
+- Highlight visually
+- Rank higher in listings
+
+2. UNVERIFIED LISTINGS:
+- Show notice box:
+
+"⚠️ This business information is sourced from Google and may not be fully verified.
+👉 Are you the owner? Claim this listing for FREE."
+
+- Add "Claim Business" button
+
+STYLE:
+- Verified: green (#22C55E)
+- Warning: light yellow background (#FEF9C3)
+
+--------------------------------------------------
+🏢 LISTING PAGE UI (MODERN CARDS)
+--------------------------------------------------
+
+Each listing card must include:
+
+- Business Name
+- Rating + Reviews
+- Verified Badge (if applicable)
+- Category
+- Address (short)
+- Phone (clickable)
+
+Buttons:
+- Call Now
+- WhatsApp
+- View Details
+
+UI:
+- Card layout
+- Rounded corners (8px)
+- Shadow + hover lift effect
+- Clean spacing
+
+--------------------------------------------------
+🔎 FILTER & SEARCH SYSTEM
+--------------------------------------------------
+
+Add filters:
+- Rating (4★+, 3★+)
+- Category
+- City
+- Keywords
+
+Search:
+- Smart keyword search (LIKE queries)
+
+--------------------------------------------------
+📊 SORTING (IMPORTANT)
+--------------------------------------------------
+
+Default sorting:
+ORDER BY verified DESC, rating DESC
+
+--------------------------------------------------
+📄 BUSINESS DETAIL PAGE (UPGRADE)
+--------------------------------------------------
+
+Add:
+
+- Full business details
+- Verified badge
+- AI-generated description
+- Services section
+- FAQ section
+- Nearby businesses
+- "People also searched"
+
+Add Schema Markup (LocalBusiness JSON-LD)
+
+--------------------------------------------------
+🤖 AI FEATURES (CORE DIFFERENTIATOR)
+--------------------------------------------------
+
+Integrate Gemini API.
+
+1. AI DESCRIPTION GENERATOR:
+Generate SEO-friendly description using:
+- name
+- category
+- city
+
+2. AI SEO CONTENT:
+Auto-generate content for:
+- category pages
+- city pages
+
+3. AI REVIEW SUMMARY:
+Generate:
+- Pros
+- Cons
+- Summary
+
+4. AI TAGS:
+Generate tags:
+- affordable
+- premium
+- family-friendly
+
+--------------------------------------------------
+📈 SEO STRUCTURE (CRITICAL)
+--------------------------------------------------
+
+Create dynamic pages:
+
+- /category/{category}
+- /location/{city}
+- /{category}-in-{city}
+
+Each page must include:
+- 300–500 words SEO content (AI generated)
+- Listings
+- Internal links
+
+META:
+- Dynamic title
+- Meta description
+
+--------------------------------------------------
+⚡ PERFORMANCE OPTIMIZATION
+--------------------------------------------------
+
+- Use pagination (LIMIT 20)
+- Add DB indexes:
+  INDEX(city)
+  INDEX(category)
+  INDEX(name)
+
+- Lazy loading images
+
+--------------------------------------------------
+💼 CLAIM BUSINESS SYSTEM
+--------------------------------------------------
+
+Add feature:
+
+- Button: "Claim This Business (Free)"
+- Form:
+  - Name
+  - Phone
+  - Email
+
+Flow:
+- Store in DB
+- Admin approves
+- Mark listing as verified
+
+--------------------------------------------------
+📊 ADMIN PANEL UPDATES
+--------------------------------------------------
+
+Add:
+
+- Approve claims
+- Mark verified listings
+- View stats:
+  - total listings
+  - verified listings
+
+--------------------------------------------------
+💰 MONETIZATION READY
+--------------------------------------------------
+
+Prepare structure for:
+
+- Featured listings
+- Top placement ads
+
+--------------------------------------------------
+🎨 COLOR SCHEME
+--------------------------------------------------
+
+Use:
+
+- Dark Blue: #0B1C3D
+- Blue: #1E3A8A
+- Orange: #FF6A00
+- White: #FFFFFF
+- Light Grey: #F5F7FA
+
+--------------------------------------------------
+🔒 SECURITY
+--------------------------------------------------
+
+- Prepared statements
+- Input validation
+- XSS protection
+
+--------------------------------------------------
+📌 FINAL REQUIREMENTS
+--------------------------------------------------
+
+- Clean, modular code
+- SEO optimized
+- Mobile responsive
+- Scalable for large data
+- Professional UI like Justdial / IndiaMart
+
+--------------------------------------------------
+
+Build step by step:
+1. UI upgrade
+2. Trust system
+3. SEO pages
+4. AI features
+5. Claim system
+6. Admin updates
+
+Ensure everything is production-ready.

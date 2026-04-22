@@ -1,0 +1,155 @@
+You are an expert CRO (Conversion Rate Optimization) specialist and Core PHP developer.
+
+Upgrade the website with ADVANCED CONVERSION BOOST FEATURES.
+
+--------------------------------------------------
+⚠️ RULES
+--------------------------------------------------
+
+- DO NOT break existing system
+- Add lightweight scripts
+- Ensure fast loading
+- Must be mobile-friendly
+
+--------------------------------------------------
+🎯 OBJECTIVE
+--------------------------------------------------
+
+Add:
+
+1. Exit Intent Popup
+2. Timed Lead Popup
+3. Floating CTA Buttons
+4. Urgency Triggers
+5. Micro Conversion Elements
+
+--------------------------------------------------
+🧱 1. EXIT INTENT POPUP (VERY IMPORTANT)
+--------------------------------------------------
+
+Trigger when user moves cursor to close tab.
+
+--------------------------------------------------
+POPUP CONTENT:
+--------------------------------------------------
+
+Title:
+"Wait! Get Best Deals Instantly 🚀"
+
+Message:
+"Share your details and get a callback within minutes."
+
+--------------------------------------------------
+FORM:
+
+- Name
+- Phone
+
+Button:
+"Get Callback Now"
+
+--------------------------------------------------
+ON SUBMIT:
+--------------------------------------------------
+
+- Save lead in DB
+- Send email
+- Redirect to WhatsApp
+
+--------------------------------------------------
+🧱 2. TIMED POPUP (SMART TRIGGER)
+--------------------------------------------------
+
+Trigger after 15–20 seconds.
+
+--------------------------------------------------
+CONTENT:
+--------------------------------------------------
+
+"Need help choosing the best service?"
+
+Buttons:
+- Call Now
+- WhatsApp
+
+--------------------------------------------------
+🧱 3. FLOATING CTA BUTTONS
+--------------------------------------------------
+
+Add bottom-right floating buttons:
+
+- WhatsApp (green)
+- Call (orange)
+
+--------------------------------------------------
+STYLE:
+--------------------------------------------------
+
+- Circular buttons
+- Shadow
+- Always visible
+
+--------------------------------------------------
+🧱 4. URGENCY SYSTEM
+--------------------------------------------------
+
+Add text in sidebar:
+
+- "🔥 Limited Time Offer"
+- "⚡ Fast Response Guaranteed"
+- "📞 Connect Instantly"
+
+--------------------------------------------------
+🧱 5. MICRO-CONVERSION ELEMENTS
+--------------------------------------------------
+
+Add small triggers:
+
+- "12 people viewed this today"
+- "5 users contacted this business"
+
+--------------------------------------------------
+(Static or dynamic)
+
+--------------------------------------------------
+🧱 6. TRUST BOOSTERS
+--------------------------------------------------
+
+Add:
+
+- ✔ Verified badge
+- ⭐ Ratings
+- "Trusted by users"
+
+--------------------------------------------------
+🧱 7. MOBILE OPTIMIZATION
+--------------------------------------------------
+
+- Popups must be responsive
+- Use bottom slide-in instead of full popup
+
+--------------------------------------------------
+🧱 8. PERFORMANCE
+--------------------------------------------------
+
+- Load scripts after page load
+- Avoid blocking rendering
+
+--------------------------------------------------
+🧱 9. FINAL VALIDATION
+--------------------------------------------------
+
+Ensure:
+
+- Popup triggers correctly
+- No spam triggers
+- Forms working
+- No UI breaking
+
+--------------------------------------------------
+📌 FINAL OUTPUT
+--------------------------------------------------
+
+- Higher conversions
+- More leads
+- Better engagement

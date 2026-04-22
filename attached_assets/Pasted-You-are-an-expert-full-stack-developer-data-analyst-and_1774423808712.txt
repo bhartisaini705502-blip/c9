@@ -1,0 +1,298 @@
+You are an expert full-stack developer, data analyst, and system architect.
+
+We have built a Business Directory using:
+- Core PHP
+- MySQL (Remote DB - Hostinger)
+- Google Maps API (for fetching business data)
+- Gemini API (Free Tier for AI content)
+
+Your task is to build a COMPLETE ADMIN DATA TRACKING & INTELLIGENCE SYSTEM that monitors:
+
+- Database growth
+- Google API imports
+- User behavior
+- Search demand
+- Business performance
+
+This system should help us make DATA-DRIVEN DECISIONS.
+
+--------------------------------------------------
+🎯 OBJECTIVES
+--------------------------------------------------
+
+- Track how database grows over time
+- Track where data is coming from
+- Track what users are searching
+- Identify high demand areas (no results)
+- Provide actionable insights in admin dashboard
+
+--------------------------------------------------
+🧱 1. DATABASE STRUCTURE (MANDATORY)
+--------------------------------------------------
+
+Create the following tables:
+
+1. IMPORT LOGS TABLE
+
+CREATE TABLE import_logs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    search_query VARCHAR(255),
+    category VARCHAR(100),
+    city VARCHAR(100),
+    records_fetched INT,
+    source ENUM('google','manual','user'),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+--------------------------------------------------
+
+2. SEARCH LOGS TABLE
+
+CREATE TABLE search_logs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    search_query VARCHAR(255),
+    category VARCHAR(100),
+    city VARCHAR(100),
+    results_found INT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+--------------------------------------------------
+
+3. BUSINESS STATS TABLE
+
+CREATE TABLE business_stats (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    business_id INT,
+    views INT DEFAULT 0,
+    clicks INT DEFAULT 0,
+    calls INT DEFAULT 0,
+    whatsapp_clicks INT DEFAULT 0,
+    last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+--------------------------------------------------
+
+4. UPDATE BUSINESS TABLE
+
+ALTER TABLE businesses ADD:
+source ENUM('google','manual','claimed') DEFAULT 'google',
+imported_at DATETIME,
+last_updated DATETIME;
+
+--------------------------------------------------
+⚙️ 2. TRACKING LOGIC (CORE IMPLEMENTATION)
+--------------------------------------------------
+
+A. WHEN USER SEARCHES
+
+- Log search into search_logs
+- Store:
+  search_query, category, city, results_found
+
+If results_found = 0:
+- Mark as HIGH DEMAND query
+
+--------------------------------------------------
+
+B. WHEN GOOGLE API IS CALLED
+
+- Count fetched records
+- Insert into import_logs
+
+Example:
+INSERT INTO import_logs 
+(search_query, category, city, records_fetched, source)
+
+--------------------------------------------------
+
+C. WHEN BUSINESS IS VIEWED
+
+- Increment views in business_stats
+
+--------------------------------------------------
+
+D. WHEN USER CLICKS:
+
+- Call button → increment calls
+- WhatsApp → increment whatsapp_clicks
+- View details → increment clicks
+
+--------------------------------------------------
+
+--------------------------------------------------
+📊 3. ADMIN DASHBOARD UI (VERY IMPORTANT)
+--------------------------------------------------
+
+Create a new section:
+👉 "Data Insights Dashboard"
+
+--------------------------------------------------
+
+A. TOP CARDS (SUMMARY)
+
+Display:
+
+- Total Businesses
+- Businesses Added Today
+- Total Google Imports
+- Verified Listings Count
+- Claimed Listings Count
+
+--------------------------------------------------
+
+B. GROWTH CHART (LINE CHART)
+
+- X-axis: Date
+- Y-axis: Listings added
+
+--------------------------------------------------
+
+C. SOURCE DISTRIBUTION (PIE CHART)
+
+- Google
+- Manual
+- Claimed
+
+--------------------------------------------------
+
+D. TOP SEARCH QUERIES
+
+Show:
+- search_query
+- number of searches
+
+--------------------------------------------------
+
+E. ZERO RESULT SEARCHES (VERY IMPORTANT)
+
+Show:
+- queries with results_found = 0
+
+Label:
+👉 "High Demand - No Data"
+
+--------------------------------------------------
+
+F. CATEGORY GROWTH
+
+- Which category has most listings added
+
+--------------------------------------------------
+
+G. LOCATION GROWTH
+
+- Which city/area is growing fastest
+
+--------------------------------------------------
+
+--------------------------------------------------
+🧠 4. SMART INSIGHTS SYSTEM
+--------------------------------------------------
+
+Generate insights like:
+
+- "Salons are most searched in Dehradun"
+- "No results found for pet shops in XYZ area"
+- "Gym listings are increasing rapidly"
+
+Use:
+- SQL aggregation
+- Optional: Gemini API (once per day)
+
+--------------------------------------------------
+
+--------------------------------------------------
+🤖 5. AI INSIGHTS (OPTIONAL - FREE GEMINI)
+--------------------------------------------------
+
+Use Gemini API to generate summary:
+
+Input:
+- import_logs
+- search_logs
+
+Output:
+- weekly insights
+- trends
+
+IMPORTANT:
+- Generate once → store in DB
+
+--------------------------------------------------
+
+--------------------------------------------------
+⚡ 6. AUTOMATION (CRON JOBS)
+--------------------------------------------------
+
+Create cron jobs:
+
+Daily:
+- Generate reports
+- Update stats
+- Run AI insights
+- Clean duplicate records
+
+--------------------------------------------------
+
+--------------------------------------------------
+📦 7. EXPORT SYSTEM
+--------------------------------------------------
+
+Add:
+
+- Export CSV:
+  - search logs
+  - import logs
+  - business stats
+
+--------------------------------------------------
+
+--------------------------------------------------
+🚫 8. API CONTROL & LIMITS
+--------------------------------------------------
+
+- Prevent repeated Google API calls
+- Cache search results (24 hours)
+- Limit imports per query
+
+--------------------------------------------------
+
+--------------------------------------------------
+📌 9. UI/UX REQUIREMENTS
+--------------------------------------------------
+
+- Clean admin panel
+- Charts (use Chart.js)
+- Responsive design
+- Color-coded metrics
+
+--------------------------------------------------
+
+--------------------------------------------------
+🔒 10. SECURITY
+--------------------------------------------------
+
+- Admin authentication
+- Protect data endpoints
+- Validate inputs
+
+--------------------------------------------------
+
+--------------------------------------------------
+🏁 FINAL OUTPUT
+--------------------------------------------------
+
+Build:
+
+- Admin Insights Dashboard
+- Tracking system (search + import + user actions)
+- Charts & reports
+- AI insights (optional)
+- Export system
+
+Ensure system is:
+- Scalable
+- Fast
+- Data-driven
+- Production-ready

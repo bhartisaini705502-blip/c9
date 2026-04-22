@@ -1,0 +1,175 @@
+You are an expert AI system architect and Core PHP developer.
+
+The project already includes:
+- CRM (leads, clients, invoices)
+- Admin dashboard
+- WhatsApp system
+
+Now upgrade into an AI-powered system.
+
+--------------------------------------------------
+⚠️ RULES
+--------------------------------------------------
+
+- DO NOT break existing system
+- EXTEND functionality only
+- Keep performance optimized
+- Use FREE AI APIs (Gemini)
+
+--------------------------------------------------
+🎯 OBJECTIVE
+--------------------------------------------------
+
+Build:
+
+1. AI Lead Scoring System
+2. AI Lead Recommendation Engine
+3. AI Auto Follow-up System
+4. AI Business Insights Dashboard
+5. AI Content Generator
+
+--------------------------------------------------
+🧱 1. AI LEAD SCORING SYSTEM
+--------------------------------------------------
+
+Enhance scoring logic:
+
+Score factors:
+
+- Service type:
+   Website = 10
+   SEO = 8
+   Ads = 9
+
+- Time factor:
+   Recent leads → higher score
+
+- Interaction:
+   If contacted → +5
+
+--------------------------------------------------
+UPDATE:
+
+ALTER TABLE leads ADD ai_score INT DEFAULT 0;
+
+--------------------------------------------------
+LOGIC:
+
+Calculate score dynamically using PHP
+
+--------------------------------------------------
+🧱 2. AI LEAD RECOMMENDATION
+--------------------------------------------------
+
+Create section in admin dashboard:
+
+👉 "🔥 Recommended Leads"
+
+LOGIC:
+
+SELECT * FROM leads
+ORDER BY ai_score DESC
+LIMIT 5;
+
+--------------------------------------------------
+DISPLAY:
+
+"Call these leads first"
+
+--------------------------------------------------
+🧱 3. AI AUTO FOLLOW-UP SYSTEM
+--------------------------------------------------
+
+Add follow-up reminder:
+
+ALTER TABLE leads ADD followup_date DATE;
+
+--------------------------------------------------
+LOGIC:
+
+- If lead not contacted in 24h
+→ mark as "Follow-up required"
+
+--------------------------------------------------
+ADMIN VIEW:
+
+Show:
+"Follow-up pending leads"
+
+--------------------------------------------------
+🧱 4. AI BUSINESS INSIGHTS DASHBOARD
+--------------------------------------------------
+
+Show:
+
+- Best performing service
+- Highest converting source
+- Lead growth trend
+
+--------------------------------------------------
+QUERIES:
+
+SELECT service, COUNT(*) FROM leads GROUP BY service;
+
+--------------------------------------------------
+DISPLAY INSIGHTS:
+
+"SEO is generating most leads"
+
+--------------------------------------------------
+🧱 5. AI CONTENT GENERATOR (GEMINI)
+--------------------------------------------------
+
+Use Gemini API:
+
+Generate:
+
+- Business descriptions
+- SEO meta titles
+- Blog ideas
+
+--------------------------------------------------
+FEATURE:
+
+Admin input:
+"Business Type: Salon"
+
+AI output:
+"Best salon in your city..."
+
+--------------------------------------------------
+🧱 6. UI ADDITIONS
+--------------------------------------------------
+
+Add sections:
+
+- AI Insights
+- Recommended Leads
+- Follow-up Alerts
+
+--------------------------------------------------
+🧱 7. PERFORMANCE
+--------------------------------------------------
+
+- Cache AI results
+- Avoid repeated API calls
+
+--------------------------------------------------
+🧱 8. FINAL VALIDATION
+--------------------------------------------------
+
+Ensure:
+
+- Scores calculated
+- Recommendations visible
+- Follow-up alerts working
+- AI content generated
+
+--------------------------------------------------
+📌 FINAL OUTPUT
+--------------------------------------------------
+
+- Smart CRM
+- AI recommendations
+- Automated follow-up system
+- AI insights dashboard

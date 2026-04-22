@@ -1,0 +1,87 @@
+You are an expert AI + JavaScript developer.
+
+Upgrade chatbot into Voice AI Assistant.
+
+--------------------------------------------------
+🎯 OBJECTIVE
+--------------------------------------------------
+
+Enable:
+
+1. Voice Input (Speech to Text)
+2. AI Processing (Gemini)
+3. Voice Output (Text to Speech)
+
+--------------------------------------------------
+🧱 1. ADD MICROPHONE BUTTON
+--------------------------------------------------
+
+<button onclick="startListening()">🎤 Speak</button>
+
+--------------------------------------------------
+🧱 2. SPEECH TO TEXT
+--------------------------------------------------
+
+function startListening() {
+    const recognition = new webkitSpeechRecognition();
+    recognition.lang = "en-IN";
+
+    recognition.onresult = function(event) {
+        let text = event.results[0][0].transcript;
+        document.getElementById("chat-input").value = text;
+        sendMessage();
+    };
+
+    recognition.start();
+}
+
+--------------------------------------------------
+🧱 3. AI RESPONSE (ALREADY EXISTS)
+--------------------------------------------------
+
+Use chatbot.php
+
+--------------------------------------------------
+🧱 4. TEXT TO SPEECH
+--------------------------------------------------
+
+function speak(text) {
+    let speech = new SpeechSynthesisUtterance(text);
+    speech.lang = "en-IN";
+    speech.rate = 1;
+    speech.pitch = 1;
+
+    window.speechSynthesis.speak(speech);
+}
+
+--------------------------------------------------
+🧱 5. CONNECT WITH CHATBOT
+--------------------------------------------------
+
+After AI response:
+
+appendMessage("bot", reply);
+
+speak(reply);
+
+--------------------------------------------------
+🧱 6. UX IMPROVEMENTS
+--------------------------------------------------
+
+- Show "Listening..." indicator
+- Auto scroll chat
+- Add stop button
+
+--------------------------------------------------
+🧱 7. FALLBACK
+--------------------------------------------------
+
+If voice not supported:
+→ Use normal chat
+
+--------------------------------------------------
+📌 FINAL OUTPUT
+--------------------------------------------------
+
+- Voice-enabled chatbot
+- Speech input + AI + speech output

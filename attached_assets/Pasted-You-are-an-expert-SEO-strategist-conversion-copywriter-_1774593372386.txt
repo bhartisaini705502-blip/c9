@@ -1,0 +1,226 @@
+You are an expert SEO strategist, conversion copywriter, and Core PHP developer.
+
+Create a HIGHLY DETAILED Video Marketing Services page with strict layout structure, SEO-optimized content, and high conversion focus.
+
+--------------------------------------------------
+⚠️ IMPORTANT RULES
+--------------------------------------------------
+
+- Use header.php and footer.php
+- Strict 2-column layout
+- LEFT = main content
+- RIGHT = sticky sidebar (CTA + form)
+- Fully responsive design
+- Content must feel 1000+ words (detailed, engaging, professional)
+- Maintain clean UI and spacing
+
+--------------------------------------------------
+🧱 PAGE LAYOUT STRUCTURE
+--------------------------------------------------
+
+include('header.php');
+
+<div class="container section">
+    <div class="row">
+
+        <!-- MAIN CONTENT -->
+        <div class="col-2 main-content">
+
+            [ALL CONTENT SECTIONS HERE]
+
+        </div>
+
+        <!-- SIDEBAR -->
+        <div class="col-2 sidebar">
+
+            [CONTACT FORM + CTA]
+
+        </div>
+
+    </div>
+</div>
+
+include('footer.php');
+
+--------------------------------------------------
+🧠 HERO SECTION
+--------------------------------------------------
+
+<h1>Video Marketing Services to Boost Engagement & Drive Sales</h1>
+
+<p>
+Capture attention, engage your audience, and increase conversions with powerful video marketing strategies tailored for your business.
+</p>
+
+Buttons:
+- 📞 Call Now
+- 💬 WhatsApp Now
+- 🚀 Get Free Consultation
+
+--------------------------------------------------
+📄 INTRODUCTION
+--------------------------------------------------
+
+<p>
+Video marketing has become one of the most effective ways to communicate your brand message and connect with your audience. With the growing popularity of platforms like YouTube, Instagram Reels, and short-form video content, businesses can now reach millions of users through engaging visual content.
+</p>
+
+<p>
+At ConnectWith, we help businesses create impactful video marketing strategies that increase brand awareness, improve engagement, and drive conversions. From concept to execution, we ensure your videos deliver real results.
+</p>
+
+--------------------------------------------------
+📈 WHY VIDEO MARKETING IS IMPORTANT
+--------------------------------------------------
+
+<ul>
+<li>Captures attention quickly</li>
+<li>Increases engagement and retention</li>
+<li>Improves conversion rates</li>
+<li>Enhances brand storytelling</li>
+<li>Boosts social media performance</li>
+</ul>
+
+--------------------------------------------------
+🛠️ OUR VIDEO MARKETING SERVICES
+--------------------------------------------------
+
+<h2>Our Video Marketing Services Include:</h2>
+
+<ul>
+<li>Promotional Video Creation</li>
+<li>Social Media Video Content (Reels, Shorts)</li>
+<li>YouTube Marketing & Optimization</li>
+<li>Product Videos & Explainers</li>
+<li>Ad Video Campaigns</li>
+<li>Script Writing & Storyboarding</li>
+<li>Video SEO Optimization</li>
+</ul>
+
+--------------------------------------------------
+🚀 BENEFITS
+--------------------------------------------------
+
+<h2>Benefits of Video Marketing</h2>
+
+<ul>
+<li>Higher engagement rates</li>
+<li>Better audience connection</li>
+<li>Increased brand awareness</li>
+<li>Improved conversion rates</li>
+<li>Greater reach across platforms</li>
+</ul>
+
+--------------------------------------------------
+⚙️ OUR PROCESS
+--------------------------------------------------
+
+<h2>Our Video Marketing Process</h2>
+
+<ol>
+<li>Understanding your business goals</li>
+<li>Content planning & scripting</li>
+<li>Video creation & editing</li>
+<li>Publishing & promotion</li>
+<li>Performance tracking & optimization</li>
+</ol>
+
+--------------------------------------------------
+🏆 WHY CHOOSE CONNECTWITH?
+--------------------------------------------------
+
+<ul>
+<li>Creative video strategies</li>
+<li>Professional production approach</li>
+<li>Platform-specific optimization</li>
+<li>Affordable pricing</li>
+<li>Results-driven campaigns</li>
+</ul>
+
+--------------------------------------------------
+🎯 WHO CAN BENEFIT?
+--------------------------------------------------
+
+<h2>Who Should Use Video Marketing?</h2>
+
+<ul>
+<li>Businesses promoting products/services</li>
+<li>E-commerce brands</li>
+<li>Startups</li>
+<li>Coaching & education platforms</li>
+<li>Personal brands & influencers</li>
+</ul>
+
+--------------------------------------------------
+❓ FAQ SECTION
+--------------------------------------------------
+
+<h2>Frequently Asked Questions</h2>
+
+<p><strong>Q1. Why is video marketing important?</strong><br>
+Video content is more engaging and helps communicate messages effectively.</p>
+
+<p><strong>Q2. Which platforms are best for video marketing?</strong><br>
+YouTube, Instagram, Facebook, and short video platforms are highly effective.</p>
+
+<p><strong>Q3. Can video marketing increase sales?</strong><br>
+Yes, engaging videos can significantly improve conversions.</p>
+
+<p><strong>Q4. Do you create video ads?</strong><br>
+Yes, we create and manage video ad campaigns.</p>
+
+--------------------------------------------------
+🚀 STRONG CTA SECTION
+--------------------------------------------------
+
+<h2>Ready to Grow Your Business with Video Marketing?</h2>
+
+<p>
+Start creating engaging video content that captures attention and drives real results.
+</p>
+
+Buttons:
+- 📞 Call Now
+- 💬 WhatsApp Now
+- 🚀 Get Free Consultation
+
+--------------------------------------------------
+📞 SIDEBAR (RIGHT SIDE)
+--------------------------------------------------
+
+<div class="sidebar-box">
+
+<h3>Start Video Marketing Today</h3>
+
+<button>📞 Call Now</button>
+<button>💬 WhatsApp Now</button>
+
+<h4>Request Free Consultation</h4>
+
+<form>
+<input type="text" placeholder="Your Name">
+<input type="text" placeholder="Phone Number">
+<input type="text" placeholder="Business Type">
+<button type="submit">Submit</button>
+</form>
+
+</div>
+
+--------------------------------------------------
+📱 RESPONSIVE RULES
+--------------------------------------------------
+
+- Stack layout on mobile
+- Sidebar moves below content
+- Buttons full width
+- Maintain spacing
+
+--------------------------------------------------
+🎨 DESIGN RULES
+--------------------------------------------------
+
+- Clean modern UI
+- Use card layout
+- Soft shadows
+- Highlight CTA buttons
+- Use brand colors

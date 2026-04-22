@@ -1,0 +1,194 @@
+You are an expert SaaS architect and Core PHP developer.
+
+Upgrade the Business Directory into a MONETIZATION PLATFORM.
+
+--------------------------------------------------
+⚠️ RULES
+--------------------------------------------------
+
+- DO NOT break existing system
+- Extend features only
+- Maintain performance
+- Keep UI simple and clean
+
+--------------------------------------------------
+🎯 OBJECTIVE
+--------------------------------------------------
+
+Build:
+
+1. Paid Listing Plans
+2. Claim Business System
+3. Featured Listings
+4. Subscription System
+5. Ranking Algorithm
+
+--------------------------------------------------
+🧱 1. PRICING PLANS
+--------------------------------------------------
+
+Create table:
+
+CREATE TABLE plans (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50),
+    price DECIMAL(10,2),
+    features TEXT,
+    duration INT
+);
+
+--------------------------------------------------
+ADD PLANS:
+--------------------------------------------------
+
+- Free Plan (₹0)
+- Basic Plan (₹499/month)
+- Premium Plan (₹999/month)
+
+--------------------------------------------------
+FEATURES:
+--------------------------------------------------
+
+Free:
+- Basic listing
+
+Basic:
+- Verified badge
+- Higher ranking
+
+Premium:
+- Featured listing
+- Top ranking
+- Priority support
+
+--------------------------------------------------
+🧱 2. CLAIM BUSINESS SYSTEM
+--------------------------------------------------
+
+Add button on listing page:
+
+👉 "Claim This Business"
+
+--------------------------------------------------
+FLOW:
+--------------------------------------------------
+
+- User submits request
+- Admin approves
+- Assign business to user
+
+--------------------------------------------------
+UPDATE TABLE:
+
+ALTER TABLE businesses ADD claimed_by INT;
+
+--------------------------------------------------
+🧱 3. FEATURED LISTINGS
+--------------------------------------------------
+
+Add field:
+
+ALTER TABLE businesses ADD is_featured TINYINT DEFAULT 0;
+
+--------------------------------------------------
+DISPLAY:
+--------------------------------------------------
+
+- Featured listings at top
+- Highlight with badge
+
+--------------------------------------------------
+🧱 4. SUBSCRIPTION SYSTEM
+--------------------------------------------------
+
+Create table:
+
+CREATE TABLE subscriptions (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT,
+    plan_id INT,
+    start_date DATE,
+    end_date DATE,
+    status VARCHAR(50)
+);
+
+--------------------------------------------------
+FEATURES:
+--------------------------------------------------
+
+- Assign plan to user
+- Check expiry
+- Upgrade/downgrade
+
+--------------------------------------------------
+🧱 5. RANKING ALGORITHM
+--------------------------------------------------
+
+Order listings by:
+
+1. is_featured DESC
+2. is_verified DESC
+3. plan priority
+4. rating DESC
+
+--------------------------------------------------
+SQL:
+
+ORDER BY is_featured DESC,
+is_verified DESC,
+rating DESC
+
+--------------------------------------------------
+🧱 6. PAYMENT SYSTEM (BASIC)
+--------------------------------------------------
+
+Add:
+
+- Manual payment (UPI)
+- Mark as paid in admin
+
+--------------------------------------------------
+OPTIONAL:
+--------------------------------------------------
+
+Integrate Razorpay later
+
+--------------------------------------------------
+🧱 7. ADMIN PANEL
+--------------------------------------------------
+
+Add sections:
+
+- Plans management
+- Subscriptions
+- Claim requests
+
+--------------------------------------------------
+🧱 8. UI IMPROVEMENTS
+--------------------------------------------------
+
+Add badges:
+
+- Verified ✔
+- Featured ⭐
+- Premium 🔥
+
+--------------------------------------------------
+🧱 9. FINAL VALIDATION
+--------------------------------------------------
+
+Ensure:
+
+- Plans working
+- Claim system working
+- Featured listing visible
+- Ranking correct
+
+--------------------------------------------------
+📌 FINAL OUTPUT
+--------------------------------------------------
+
+- Paid listing system
+- Subscription model
+- Business claiming
+- Revenue generation system

@@ -1,0 +1,126 @@
+You are an expert UI/UX designer and conversion optimization specialist.
+
+Fix and upgrade the RIGHT SIDEBAR and overall conversion system of Business Detail Page.
+
+--------------------------------------------------
+⚠️ RULES
+--------------------------------------------------
+
+- DO NOT break backend
+- ONLY improve sidebar, CTA, and UX
+- Focus on conversion
+- Make sidebar sticky
+
+--------------------------------------------------
+🎯 OBJECTIVE
+--------------------------------------------------
+
+Transform sidebar into HIGH-CONVERSION ACTION PANEL.
+
+--------------------------------------------------
+🧱 1. STICKY SIDEBAR (MANDATORY)
+--------------------------------------------------
+
+Make sidebar sticky on scroll.
+
+--------------------------------------------------
+🧱 2. PRIMARY CTA SECTION (TOP)
+--------------------------------------------------
+
+Add large buttons:
+
+- 📞 Call Now
+- 💬 WhatsApp Now
+
+STYLE:
+
+- Full width
+- Bold color
+- Rounded buttons
+
+--------------------------------------------------
+🧱 3. LEAD FORM (IMPORTANT)
+--------------------------------------------------
+
+Create form:
+
+Fields:
+- Name
+- Phone
+- Service
+
+Button:
+🚀 "Get Callback Now"
+
+--------------------------------------------------
+ON SUBMIT:
+--------------------------------------------------
+
+- Save lead in DB
+- Send email
+- Redirect to WhatsApp
+
+--------------------------------------------------
+🧱 4. TRUST SECTION
+--------------------------------------------------
+
+Show:
+
+IF verified:
+→ ✔ Verified Business
+
+ELSE:
+→ ⚠ Data Source: Google
+
+--------------------------------------------------
+ADD:
+
+"Quick Response Guaranteed"
+
+--------------------------------------------------
+🧱 5. VISUAL IMPROVEMENT
+--------------------------------------------------
+
+- Card layout
+- Shadow
+- Padding (20px)
+- Spacing between elements
+
+--------------------------------------------------
+🧱 6. MOBILE FIX
+--------------------------------------------------
+
+Hide sidebar
+
+Add bottom sticky bar:
+
+- Call
+- WhatsApp
+- Enquiry
+
+--------------------------------------------------
+🧱 7. UX IMPROVEMENT
+--------------------------------------------------
+
+- Highlight CTA buttons
+- Use icons
+- Add hover effects
+
+--------------------------------------------------
+🧱 8. FINAL VALIDATION
+--------------------------------------------------
+
+Ensure:
+
+- Sidebar visible always
+- CTA clickable
+- Form working
+- Mobile responsive
+
+--------------------------------------------------
+📌 FINAL OUTPUT
+--------------------------------------------------
+
+- Strong sidebar
+- Better conversion
+- Improved UX

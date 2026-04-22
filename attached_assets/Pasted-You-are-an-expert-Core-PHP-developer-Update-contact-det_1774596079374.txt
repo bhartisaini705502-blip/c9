@@ -1,0 +1,84 @@
+You are an expert Core PHP developer.
+
+Update contact details across the ENTIRE project globally.
+
+--------------------------------------------------
+🎯 CONTACT DETAILS
+--------------------------------------------------
+
+Phone / Call:
+09068899033
+
+WhatsApp:
+09068899033
+
+Email (Display):
+info@connectwith.in
+
+Form Receiver Email:
+connectwithddn@gmail.com
+
+--------------------------------------------------
+🧱 TASKS
+--------------------------------------------------
+
+1. Replace ALL old phone numbers with:
+   09068899033
+
+2. Replace ALL WhatsApp links with:
+   https://wa.me/919068899033
+
+3. Replace ALL email displays with:
+   info@connectwith.in
+
+4. Update ALL forms to send data to:
+   connectwithddn@gmail.com
+
+--------------------------------------------------
+📞 UPDATE BUTTONS EVERYWHERE
+--------------------------------------------------
+
+Call Button:
+<a href="tel:09068899033">Call Now</a>
+
+WhatsApp Button:
+<a href="https://wa.me/919068899033" target="_blank">WhatsApp Now</a>
+
+--------------------------------------------------
+📧 UPDATE FORM BACKEND (IMPORTANT)
+--------------------------------------------------
+
+In all form handling PHP files:
+
+$mail_to = "connectwithddn@gmail.com";
+
+--------------------------------------------------
+🧠 ADD CONTACT VARIABLES (BEST PRACTICE)
+--------------------------------------------------
+
+Create config file (config.php):
+
+$phone = "09068899033";
+$whatsapp = "https://wa.me/919068899033";
+$email = "info@connectwith.in";
+
+Use these variables globally.
+
+--------------------------------------------------
+🔒 VALIDATION
+--------------------------------------------------
+
+Ensure:
+
+- All buttons working
+- WhatsApp opens correctly
+- Forms send email properly
+- No old data remains
+
+--------------------------------------------------
+📌 FINAL OUTPUT
+--------------------------------------------------
+
+- Updated contact info globally
+- Forms working correctly
+- Standardized system

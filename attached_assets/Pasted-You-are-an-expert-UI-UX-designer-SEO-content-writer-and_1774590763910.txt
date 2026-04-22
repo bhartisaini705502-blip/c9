@@ -1,0 +1,204 @@
+You are an expert UI/UX designer, SEO content writer, and Core PHP developer.
+
+Create a COMPLETE Social Media Marketing Service Page with STRICT layout structure and HIGHLY DETAILED SEO content.
+
+--------------------------------------------------
+⚠️ IMPORTANT RULES
+--------------------------------------------------
+
+- MUST follow 2-column layout
+- LEFT = main content
+- RIGHT = sidebar (sticky)
+- Use header.php and footer.php
+- Fully responsive
+- Clean spacing and sections
+
+--------------------------------------------------
+🧱 PAGE LAYOUT STRUCTURE
+--------------------------------------------------
+
+include('header.php');
+
+<div class="container section">
+    <div class="row">
+
+        <!-- LEFT CONTENT -->
+        <div class="col-2 main-content">
+
+            [ALL CONTENT SECTIONS HERE]
+
+        </div>
+
+        <!-- RIGHT SIDEBAR -->
+        <div class="col-2 sidebar">
+
+            [CONTACT FORM + CTA]
+
+        </div>
+
+    </div>
+</div>
+
+include('footer.php');
+
+--------------------------------------------------
+🧠 HERO SECTION
+--------------------------------------------------
+
+<h1>Professional Social Media Marketing Services to Grow Your Brand</h1>
+
+<p>
+Build a powerful online presence, engage your audience, and generate high-quality leads with our expert social media marketing strategies tailored for your business growth.
+</p>
+
+Buttons:
+- Call Now
+- WhatsApp Now
+- Get Free Consultation
+
+--------------------------------------------------
+📄 INTRODUCTION
+--------------------------------------------------
+
+<p>
+In today’s digital world, social media platforms like Instagram, Facebook, and LinkedIn play a crucial role in business success. Whether you are a startup or an established brand, having a strong social media presence helps you connect with your audience, build trust, and increase sales.
+</p>
+
+<p>
+At ConnectWith, we provide result-oriented social media marketing services that help businesses grow their online presence, engage with customers, and convert followers into loyal clients.
+</p>
+
+--------------------------------------------------
+📈 WHY SOCIAL MEDIA MARKETING IS IMPORTANT
+--------------------------------------------------
+
+<ul>
+<li>Increase brand awareness and visibility</li>
+<li>Build strong relationships with customers</li>
+<li>Drive targeted traffic to your website</li>
+<li>Generate leads and sales</li>
+<li>Stay ahead of competitors</li>
+</ul>
+
+--------------------------------------------------
+🛠️ OUR SERVICES
+--------------------------------------------------
+
+<h2>Our Social Media Marketing Services Include:</h2>
+
+<ul>
+<li>Profile Setup & Optimization</li>
+<li>Content Creation (Posts, Reels, Graphics)</li>
+<li>Social Media Management</li>
+<li>Paid Advertising Campaigns</li>
+<li>Audience Engagement Strategy</li>
+<li>Hashtag & Trend Research</li>
+</ul>
+
+--------------------------------------------------
+🚀 BENEFITS
+--------------------------------------------------
+
+<h2>Benefits of Social Media Marketing</h2>
+
+<ul>
+<li>Increase followers and engagement</li>
+<li>Boost brand recognition</li>
+<li>Generate quality leads</li>
+<li>Improve customer loyalty</li>
+<li>Enhance online reputation</li>
+</ul>
+
+--------------------------------------------------
+⚙️ OUR PROCESS
+--------------------------------------------------
+
+<h2>Our Working Process</h2>
+
+<ol>
+<li>Business Analysis & Strategy Planning</li>
+<li>Content Creation & Design</li>
+<li>Posting & Campaign Execution</li>
+<li>Audience Engagement</li>
+<li>Performance Tracking & Optimization</li>
+</ol>
+
+--------------------------------------------------
+🏆 WHY CHOOSE US
+--------------------------------------------------
+
+<ul>
+<li>Experienced social media experts</li>
+<li>Creative content strategies</li>
+<li>Affordable pricing plans</li>
+<li>Data-driven campaigns</li>
+<li>Dedicated support</li>
+</ul>
+
+--------------------------------------------------
+❓ FAQ SECTION
+--------------------------------------------------
+
+<h2>Frequently Asked Questions</h2>
+
+<p><strong>Q1. Which platform is best for my business?</strong><br>
+It depends on your target audience. We help you choose the right platform.</p>
+
+<p><strong>Q2. How often will you post content?</strong><br>
+We create a customized posting schedule based on your business needs.</p>
+
+<p><strong>Q3. Do you run paid ads?</strong><br>
+Yes, we manage Facebook and Instagram ad campaigns.</p>
+
+--------------------------------------------------
+🚀 CTA SECTION (BOTTOM)
+--------------------------------------------------
+
+<h2>Ready to Grow Your Brand on Social Media?</h2>
+
+<p>Start building your online presence and attract more customers today.</p>
+
+Buttons:
+- Call Now
+- WhatsApp Now
+- Get Free Consultation
+
+--------------------------------------------------
+📞 SIDEBAR (RIGHT SIDE - STICKY)
+--------------------------------------------------
+
+<div class="sidebar-box">
+
+<h3>Contact Us</h3>
+
+<button>📞 Call Now</button>
+<button>💬 WhatsApp Now</button>
+
+<h4>Get Free Consultation</h4>
+
+<form>
+<input type="text" placeholder="Your Name">
+<input type="text" placeholder="Phone Number">
+<input type="text" placeholder="Business Type">
+<button type="submit">Submit</button>
+</form>
+
+</div>
+
+--------------------------------------------------
+📱 RESPONSIVE RULES
+--------------------------------------------------
+
+- On mobile: stack columns
+- Sidebar moves below content
+- Buttons full width
+- Maintain spacing
+
+--------------------------------------------------
+🎨 DESIGN
+--------------------------------------------------
+
+- Use card layout
+- Padding: 20px
+- Soft shadow
+- Rounded corners

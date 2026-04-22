@@ -1,0 +1,168 @@
+You are an expert SaaS architect and Core PHP developer.
+
+Upgrade the current system into a SaaS-level Business Management Platform.
+
+--------------------------------------------------
+⚠️ RULES
+--------------------------------------------------
+
+- DO NOT break existing system
+- EXTEND features only
+- Maintain performance
+- Keep UI clean
+
+--------------------------------------------------
+🎯 OBJECTIVE
+--------------------------------------------------
+
+Add:
+
+1. Client Panel
+2. Lead Pipeline (CRM)
+3. WhatsApp Semi-Automation
+4. Invoice System
+5. Payment Tracking
+
+--------------------------------------------------
+🧱 1. CLIENT LOGIN SYSTEM
+--------------------------------------------------
+
+Create table:
+
+CREATE TABLE clients (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    phone VARCHAR(20),
+    email VARCHAR(100),
+    password VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+--------------------------------------------------
+FEATURES:
+--------------------------------------------------
+
+- Client login / logout
+- Dashboard access
+- View their leads
+- Contact support
+
+--------------------------------------------------
+🧱 2. LEAD PIPELINE SYSTEM (CRM)
+--------------------------------------------------
+
+Update leads table:
+
+ALTER TABLE leads ADD status VARCHAR(50) DEFAULT 'new';
+
+--------------------------------------------------
+PIPELINE STAGES:
+
+- New
+- Contacted
+- Interested
+- Converted
+- Closed
+
+--------------------------------------------------
+ADMIN PANEL:
+
+- Drag & drop (optional)
+- Update status
+
+--------------------------------------------------
+🧱 3. WHATSAPP SEMI-AUTOMATION
+--------------------------------------------------
+
+Add quick reply templates:
+
+$message1 = "Thanks for contacting us!";
+$message2 = "Our team will call you shortly";
+
+--------------------------------------------------
+ADMIN OPTION:
+
+- Send WhatsApp manually with pre-filled message
+
+--------------------------------------------------
+🧱 4. INVOICE SYSTEM
+--------------------------------------------------
+
+Create table:
+
+CREATE TABLE invoices (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    client_id INT,
+    amount DECIMAL(10,2),
+    status VARCHAR(50),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+--------------------------------------------------
+FEATURES:
+
+- Generate invoice
+- Download PDF
+- Mark paid/unpaid
+
+--------------------------------------------------
+🧱 5. PAYMENT TRACKING
+--------------------------------------------------
+
+Add:
+
+ALTER TABLE invoices ADD payment_method VARCHAR(50);
+
+--------------------------------------------------
+SHOW:
+
+- Paid
+- Pending
+- Overdue
+
+--------------------------------------------------
+🧱 6. CLIENT DASHBOARD
+--------------------------------------------------
+
+Show:
+
+- Active services
+- Lead status
+- Invoice status
+
+--------------------------------------------------
+🧱 7. ADMIN DASHBOARD UPGRADE
+--------------------------------------------------
+
+Add:
+
+- Total revenue
+- Total clients
+- Conversion rate
+
+--------------------------------------------------
+🧱 8. SECURITY
+--------------------------------------------------
+
+- Password hashing
+- Session management
+- Input validation
+
+--------------------------------------------------
+🧱 9. FINAL VALIDATION
+--------------------------------------------------
+
+Ensure:
+
+- Login works
+- Leads pipeline works
+- Invoice system works
+- No errors
+
+--------------------------------------------------
+📌 FINAL OUTPUT
+--------------------------------------------------
+
+- SaaS level system
+- CRM + clients + invoices
+- Fully functional platform

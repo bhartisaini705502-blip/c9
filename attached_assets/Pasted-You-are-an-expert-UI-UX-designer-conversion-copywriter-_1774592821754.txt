@@ -1,0 +1,215 @@
+You are an expert UI/UX designer, conversion copywriter, and Core PHP developer.
+
+Create a HIGH-CONVERSION Website Development Service Page with STRICT layout and highly persuasive content.
+
+--------------------------------------------------
+🧱 LAYOUT STRUCTURE (MANDATORY)
+--------------------------------------------------
+
+include('header.php');
+
+<div class="container section">
+    <div class="row">
+
+        <!-- LEFT CONTENT -->
+        <div class="col-2 main-content">
+
+            [ALL CONTENT SECTIONS]
+
+        </div>
+
+        <!-- RIGHT SIDEBAR -->
+        <div class="col-2 sidebar">
+
+            [CONTACT + CTA]
+
+        </div>
+
+    </div>
+</div>
+
+include('footer.php');
+
+--------------------------------------------------
+🧠 HERO SECTION (VERY IMPORTANT)
+--------------------------------------------------
+
+<h1>Get Your Business Website with 4 Years Validity at Just ₹10,000</h1>
+
+<p>
+Launch your professional website today and take your business online with a fully responsive, SEO-ready, and lead-generating website.
+</p>
+
+Buttons:
+- 📞 Call Now
+- 💬 WhatsApp Now
+- 🚀 Get Started
+
+--------------------------------------------------
+🔥 PROMOTIONAL HIGHLIGHT BOX
+--------------------------------------------------
+
+<h2>Special Limited-Time Offer</h2>
+
+<ul>
+<li>Complete Website in ₹10,000</li>
+<li>4 Years Validity</li>
+<li>Free Hosting Included</li>
+<li>Free Support</li>
+</ul>
+
+--------------------------------------------------
+📄 INTRODUCTION
+--------------------------------------------------
+
+<p>
+In today’s digital era, having a website is essential for every business. Your website acts as your online identity and helps customers find you easily.
+</p>
+
+<p>
+At ConnectWith, we provide affordable website development services designed specifically for small businesses, startups, and professionals who want to establish their online presence without spending a huge budget.
+</p>
+
+--------------------------------------------------
+🛠️ WHAT YOU WILL GET
+--------------------------------------------------
+
+<h2>Features Included in ₹10,000 Plan</h2>
+
+<ul>
+<li>5–6 Page Professional Website</li>
+<li>Mobile Responsive Design</li>
+<li>SEO-Friendly Structure</li>
+<li>Contact Form Integration</li>
+<li>WhatsApp Chat Integration</li>
+<li>Google Map Integration</li>
+<li>Fast Loading Speed</li>
+<li>Basic On-Page SEO Setup</li>
+</ul>
+
+--------------------------------------------------
+🚀 BENEFITS
+--------------------------------------------------
+
+<h2>Benefits of Having a Website</h2>
+
+<ul>
+<li>Build trust with customers</li>
+<li>Increase business visibility</li>
+<li>Generate leads 24/7</li>
+<li>Improve brand image</li>
+<li>Stay ahead of competitors</li>
+</ul>
+
+--------------------------------------------------
+⚙️ OUR PROCESS
+--------------------------------------------------
+
+<h2>Our Development Process</h2>
+
+<ol>
+<li>Requirement Discussion</li>
+<li>Design Planning</li>
+<li>Website Development</li>
+<li>Testing & Optimization</li>
+<li>Launch & Support</li>
+</ol>
+
+--------------------------------------------------
+🏆 WHY CHOOSE US
+--------------------------------------------------
+
+<ul>
+<li>Affordable pricing</li>
+<li>Fast delivery (5–7 days)</li>
+<li>Professional design</li>
+<li>SEO-ready websites</li>
+<li>Complete support</li>
+</ul>
+
+--------------------------------------------------
+🎯 TARGET AUDIENCE
+--------------------------------------------------
+
+<h2>Who Can Benefit?</h2>
+
+<ul>
+<li>Local Businesses</li>
+<li>Startups</li>
+<li>Doctors & Clinics</li>
+<li>Coaching Institutes</li>
+<li>Freelancers</li>
+<li>Service Providers</li>
+</ul>
+
+--------------------------------------------------
+❓ FAQ SECTION
+--------------------------------------------------
+
+<h2>Frequently Asked Questions</h2>
+
+<p><strong>Q1. How long will it take to build my website?</strong><br>
+Your website will be ready within 5–7 working days.</p>
+
+<p><strong>Q2. Will my website be mobile-friendly?</strong><br>
+Yes, all websites are fully responsive.</p>
+
+<p><strong>Q3. Do you provide support after delivery?</strong><br>
+Yes, we provide full support.</p>
+
+<p><strong>Q4. Is hosting included?</strong><br>
+Yes, hosting is included in the plan.</p>
+
+--------------------------------------------------
+🚀 STRONG CTA SECTION (VERY IMPORTANT)
+--------------------------------------------------
+
+<h2>Ready to Take Your Business Online?</h2>
+
+<p>
+Don’t miss this limited-time offer. Get your professional website today and start growing your business.
+</p>
+
+Buttons:
+- 📞 Call Now
+- 💬 WhatsApp Now
+- 🚀 Get Started
+
+--------------------------------------------------
+📞 SIDEBAR (STICKY)
+--------------------------------------------------
+
+<div class="sidebar-box">
+
+<h3>Get Your Website Now</h3>
+
+<button>📞 Call Now</button>
+<button>💬 WhatsApp Now</button>
+
+<h4>Request Callback</h4>
+
+<form>
+<input type="text" placeholder="Your Name">
+<input type="text" placeholder="Phone Number">
+<input type="text" placeholder="Business Type">
+<button type="submit">Get Started</button>
+</form>
+
+</div>
+
+--------------------------------------------------
+📱 RESPONSIVE RULES
+--------------------------------------------------
+
+- Mobile: stack layout
+- Buttons full width
+- Sidebar moves below
+- Highlight offer clearly
+
+--------------------------------------------------
+🎨 DESIGN
+--------------------------------------------------
+
+- Highlight offer in orange (#FF6A00)
+- Use cards and spacing
+- Clean modern UI

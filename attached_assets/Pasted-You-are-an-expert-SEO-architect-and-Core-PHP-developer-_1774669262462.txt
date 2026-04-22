@@ -1,0 +1,165 @@
+You are an expert SEO architect and Core PHP developer.
+
+Upgrade the Business Directory into a HIGH-TRAFFIC SEO PLATFORM.
+
+--------------------------------------------------
+⚠️ RULES
+--------------------------------------------------
+
+- DO NOT break existing system
+- Extend features only
+- Keep pages lightweight
+- Optimize for Google indexing
+
+--------------------------------------------------
+🎯 OBJECTIVE
+--------------------------------------------------
+
+Build:
+
+1. City + Category Pages
+2. SEO URL Structure
+3. Dynamic Meta Tags
+4. Auto SEO Content
+5. Internal Linking
+6. Schema Markup
+
+--------------------------------------------------
+🧱 1. SEO URL STRUCTURE
+--------------------------------------------------
+
+Create clean URLs:
+
+/{category}/{city}
+
+Examples:
+
+/restaurants/delhi
+/salons/mumbai
+/digital-marketing/dehradun
+
+--------------------------------------------------
+🧱 2. DYNAMIC ROUTING
+--------------------------------------------------
+
+Create page:
+
+category-city.php
+
+Fetch:
+
+- category slug
+- city slug
+
+--------------------------------------------------
+QUERY:
+
+SELECT * FROM businesses
+WHERE category_id = ?
+AND city_id = ?
+
+--------------------------------------------------
+🧱 3. DYNAMIC META TAGS
+--------------------------------------------------
+
+<title>
+Best {Category} in {City} | ConnectWith
+</title>
+
+<meta name="description">
+Find top {category} services in {city}. Explore verified businesses and contact instantly.
+</meta>
+
+--------------------------------------------------
+🧱 4. AUTO SEO CONTENT
+--------------------------------------------------
+
+Generate content dynamically:
+
+<h1>Top {Category} in {City}</h1>
+
+<p>
+Looking for the best {category} in {city}? ConnectWith helps you find trusted businesses with verified details.
+</p>
+
+--------------------------------------------------
+ADD MORE CONTENT:
+
+- Why choose
+- Benefits
+- FAQ
+
+--------------------------------------------------
+🧱 5. INTERNAL LINKING SYSTEM
+--------------------------------------------------
+
+On each page:
+
+Show:
+
+- Related categories
+- Nearby cities
+
+--------------------------------------------------
+Example:
+
+"Also check salons in nearby cities"
+
+--------------------------------------------------
+🧱 6. SCHEMA MARKUP
+--------------------------------------------------
+
+Add JSON-LD:
+
+{
+ "@context": "https://schema.org",
+ "@type": "LocalBusiness",
+ "name": "Business Name",
+ "address": "City"
+}
+
+--------------------------------------------------
+🧱 7. SITEMAP GENERATION
+--------------------------------------------------
+
+Create sitemap.php
+
+Include:
+
+- All category-city pages
+- All business pages
+
+--------------------------------------------------
+🧱 8. INDEXING STRATEGY
+--------------------------------------------------
+
+- Add robots.txt
+- Submit sitemap to Google
+
+--------------------------------------------------
+🧱 9. PERFORMANCE
+--------------------------------------------------
+
+- Cache pages
+- Optimize queries
+- Lazy load listings
+
+--------------------------------------------------
+🧱 10. FINAL VALIDATION
+--------------------------------------------------
+
+Ensure:
+
+- URLs working
+- Meta tags dynamic
+- Content visible
+- Schema valid
+- Pages fast
+
+--------------------------------------------------
+📌 FINAL OUTPUT
+--------------------------------------------------
+
+- SEO optimized pages
+- Google-friendly structure
+- Traffic-ready system

@@ -1,0 +1,127 @@
+You are an expert PHP developer and AI integration specialist.
+
+Build an AUTO AI DESCRIPTION SYSTEM for business detail page.
+
+--------------------------------------------------
+⚠️ RULES
+--------------------------------------------------
+
+- DO NOT break existing system
+- Generate description ONLY if empty
+- Save generated content in DB
+- Avoid repeated API calls
+
+--------------------------------------------------
+🎯 OBJECTIVE
+--------------------------------------------------
+
+If business description is missing:
+
+1. Generate using AI (Gemini API)
+2. Store in database
+3. Display on page
+
+--------------------------------------------------
+🧱 STEP 1: DATABASE UPDATE
+--------------------------------------------------
+
+ALTER TABLE businesses ADD description TEXT;
+
+--------------------------------------------------
+🧱 STEP 2: CHECK DESCRIPTION
+--------------------------------------------------
+
+In business-detail.php:
+
+IF description is empty:
+
+→ Call AI function
+
+--------------------------------------------------
+🧱 STEP 3: AI GENERATION (GEMINI)
+--------------------------------------------------
+
+Use Gemini API:
+
+Prompt:
+
+"Write a professional business description for:
+
+Business Name: {name}
+Category: {category}
+Location: {city}
+
+Make it SEO-friendly and user-friendly in 80-120 words."
+
+--------------------------------------------------
+🧱 STEP 4: SAVE TO DATABASE
+--------------------------------------------------
+
+After generating:
+
+UPDATE businesses
+SET description = 'generated content'
+WHERE id = business_id;
+
+--------------------------------------------------
+🧱 STEP 5: DISPLAY
+--------------------------------------------------
+
+Show:
+
+<h2>About Business</h2>
+<p>{description}</p>
+
+--------------------------------------------------
+🧱 STEP 6: FALLBACK (IMPORTANT)
+--------------------------------------------------
+
+If API fails:
+
+Generate basic description:
+
+"{Business Name} is a {category} located in {city}. Contact them for more details."
+
+--------------------------------------------------
+🧱 STEP 7: PERFORMANCE OPTIMIZATION
+--------------------------------------------------
+
+- Generate only once
+- Store in DB
+- Do NOT call API again
+
+--------------------------------------------------
+🧱 STEP 8: ADMIN CONTROL (OPTIONAL)
+--------------------------------------------------
+
+In admin panel:
+
+- Edit description manually
+- Regenerate button
+
+--------------------------------------------------
+🧱 STEP 9: SEO OPTIMIZATION
+--------------------------------------------------
+
+- Add keywords naturally
+- Include location name
+- Keep readable format
+
+--------------------------------------------------
+🧱 STEP 10: FINAL VALIDATION
+--------------------------------------------------
+
+Ensure:
+
+- Description shows for all listings
+- No empty section
+- No repeated API calls
+- Fast loading
+
+--------------------------------------------------
+📌 FINAL OUTPUT
+--------------------------------------------------
+
+- AI generated descriptions
+- Stored in database
+- SEO optimized content

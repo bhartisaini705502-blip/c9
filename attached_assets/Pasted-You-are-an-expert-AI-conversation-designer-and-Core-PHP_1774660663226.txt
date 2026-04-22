@@ -1,0 +1,153 @@
+You are an expert AI conversation designer and Core PHP developer.
+
+Upgrade existing Voice AI Chatbot into a SMART SALES ASSISTANT.
+
+--------------------------------------------------
+⚠️ RULES
+--------------------------------------------------
+
+- DO NOT break existing chatbot
+- EXTEND logic only
+- Keep fast response
+- Optimize for conversions
+
+--------------------------------------------------
+🎯 OBJECTIVE
+--------------------------------------------------
+
+Upgrade chatbot with:
+
+1. Multi-language (Hindi + English)
+2. Intent detection
+3. Sales conversation flow
+4. Lead capture automation
+5. Smart replies
+
+--------------------------------------------------
+🧱 1. LANGUAGE DETECTION
+--------------------------------------------------
+
+Detect user language:
+
+IF message contains Hindi words → respond in Hindi  
+Else → respond in English  
+
+Example:
+
+"mujhe website chahiye" → Hindi response  
+"I need SEO" → English response  
+
+--------------------------------------------------
+🧱 2. INTENT DETECTION SYSTEM
+--------------------------------------------------
+
+Detect user intent:
+
+IF message contains:
+- "price", "cost" → Pricing intent
+- "SEO", "ranking" → SEO intent
+- "website" → Website service
+- "ads", "google ads" → Ads service
+
+--------------------------------------------------
+🧱 3. SMART RESPONSES (NO GENERIC AI)
+--------------------------------------------------
+
+Instead of random AI replies, use structured replies:
+
+--------------------------------------------------
+WEBSITE INTENT:
+--------------------------------------------------
+
+"Great! We provide professional websites at just ₹10,000 with 4 years validity. Would you like to get started?"
+
+--------------------------------------------------
+SEO INTENT:
+--------------------------------------------------
+
+"We help businesses rank on Google and generate leads. Would you like a free consultation?"
+
+--------------------------------------------------
+ADS INTENT:
+--------------------------------------------------
+
+"We run high-converting Google Ads campaigns for instant leads. Shall I connect you with our expert?"
+
+--------------------------------------------------
+🧱 4. SALES CONVERSION FLOW
+--------------------------------------------------
+
+After 1–2 replies:
+
+Ask:
+
+"Can I get your name and phone number so our team can assist you?"
+
+--------------------------------------------------
+🧱 5. LEAD CAPTURE
+--------------------------------------------------
+
+If user gives:
+
+Name + Phone
+
+→ Save to leads table
+
+→ Assign service automatically
+
+--------------------------------------------------
+🧱 6. WHATSAPP CONVERSION
+--------------------------------------------------
+
+After lead capture:
+
+Send:
+
+"Click below to continue on WhatsApp"
+
+Link:
+https://wa.me/919068899033
+
+--------------------------------------------------
+🧱 7. VOICE RESPONSE UPGRADE
+--------------------------------------------------
+
+If Hindi → speak in Hindi  
+If English → speak in English  
+
+--------------------------------------------------
+🧱 8. CONTEXT MEMORY
+--------------------------------------------------
+
+Store last intent:
+
+Example:
+
+User asked about SEO → next reply continues SEO conversation
+
+--------------------------------------------------
+🧱 9. QUICK ACTION BUTTONS
+--------------------------------------------------
+
+Add:
+
+- Website @ ₹10,000
+- SEO Services
+- Talk on WhatsApp
+
+--------------------------------------------------
+🧱 10. FALLBACK RESPONSE
+--------------------------------------------------
+
+If unclear:
+
+"I can help you with website, SEO, or ads. What are you looking for?"
+
+--------------------------------------------------
+📌 FINAL OUTPUT
+--------------------------------------------------
+
+- Smart AI chatbot
+- Sales-oriented replies
+- Lead conversion system
+- Multi-language support

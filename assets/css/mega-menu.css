@@ -1,0 +1,68 @@
+/* Mega Menu Styles - Only responsive adjustments */
+
+:root {
+    --primary-dark: #0B1C3D;
+    --primary-blue: #1E3A8A;
+    --accent-orange: #FF6A00;
+    --white: #FFFFFF;
+    --text-dark: #333333;
+}
+
+/* Mega column styling */
+.mega-column {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.mega-column h5 {
+    color: var(--primary-dark);
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0 0 10px 0;
+    padding: 0 0 8px 0;
+    border-bottom: 2px solid var(--accent-orange);
+}
+
+.mega-column a {
+    color: var(--text-dark);
+    text-decoration: none;
+    font-size: 13px;
+    padding: 8px 0;
+    transition: all 0.2s;
+    display: block;
+    line-height: 1.5;
+}
+
+.mega-column a:hover {
+    color: var(--accent-orange);
+    padding-left: 5px;
+}
+
+/* Responsive Mega Menu */
+@media (max-width: 1200px) {
+    .nav-group:hover .mega-dropdown {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .nav-group:hover .mega-dropdown {
+        grid-template-columns: repeat(3, 1fr) !important;
+        padding: 20px 25px !important;
+        gap: 20px !important;
+    }
+
+    .mega-column h5 {
+        font-size: 11px;
+        margin-bottom: 8px;
+    }
+
+    .mega-column a {
+        font-size: 12px;
+        padding: 6px 0;
+    }
+}
+
+/* Mobile styles moved to mobile-menu.css for better organization */

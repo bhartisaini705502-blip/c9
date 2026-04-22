@@ -1,0 +1,48 @@
+modules = ["php-8.2", "postgresql-16"]
+[agent]
+expertMode = true
+
+[nix]
+channel = "stable-25_05"
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Start application"
+
+[[workflows.workflow]]
+name = "Start application"
+author = "agent"
+
+[workflows.workflow.metadata]
+outputType = "webview"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "php -d upload_max_filesize=100M -d post_max_size=105M -d memory_limit=256M -d max_execution_time=120 -S 0.0.0.0:5000"
+waitForPort = 5000
+
+[[ports]]
+localPort = 5000
+externalPort = 80
+
+[deployment]
+deploymentTarget = "autoscale"
+run = ["php", "-S", "0.0.0.0:5000"]
+
+[userenv]
+
+[userenv.shared]
+SMTP_HOST = "smtp.hostinger.com"
+SMTP_PORT = "465"
+SMTP_ENCRYPTION = "ssl"
+SMTP_FROM_EMAIL = "support@connectwith.in"
+SMTP_FROM_NAME = "ConnectWith9"
+CONTACT_RECEIVER_EMAIL = "info@connectwith.in"

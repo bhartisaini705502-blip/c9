@@ -1,0 +1,22 @@
+[Wed Apr 15 22:39:27 2026] PHP 8.2.23 Development Server (http://0.0.0.0:5000) started
+[Wed Apr 15 22:39:27 2026] 127.0.0.1:54616 Accepted
+[Wed Apr 15 22:39:27 2026] 127.0.0.1:54616 [200]: GET /
+[Wed Apr 15 22:39:27 2026] 127.0.0.1:54616 Closing
+[Wed Apr 15 22:39:27 2026] 127.0.0.1:54682 Accepted
+[Wed Apr 15 22:39:27 2026] 127.0.0.1:54682 [200]: GET /assets/css/style.css
+[Wed Apr 15 22:39:27 2026] 127.0.0.1:54682 Closing
+[Wed Apr 15 22:39:27 2026] 127.0.0.1:54684 Accepted
+[Wed Apr 15 22:39:27 2026] 127.0.0.1:54684 [200]: GET /assets/css/mega-menu.css
+[Wed Apr 15 22:39:27 2026] 127.0.0.1:54684 Closing
+[Wed Apr 15 22:39:27 2026] 127.0.0.1:54700 Accepted
+[Wed Apr 15 22:39:27 2026] 127.0.0.1:54700 [200]: GET /assets/css/mobile-menu.css
+[Wed Apr 15 22:39:27 2026] 127.0.0.1:54700 Closing
+[Wed Apr 15 22:39:27 2026] 127.0.0.1:54702 Accepted
+[Wed Apr 15 22:39:27 2026] 127.0.0.1:54702 [200]: GET /assets/js/mega-menu.js
+[Wed Apr 15 22:39:27 2026] 127.0.0.1:54702 Closing
+[Wed Apr 15 22:39:27 2026] 127.0.0.1:54712 Accepted
+[Wed Apr 15 22:39:27 2026] 127.0.0.1:54712 [200]: GET /assets/images/connectwith-logo.webp
+[Wed Apr 15 22:39:27 2026] 127.0.0.1:54712 Closing
+[Wed Apr 15 22:39:27 2026] 127.0.0.1:54722 Accepted
+[Wed Apr 15 22:39:27 2026] 127.0.0.1:54722 [200]: GET /assets/js/main.js
+[Wed Apr 15 22:39:27 2026] 127.0.0.1:54722 Closing

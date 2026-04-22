@@ -1,0 +1,133 @@
+You are an expert UI/UX designer and conversion copywriter.
+
+Create a HIGH-CONVERSION Contact Us page aligned with current layout system.
+
+--------------------------------------------------
+🧱 LAYOUT
+--------------------------------------------------
+
+include('header.php');
+
+<div class="container section">
+    <div class="row">
+
+        <!-- MAIN CONTENT -->
+        <div class="col-2 main-content">
+
+            [CONTENT]
+
+        </div>
+
+        <!-- SIDEBAR -->
+        <div class="col-2 sidebar">
+
+            [CTA + QUICK CONTACT]
+
+        </div>
+
+    </div>
+</div>
+
+include('footer.php');
+
+--------------------------------------------------
+🧠 HERO SECTION
+--------------------------------------------------
+
+<h1>Contact ConnectWith – Let’s Grow Your Business</h1>
+
+<p>
+Have questions or want to grow your business? Get in touch with us today. Our team is ready to help you with the best solutions.
+</p>
+
+Buttons:
+- 📞 Call Now
+- 💬 WhatsApp Now
+
+--------------------------------------------------
+📄 CONTACT DETAILS SECTION
+--------------------------------------------------
+
+<h2>Get in Touch</h2>
+
+<p><strong>📞 Phone:</strong> 09068899033</p>
+<p><strong>💬 WhatsApp:</strong> 09068899033</p>
+<p><strong>📧 Email:</strong> info@connectwith.in</p>
+
+--------------------------------------------------
+📝 CONTACT FORM
+--------------------------------------------------
+
+<h2>Send Us a Message</h2>
+
+<form method="POST" action="send-mail.php">
+
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="text" name="phone" placeholder="Phone Number" required>
+<input type="email" name="email" placeholder="Email Address">
+<textarea name="message" placeholder="Your Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+--------------------------------------------------
+📍 MAP SECTION (OPTIONAL)
+--------------------------------------------------
+
+<h2>Our Location</h2>
+
+<p>Serving clients across India</p>
+
+--------------------------------------------------
+🚀 CTA SECTION
+--------------------------------------------------
+
+<h2>Need Immediate Assistance?</h2>
+
+<p>Call or WhatsApp us now for quick support.</p>
+
+Buttons:
+- 📞 Call Now
+- 💬 WhatsApp Now
+
+--------------------------------------------------
+📞 SIDEBAR
+--------------------------------------------------
+
+<div class="sidebar-box">
+
+<h3>Quick Contact</h3>
+
+<a href="tel:09068899033">📞 Call Now</a>
+<a href="https://wa.me/919068899033" target="_blank">💬 WhatsApp Now</a>
+
+<h4>Request Callback</h4>
+
+<form method="POST" action="send-mail.php">
+
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="text" name="phone" placeholder="Phone Number" required>
+
+<button type="submit">Submit</button>
+
+</form>
+
+</div>
+
+--------------------------------------------------
+📱 RESPONSIVE RULES
+--------------------------------------------------
+
+- Stack layout on mobile
+- Sidebar moves below
+- Buttons full width
+
+--------------------------------------------------
+🎨 DESIGN
+--------------------------------------------------
+
+- Clean layout
+- Card sections
+- Highlight CTA buttons
+- Use brand colors

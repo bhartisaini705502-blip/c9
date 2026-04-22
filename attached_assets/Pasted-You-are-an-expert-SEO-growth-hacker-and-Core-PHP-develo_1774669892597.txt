@@ -1,0 +1,160 @@
+You are an expert SEO growth hacker and Core PHP developer.
+
+Upgrade the platform into a TRAFFIC DOMINATION SYSTEM.
+
+--------------------------------------------------
+⚠️ RULES
+--------------------------------------------------
+
+- DO NOT break existing system
+- Focus on SEO performance
+- Optimize for Google ranking
+- Keep pages lightweight
+
+--------------------------------------------------
+🎯 OBJECTIVE
+--------------------------------------------------
+
+Build:
+
+1. Fast Indexing System
+2. CTR Optimization System
+3. Internal Authority Boost
+4. Competitor Keyword Strategy
+5. Backlink Structure
+
+--------------------------------------------------
+🧱 1. FAST INDEXING SYSTEM
+--------------------------------------------------
+
+Create:
+
+sitemap.xml (dynamic)
+
+Include:
+
+- category-city pages
+- SEO pages
+- business pages
+
+--------------------------------------------------
+AUTO UPDATE:
+
+Every time new page created → add to sitemap
+
+--------------------------------------------------
+🧱 2. GOOGLE INDEXING STRATEGY
+--------------------------------------------------
+
+Add:
+
+robots.txt
+
+Allow all SEO pages
+
+--------------------------------------------------
+PING GOOGLE:
+
+https://www.google.com/ping?sitemap=yourdomain.com/sitemap.xml
+
+--------------------------------------------------
+🧱 3. CTR OPTIMIZATION
+--------------------------------------------------
+
+Improve title tags:
+
+Example:
+
+"Top 10 Best Salons in Dehradun (2026 Updated) | ConnectWith"
+
+--------------------------------------------------
+META DESCRIPTION:
+
+"Find best salons in Dehradun with ratings, contact details, and verified listings."
+
+--------------------------------------------------
+ADD:
+
+- numbers (Top 10)
+- year (2026)
+- power words
+
+--------------------------------------------------
+🧱 4. INTERNAL AUTHORITY BOOST
+--------------------------------------------------
+
+On every page:
+
+Add:
+
+- Related categories
+- Nearby cities
+- Top listings
+
+--------------------------------------------------
+Example:
+
+"Explore salons in nearby cities"
+
+--------------------------------------------------
+🧱 5. COMPETITOR KEYWORD STRATEGY
+--------------------------------------------------
+
+Generate pages for:
+
+- "near me"
+- "top"
+- "best"
+- "cheap"
+- "services"
+
+--------------------------------------------------
+🧱 6. BACKLINK STRUCTURE
+--------------------------------------------------
+
+Create pages:
+
+- Blog posts
+- City guides
+- Category guides
+
+--------------------------------------------------
+LINK ALL PAGES TO EACH OTHER
+
+--------------------------------------------------
+🧱 7. TRUST SIGNALS
+--------------------------------------------------
+
+Add:
+
+- Verified badge
+- Ratings
+- "By Google" label
+
+--------------------------------------------------
+🧱 8. PERFORMANCE BOOST
+--------------------------------------------------
+
+- Lazy load images
+- Optimize queries
+- Cache pages
+
+--------------------------------------------------
+🧱 9. FINAL VALIDATION
+--------------------------------------------------
+
+Ensure:
+
+- Sitemap working
+- Pages indexed
+- Titles optimized
+- Internal links working
+
+--------------------------------------------------
+📌 FINAL OUTPUT
+--------------------------------------------------
+
+- Fast indexing system
+- High CTR pages
+- SEO authority boost
+- Traffic growth system

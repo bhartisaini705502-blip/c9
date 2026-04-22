@@ -1,0 +1,232 @@
+You are an expert Core PHP developer, UI/UX designer, and frontend architect.
+
+We already have a working homepage (index.php) in a Business Directory platform.
+
+Your task is to UPGRADE the HOMEPAGE DESIGN into a PROFESSIONAL, MODERN, FULLY RESPONSIVE LAYOUT while keeping ALL existing functionality intact.
+
+--------------------------------------------------
+⚠️ CRITICAL RULES (VERY IMPORTANT)
+--------------------------------------------------
+
+- DO NOT remove existing backend logic
+- DO NOT break search functionality
+- DO NOT change existing database queries
+- DO NOT modify routing
+- KEEP header.php and footer.php usage unchanged
+- ONLY enhance UI and structure
+
+--------------------------------------------------
+🎯 OBJECTIVE
+--------------------------------------------------
+
+- Improve visual design
+- Improve user experience
+- Add structured sections
+- Promote services and offers
+- Maintain fast performance
+
+--------------------------------------------------
+🧱 STEP 1: PRESERVE EXISTING SYSTEM
+--------------------------------------------------
+
+- Keep current search form
+- Keep existing PHP queries
+- Wrap existing content inside new layout sections
+
+--------------------------------------------------
+🧱 STEP 2: HERO SECTION (TOP AREA)
+--------------------------------------------------
+
+Layout:
+- Two-column layout (desktop)
+- Stack layout (mobile)
+
+LEFT SIDE:
+Heading:
+"Find the Best Businesses Near You & Grow Your Own"
+
+Subheading:
+"Discover trusted local services or grow your business with expert digital marketing and website solutions."
+
+Search Bar:
+- Use existing search form (DO NOT MODIFY LOGIC)
+
+CTA Buttons:
+- "Explore Businesses"
+- "Get Website @ ₹10,000"
+
+RIGHT SIDE:
+- Add illustration / image (lightweight)
+
+--------------------------------------------------
+🧱 STEP 3: QUICK CATEGORIES
+--------------------------------------------------
+
+Title:
+"Browse Popular Categories"
+
+- Show grid of categories (reuse existing data if available)
+- Each clickable → category page
+
+--------------------------------------------------
+🧱 STEP 4: BEST PICKS / FEATURED
+--------------------------------------------------
+
+Title:
+"Top Recommended Businesses"
+
+- Use existing listing data
+- Show 3–6 businesses
+- Add AI summary if available
+
+--------------------------------------------------
+🧱 STEP 5: SERVICES SECTION
+--------------------------------------------------
+
+Title:
+"Grow Your Business with Our Services"
+
+Show cards:
+
+- Website Development
+- SEO Services
+- Social Media Marketing
+- Google Ads
+
+Each card:
+- Icon
+- Short description
+- Link to service page
+
+--------------------------------------------------
+🧱 STEP 6: PROMOTIONAL OFFER SECTION
+--------------------------------------------------
+
+IMPORTANT:
+
+- Use provided promotional image
+- Highlight:
+
+"Get Your Business Website with 4 Years Validity"
+
+"Only ₹10,000"
+
+CTA:
+- Call Now
+- WhatsApp
+
+--------------------------------------------------
+🧱 STEP 7: WHY CHOOSE US
+--------------------------------------------------
+
+Title:
+"Why Choose ConnectWith?"
+
+Points:
+
+- Trusted Business Directory
+- Affordable Digital Solutions
+- AI-Powered Smart Search
+- Verified Listings
+- Complete Business Growth Support
+
+--------------------------------------------------
+🧱 STEP 8: HOW IT WORKS
+--------------------------------------------------
+
+Title:
+"How It Works"
+
+Steps:
+
+1. Search Businesses
+2. Compare Options
+3. Connect Instantly
+
+OR
+
+1. List Your Business
+2. Get Leads
+3. Grow Revenue
+
+--------------------------------------------------
+🧱 STEP 9: BLOG / SEO SECTION
+--------------------------------------------------
+
+Title:
+"Latest Insights"
+
+- Show latest blogs if available
+
+--------------------------------------------------
+🧱 STEP 10: FINAL CTA SECTION
+--------------------------------------------------
+
+Heading:
+"Ready to Grow Your Business?"
+
+Buttons:
+- Get Website
+- Contact Us
+- Add Business
+
+--------------------------------------------------
+📱 STEP 11: FULL RESPONSIVE DESIGN
+--------------------------------------------------
+
+DESKTOP:
+- Grid layout
+- Sections spaced
+
+TABLET:
+- 2-column layout
+
+MOBILE:
+- Single column
+- Large buttons
+- Touch friendly
+
+--------------------------------------------------
+🎨 STEP 12: DESIGN SYSTEM
+--------------------------------------------------
+
+Use existing theme colors:
+
+- Dark Blue (#0B1C3D)
+- Blue (#1E3A8A)
+- Orange (#FF6A00)
+
+Maintain:
+- spacing
+- typography
+- card design
+
+--------------------------------------------------
+⚡ STEP 13: PERFORMANCE SAFETY
+--------------------------------------------------
+
+- Do NOT add heavy JS
+- Use lightweight CSS
+- Lazy load images
+- Keep DOM minimal
+
+--------------------------------------------------
+🔒 STEP 14: FINAL VALIDATION
+--------------------------------------------------
+
+Ensure:
+
+- Search still works
+- Listings load correctly
+- No console errors
+- Mobile UI perfect
+- Fast loading
+
+--------------------------------------------------
+📌 FINAL OUTPUT
+--------------------------------------------------
+
+- Updated index.php
+- New section layout
+- Existing functionality preserved
+- Fully responsive homepage

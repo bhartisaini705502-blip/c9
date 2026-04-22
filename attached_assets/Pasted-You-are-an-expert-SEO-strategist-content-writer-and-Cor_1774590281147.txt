@@ -1,0 +1,127 @@
+You are an expert SEO strategist, content writer, and Core PHP developer.
+
+Create a HIGHLY DETAILED, SEO-OPTIMIZED SERVICE PAGE for:
+
+👉 SEO Services
+
+--------------------------------------------------
+🎯 STRUCTURE
+--------------------------------------------------
+
+- Include header.php
+- Two-column layout:
+   LEFT: Main content
+   RIGHT: Sidebar (contact + CTA)
+- Include footer.php
+
+--------------------------------------------------
+🧠 HERO SECTION
+--------------------------------------------------
+
+Title:
+Professional SEO Services to Rank Your Business on Google
+
+Subtitle:
+Increase your visibility, drive organic traffic, and generate quality leads with result-driven SEO strategies.
+
+CTA Buttons:
+- Call Now
+- WhatsApp Now
+- Get Free Consultation
+
+--------------------------------------------------
+📄 INTRODUCTION
+--------------------------------------------------
+
+Search Engine Optimization (SEO) is one of the most powerful digital marketing strategies to grow your business online. With millions of searches happening daily, ranking your website on Google can bring consistent and high-quality traffic.
+
+At ConnectWith, we provide advanced SEO services designed to improve your rankings, attract targeted customers, and increase your business revenue. Our team uses proven strategies, data analysis, and continuous optimization to deliver long-term results.
+
+--------------------------------------------------
+📈 WHY SEO IS IMPORTANT
+--------------------------------------------------
+
+- Improves search engine visibility  
+- Drives organic traffic  
+- Builds trust and credibility  
+- Generates long-term leads  
+- Reduces dependency on paid ads  
+
+--------------------------------------------------
+🛠️ OUR SEO SERVICES
+--------------------------------------------------
+
+- Keyword Research & Strategy  
+- On-Page SEO Optimization  
+- Technical SEO Improvements  
+- Local SEO (Google Maps Ranking)  
+- Link Building & Authority Development  
+- SEO Audit & Performance Tracking  
+
+--------------------------------------------------
+🚀 BENEFITS
+--------------------------------------------------
+
+- Higher rankings on Google  
+- Increased website traffic  
+- Better conversion rates  
+- Strong online presence  
+- Long-term business growth  
+
+--------------------------------------------------
+⚙️ PROCESS
+--------------------------------------------------
+
+1. Website Audit  
+2. Keyword Planning  
+3. Optimization  
+4. Technical Fixes  
+5. Link Building  
+6. Reporting  
+
+--------------------------------------------------
+🏆 WHY CHOOSE US
+--------------------------------------------------
+
+- Experienced SEO experts  
+- Transparent reporting  
+- Affordable pricing  
+- Local business expertise  
+
+--------------------------------------------------
+❓ FAQ
+--------------------------------------------------
+
+Q1. How long does SEO take?  
+A: 3–6 months  
+
+Q2. Do you guarantee results?  
+A: We follow proven strategies  
+
+Q3. Is SEO better than ads?  
+A: SEO provides long-term growth  
+
+--------------------------------------------------
+📞 SIDEBAR
+--------------------------------------------------
+
+- Call Now  
+- WhatsApp Now  
+
+Contact Form:
+- Name
+- Phone
+- Business Type
+
+Button:
+Get Free Consultation
+
+--------------------------------------------------
+🚀 CTA
+--------------------------------------------------
+
+Ready to grow your business?
+
+- Call Now  
+- WhatsApp Now  
+- Get Started  

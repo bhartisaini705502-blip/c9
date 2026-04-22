@@ -1,0 +1,189 @@
+You are an expert Core PHP developer and system architect.
+
+The project already has:
+- Lead forms
+- Basic backend
+- Some admin features
+
+Your task is to IMPROVE and UPGRADE existing systems WITHOUT breaking current functionality.
+
+--------------------------------------------------
+⚠️ CRITICAL RULES
+--------------------------------------------------
+
+- DO NOT rebuild from scratch
+- DO NOT remove existing features
+- ONLY enhance and optimize
+- Maintain backward compatibility
+
+--------------------------------------------------
+🎯 OBJECTIVE
+--------------------------------------------------
+
+Upgrade:
+
+1. Lead Management System
+2. WhatsApp Auto System
+3. Admin Dashboard
+4. Google Ads Tracking
+
+--------------------------------------------------
+🧱 1. LEAD MANAGEMENT SYSTEM (UPGRADE)
+--------------------------------------------------
+
+IF basic form exists → extend it
+
+Create / update database table:
+
+CREATE TABLE leads (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    phone VARCHAR(20),
+    email VARCHAR(100),
+    service VARCHAR(100),
+    message TEXT,
+    source VARCHAR(50),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+--------------------------------------------------
+UPDATE FORM HANDLER
+--------------------------------------------------
+
+- Store every lead in database
+- Add "source" field:
+   homepage / service page / contact page
+
+--------------------------------------------------
+IMPROVEMENTS:
+--------------------------------------------------
+
+- Add validation (no empty fields)
+- Prevent duplicate entries (same phone within 5 mins)
+- Add success message
+
+--------------------------------------------------
+🧱 2. WHATSAPP AUTO SYSTEM (UPGRADE)
+--------------------------------------------------
+
+Current:
+- Only redirect to WhatsApp
+
+Upgrade:
+
+Create dynamic message:
+
+$message = "Hello, I am interested in your services. Name: $name Phone: $phone";
+
+$whatsapp_link = "https://wa.me/919068899033?text=" . urlencode($message);
+
+--------------------------------------------------
+IMPROVEMENTS:
+--------------------------------------------------
+
+- Pre-fill user details
+- Add service name in message
+- Add tracking parameter
+
+Example:
+"Interested in SEO Services"
+
+--------------------------------------------------
+🧱 3. ADMIN DASHBOARD (UPGRADE)
+--------------------------------------------------
+
+IF admin panel exists → extend it
+
+Add new section:
+
+👉 Leads Management
+
+--------------------------------------------------
+FEATURES:
+--------------------------------------------------
+
+- View all leads
+- Sort by date
+- Filter by service
+- Search by phone
+
+--------------------------------------------------
+UI:
+--------------------------------------------------
+
+Table:
+
+| Name | Phone | Service | Source | Date |
+
+--------------------------------------------------
+ADD ACTIONS:
+--------------------------------------------------
+
+- Delete lead
+- Mark as contacted
+
+--------------------------------------------------
+🧱 4. GOOGLE ADS CONVERSION TRACKING
+--------------------------------------------------
+
+Add global script in header.php:
+
+<!-- Google Ads Tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-XXXXXXXXX"></script>
+
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'AW-XXXXXXXXX');
+</script>
+
+--------------------------------------------------
+TRACK EVENTS:
+--------------------------------------------------
+
+Call Button:
+
+onclick="gtag('event','conversion',{'send_to':'AW-XXXXXXXXX/call'})"
+
+--------------------------------------------------
+
+WhatsApp Button:
+
+onclick="gtag('event','conversion',{'send_to':'AW-XXXXXXXXX/whatsapp'})"
+
+--------------------------------------------------
+
+Form Submit:
+
+gtag('event','conversion',{'send_to':'AW-XXXXXXXXX/form_submit'})
+
+--------------------------------------------------
+🧱 5. PERFORMANCE IMPROVEMENTS
+--------------------------------------------------
+
+- Use prepared statements (security)
+- Optimize queries
+- Avoid duplicate inserts
+- Clean code structure
+
+--------------------------------------------------
+🧱 6. FINAL VALIDATION
+--------------------------------------------------
+
+Ensure:
+
+- Leads stored in DB
+- WhatsApp opens with message
+- Admin panel shows leads
+- Tracking events working
+- No existing feature breaks
+
+--------------------------------------------------
+📌 FINAL OUTPUT
+--------------------------------------------------
+
+- Upgraded lead system
+- Smart WhatsApp system
+- Admin lead dashboard
+- Conversion tracking active

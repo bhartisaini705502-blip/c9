@@ -1,0 +1,176 @@
+You are an expert data analyst, tracking engineer, and Core PHP developer.
+
+Upgrade the platform with a CONVERSION ANALYTICS SYSTEM.
+
+--------------------------------------------------
+⚠️ RULES
+--------------------------------------------------
+
+- DO NOT break existing system
+- Keep tracking lightweight
+- Ensure fast performance
+- Use database for storing events
+
+--------------------------------------------------
+🎯 OBJECTIVE
+--------------------------------------------------
+
+Track and analyze:
+
+1. Call Clicks
+2. WhatsApp Clicks
+3. Form Submissions
+4. Page Views
+5. Lead Sources
+
+--------------------------------------------------
+🧱 1. CREATE EVENTS TABLE
+--------------------------------------------------
+
+CREATE TABLE analytics_events (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    event_type VARCHAR(50),
+    page VARCHAR(255),
+    business_id INT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+--------------------------------------------------
+🧱 2. TRACK EVENTS (IMPORTANT)
+--------------------------------------------------
+
+Track:
+
+- call_click
+- whatsapp_click
+- form_submit
+- page_view
+
+--------------------------------------------------
+🧱 3. ADD TRACKING TO BUTTONS
+--------------------------------------------------
+
+Call button:
+
+onclick="trackEvent('call_click', business_id)"
+
+--------------------------------------------------
+
+WhatsApp button:
+
+onclick="trackEvent('whatsapp_click', business_id)"
+
+--------------------------------------------------
+
+Form submit:
+
+trackEvent('form_submit', business_id)
+
+--------------------------------------------------
+🧱 4. JAVASCRIPT TRACKING FUNCTION
+--------------------------------------------------
+
+function trackEvent(type, business_id) {
+    fetch('track.php', {
+        method: 'POST',
+        body: JSON.stringify({
+            event_type: type,
+            business_id: business_id,
+            page: window.location.href
+        })
+    });
+}
+
+--------------------------------------------------
+🧱 5. BACKEND (track.php)
+--------------------------------------------------
+
+- Receive event
+- Insert into database
+
+--------------------------------------------------
+🧱 6. PAGE VIEW TRACKING
+--------------------------------------------------
+
+On page load:
+
+trackEvent('page_view', business_id);
+
+--------------------------------------------------
+🧱 7. ADMIN DASHBOARD (ANALYTICS)
+--------------------------------------------------
+
+Add section:
+
+👉 "Analytics Dashboard"
+
+--------------------------------------------------
+SHOW:
+
+- Total Leads
+- Total Calls
+- Total WhatsApp clicks
+- Total Page Views
+
+--------------------------------------------------
+🧱 8. ADVANCED INSIGHTS
+--------------------------------------------------
+
+Show:
+
+- Top performing businesses
+- Most clicked services
+- Conversion rate
+
+--------------------------------------------------
+SQL EXAMPLES:
+--------------------------------------------------
+
+SELECT COUNT(*) FROM analytics_events WHERE event_type='call_click';
+
+--------------------------------------------------
+🧱 9. VISUAL CHARTS
+--------------------------------------------------
+
+Use Chart.js
+
+Charts:
+
+- Leads per day
+- Clicks per service
+
+--------------------------------------------------
+🧱 10. FILTER SYSTEM
+--------------------------------------------------
+
+Add filters:
+
+- Date range
+- Category
+- City
+
+--------------------------------------------------
+🧱 11. PERFORMANCE
+--------------------------------------------------
+
+- Index event_type
+- Optimize queries
+- Limit data load
+
+--------------------------------------------------
+🧱 12. FINAL VALIDATION
+--------------------------------------------------
+
+Ensure:
+
+- Events tracked correctly
+- Dashboard shows data
+- No performance issues
+
+--------------------------------------------------
+📌 FINAL OUTPUT
+--------------------------------------------------
+
+- Full tracking system
+- Analytics dashboard
+- Data-driven insights

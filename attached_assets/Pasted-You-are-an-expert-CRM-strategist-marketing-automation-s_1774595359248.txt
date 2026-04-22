@@ -1,0 +1,228 @@
+You are an expert CRM strategist, marketing automation specialist, SEO content writer, and Core PHP developer.
+
+Create a HIGHLY DETAILED CRM & Marketing Automation Services page with strict layout structure, strong SEO content, and high conversion focus.
+
+--------------------------------------------------
+⚠️ IMPORTANT RULES
+--------------------------------------------------
+
+- Use header.php and footer.php
+- Strict 2-column layout
+- LEFT = main content
+- RIGHT = sticky sidebar (CTA + form)
+- Fully responsive design
+- Content must feel 1000+ words (professional, business-focused)
+- Maintain clean UI and spacing
+
+--------------------------------------------------
+🧱 PAGE LAYOUT STRUCTURE
+--------------------------------------------------
+
+include('header.php');
+
+<div class="container section">
+    <div class="row">
+
+        <!-- MAIN CONTENT -->
+        <div class="col-2 main-content">
+
+            [ALL CONTENT SECTIONS HERE]
+
+        </div>
+
+        <!-- SIDEBAR -->
+        <div class="col-2 sidebar">
+
+            [CONTACT FORM + CTA]
+
+        </div>
+
+    </div>
+</div>
+
+include('footer.php');
+
+--------------------------------------------------
+🧠 HERO SECTION
+--------------------------------------------------
+
+<h1>CRM & Marketing Automation Services to Scale Your Business Efficiently</h1>
+
+<p>
+Automate your marketing, manage customer relationships, and increase conversions with smart CRM and automation solutions designed for business growth.
+</p>
+
+Buttons:
+- 📞 Call Now
+- 💬 WhatsApp Now
+- 🚀 Get Free Consultation
+
+--------------------------------------------------
+📄 INTRODUCTION
+--------------------------------------------------
+
+<p>
+Managing customer data and marketing campaigns manually can be time-consuming and inefficient. CRM (Customer Relationship Management) and marketing automation help businesses streamline operations, improve customer engagement, and boost sales.
+</p>
+
+<p>
+At ConnectWith, we provide advanced CRM and automation solutions that allow you to manage leads, automate communication, and improve customer experience — all in one place.
+</p>
+
+--------------------------------------------------
+📈 WHY CRM & AUTOMATION IS IMPORTANT
+--------------------------------------------------
+
+<ul>
+<li>Centralize customer data</li>
+<li>Automate repetitive tasks</li>
+<li>Improve lead management</li>
+<li>Increase conversion rates</li>
+<li>Enhance customer experience</li>
+</ul>
+
+--------------------------------------------------
+🛠️ OUR SERVICES
+--------------------------------------------------
+
+<h2>Our CRM & Marketing Automation Services Include:</h2>
+
+<ul>
+<li>CRM Setup & Integration</li>
+<li>Lead Management System</li>
+<li>Email Automation Workflows</li>
+<li>Sales Funnel Automation</li>
+<li>Customer Segmentation</li>
+<li>Marketing Campaign Automation</li>
+<li>WhatsApp & SMS Automation</li>
+<li>Performance Tracking & Reporting</li>
+</ul>
+
+--------------------------------------------------
+🚀 BENEFITS
+--------------------------------------------------
+
+<h2>Benefits of CRM & Marketing Automation</h2>
+
+<ul>
+<li>Save time and increase efficiency</li>
+<li>Improve lead conversion rates</li>
+<li>Better customer communication</li>
+<li>Automated follow-ups</li>
+<li>Higher sales and revenue</li>
+</ul>
+
+--------------------------------------------------
+⚙️ OUR PROCESS
+--------------------------------------------------
+
+<h2>Our Implementation Process</h2>
+
+<ol>
+<li>Business Analysis & Requirement Gathering</li>
+<li>CRM Selection & Setup</li>
+<li>Automation Workflow Design</li>
+<li>Integration with marketing channels</li>
+<li>Testing & Optimization</li>
+<li>Ongoing support & improvement</li>
+</ol>
+
+--------------------------------------------------
+🏆 WHY CHOOSE CONNECTWITH?
+--------------------------------------------------
+
+<ul>
+<li>Expert CRM specialists</li>
+<li>Customized automation solutions</li>
+<li>Affordable implementation</li>
+<li>Result-driven approach</li>
+<li>Dedicated support</li>
+</ul>
+
+--------------------------------------------------
+🎯 WHO CAN BENEFIT?
+--------------------------------------------------
+
+<h2>Who Should Use CRM & Automation?</h2>
+
+<ul>
+<li>Businesses with multiple leads</li>
+<li>Sales teams</li>
+<li>E-commerce businesses</li>
+<li>Service providers</li>
+<li>Startups scaling operations</li>
+</ul>
+
+--------------------------------------------------
+❓ FAQ SECTION
+--------------------------------------------------
+
+<h2>Frequently Asked Questions</h2>
+
+<p><strong>Q1. What is CRM?</strong><br>
+CRM helps manage customer data and interactions efficiently.</p>
+
+<p><strong>Q2. What is marketing automation?</strong><br>
+It automates marketing tasks like emails, follow-ups, and campaigns.</p>
+
+<p><strong>Q3. Can automation increase sales?</strong><br>
+Yes, it improves efficiency and lead conversion rates.</p>
+
+<p><strong>Q4. Do you integrate with tools?</strong><br>
+Yes, we integrate CRM with various marketing tools.</p>
+
+--------------------------------------------------
+🚀 STRONG CTA SECTION
+--------------------------------------------------
+
+<h2>Ready to Automate Your Business Growth?</h2>
+
+<p>
+Streamline your operations, improve customer engagement, and increase sales with our CRM and marketing automation services.
+</p>
+
+Buttons:
+- 📞 Call Now
+- 💬 WhatsApp Now
+- 🚀 Get Free Consultation
+
+--------------------------------------------------
+📞 SIDEBAR (RIGHT SIDE)
+--------------------------------------------------
+
+<div class="sidebar-box">
+
+<h3>Automate Your Business Today</h3>
+
+<button>📞 Call Now</button>
+<button>💬 WhatsApp Now</button>
+
+<h4>Request Free Consultation</h4>
+
+<form>
+<input type="text" placeholder="Your Name">
+<input type="text" placeholder="Phone Number">
+<input type="text" placeholder="Business Type">
+<button type="submit">Submit</button>
+</form>
+
+</div>
+
+--------------------------------------------------
+📱 RESPONSIVE RULES
+--------------------------------------------------
+
+- Stack layout on mobile
+- Sidebar moves below content
+- Buttons full width
+- Maintain proper spacing
+
+--------------------------------------------------
+🎨 DESIGN RULES
+--------------------------------------------------
+
+- Clean modern UI
+- Use card layout
+- Soft shadows
+- Highlight CTA buttons
+- Use brand colors

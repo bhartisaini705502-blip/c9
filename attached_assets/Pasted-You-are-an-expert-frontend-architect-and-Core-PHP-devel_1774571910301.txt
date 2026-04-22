@@ -1,0 +1,207 @@
+You are an expert frontend architect and Core PHP developer.
+
+We have recently upgraded:
+- Header (Mega Menu)
+- Homepage (multiple sections)
+
+Now the UI has layout, responsiveness, and design issues.
+
+Your task is to FIX and OPTIMIZE the entire frontend without breaking any existing functionality.
+
+--------------------------------------------------
+⚠️ CRITICAL RULES
+--------------------------------------------------
+
+- DO NOT modify backend logic
+- DO NOT break existing features
+- DO NOT change PHP functionality
+- ONLY fix UI, CSS, layout, responsiveness
+
+--------------------------------------------------
+🎯 OBJECTIVE
+--------------------------------------------------
+
+- Fix layout breaking issues
+- Fix responsive design
+- Improve spacing and alignment
+- Make UI clean and professional
+- Ensure consistency across pages
+
+--------------------------------------------------
+🧱 STEP 1: FIX GLOBAL LAYOUT SYSTEM
+--------------------------------------------------
+
+Create a consistent container system:
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+--------------------------------------------------
+🧱 STEP 2: FIX HEADER ISSUES
+--------------------------------------------------
+
+- Ensure header height is fixed
+- Prevent mega menu overflow
+- Add proper z-index
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.mega-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+}
+
+--------------------------------------------------
+🧱 STEP 3: FIX SPACING & ALIGNMENT
+--------------------------------------------------
+
+Apply consistent spacing:
+
+- Section margin
+- Card padding
+- Heading spacing
+
+h1, h2 {
+    margin-bottom: 15px;
+}
+
+.card {
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+--------------------------------------------------
+🧱 STEP 4: FIX GRID SYSTEM
+--------------------------------------------------
+
+Use flex/grid:
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.col-3 {
+    width: 30%;
+}
+
+.col-2 {
+    width: 48%;
+}
+
+--------------------------------------------------
+🧱 STEP 5: FIX RESPONSIVE DESIGN (VERY IMPORTANT)
+--------------------------------------------------
+
+Add media queries:
+
+@media (max-width: 768px) {
+
+    .row {
+        flex-direction: column;
+    }
+
+    .col-3, .col-2 {
+        width: 100%;
+    }
+
+    .mega-menu {
+        display: none !important;
+    }
+
+}
+
+--------------------------------------------------
+🧱 STEP 6: FIX MOBILE MENU
+--------------------------------------------------
+
+- Add hamburger toggle
+- Convert mega menu into dropdown list
+
+--------------------------------------------------
+🧱 STEP 7: FIX HERO SECTION
+--------------------------------------------------
+
+- Ensure text and search align properly
+- Prevent overflow
+
+.hero {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+--------------------------------------------------
+🧱 STEP 8: FIX CARD DESIGN CONSISTENCY
+--------------------------------------------------
+
+Apply same style to all cards:
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+--------------------------------------------------
+🧱 STEP 9: FIX BUTTONS
+--------------------------------------------------
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #FF6A00;
+    color: #fff;
+}
+
+--------------------------------------------------
+🧱 STEP 10: REMOVE CSS CONFLICTS
+--------------------------------------------------
+
+- Remove duplicate styles
+- Standardize font sizes
+- Use single design system
+
+--------------------------------------------------
+🧱 STEP 11: PERFORMANCE FIX
+--------------------------------------------------
+
+- Optimize images
+- Reduce CSS duplication
+- Avoid unnecessary JS
+
+--------------------------------------------------
+🔒 STEP 12: FINAL VALIDATION
+--------------------------------------------------
+
+Check:
+
+- Header working on all devices
+- Mega menu aligned
+- Mobile menu working
+- Homepage fully responsive
+- No overlapping elements
+- Clean spacing
+
+--------------------------------------------------
+📌 FINAL OUTPUT
+--------------------------------------------------
+
+- Clean structured layout
+- Fixed responsive issues
+- Professional UI
+- No functional break

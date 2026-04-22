@@ -1,0 +1,163 @@
+You are an expert SEO architect and AI content automation developer.
+
+Upgrade the platform into a PROGRAMMATIC SEO ENGINE.
+
+--------------------------------------------------
+⚠️ RULES
+--------------------------------------------------
+
+- DO NOT break existing system
+- Generate pages dynamically
+- Avoid duplicate content
+- Optimize for Google indexing
+
+--------------------------------------------------
+🎯 OBJECTIVE
+--------------------------------------------------
+
+Build:
+
+1. Auto Page Generation System
+2. AI Content Generator (Gemini)
+3. Long-Tail SEO Pages
+4. Blog Automation
+5. Internal Linking Network
+
+--------------------------------------------------
+🧱 1. AUTO PAGE TYPES
+--------------------------------------------------
+
+Generate pages like:
+
+/best-{category}-in-{city}
+/top-{category}-services-{city}
+/affordable-{category}-{city}
+
+Examples:
+
+/best-salon-in-dehradun
+/top-digital-marketing-services-delhi
+/affordable-gyms-mumbai
+
+--------------------------------------------------
+🧱 2. DYNAMIC PAGE SYSTEM
+--------------------------------------------------
+
+Create dynamic page:
+
+seo-page.php
+
+Extract:
+
+- keyword
+- category
+- city
+
+--------------------------------------------------
+🧱 3. AI CONTENT GENERATION (GEMINI)
+--------------------------------------------------
+
+Use :contentReference[oaicite:0]{index=0}
+
+Generate:
+
+- Title
+- Description
+- Intro paragraph
+- FAQs
+
+--------------------------------------------------
+PROMPT:
+
+"Write SEO content for best {category} in {city}"
+
+--------------------------------------------------
+CACHE CONTENT IN DB:
+
+CREATE TABLE seo_content (
+    id INT AUTO_INCREMENT,
+    slug VARCHAR(255),
+    content TEXT
+);
+
+--------------------------------------------------
+🧱 4. LONG-TAIL KEYWORDS
+--------------------------------------------------
+
+Generate variations:
+
+- best
+- top
+- affordable
+- near me
+- services
+
+--------------------------------------------------
+🧱 5. BLOG AUTOMATION
+--------------------------------------------------
+
+Auto-create blogs:
+
+Examples:
+
+"How to choose best salon in Delhi"
+"Top 10 marketing agencies in Dehradun"
+
+--------------------------------------------------
+STORE:
+
+- title
+- content
+- slug
+
+--------------------------------------------------
+🧱 6. INTERNAL LINKING SYSTEM
+--------------------------------------------------
+
+On each page:
+
+- Link to related categories
+- Link to nearby cities
+- Link to blogs
+
+--------------------------------------------------
+🧱 7. BULK PAGE GENERATION
+--------------------------------------------------
+
+Loop:
+
+FOR each city
+FOR each category
+GENERATE 3–5 page variations
+
+--------------------------------------------------
+🧱 8. SITEMAP AUTOMATION
+--------------------------------------------------
+
+Auto add all pages to sitemap
+
+--------------------------------------------------
+🧱 9. ANTI-DUPLICATION
+--------------------------------------------------
+
+- Use unique AI content
+- Add dynamic business listings
+
+--------------------------------------------------
+🧱 10. FINAL VALIDATION
+--------------------------------------------------
+
+Ensure:
+
+- Pages load fast
+- Content unique
+- Links working
+- Indexed by Google
+
+--------------------------------------------------
+📌 FINAL OUTPUT
+--------------------------------------------------
+
+- 10,000+ SEO pages
+- AI-generated content
+- Google traffic system

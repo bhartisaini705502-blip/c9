@@ -1,0 +1,176 @@
+You are an expert SEO content strategist, UI designer, and Core PHP developer.
+
+Create a COMPLETE Content Marketing Service Page with STRICT layout and HIGHLY DETAILED content.
+
+--------------------------------------------------
+🧱 LAYOUT STRUCTURE
+--------------------------------------------------
+
+include('header.php');
+
+<div class="container section">
+    <div class="row">
+
+        <div class="col-2 main-content">
+            [CONTENT HERE]
+        </div>
+
+        <div class="col-2 sidebar">
+            [SIDEBAR HERE]
+        </div>
+
+    </div>
+</div>
+
+include('footer.php');
+
+--------------------------------------------------
+🧠 HERO SECTION
+--------------------------------------------------
+
+<h1>Content Marketing Services That Drive Traffic & Conversions</h1>
+
+<p>
+Create powerful, engaging, and SEO-friendly content that attracts your audience, builds trust, and converts visitors into customers.
+</p>
+
+Buttons:
+- Call Now
+- WhatsApp Now
+- Get Free Consultation
+
+--------------------------------------------------
+📄 INTRODUCTION
+--------------------------------------------------
+
+<p>
+Content marketing is one of the most effective ways to grow your online presence. High-quality content not only helps improve your search engine rankings but also builds trust and authority in your industry.
+</p>
+
+<p>
+At ConnectWith, we create strategic, result-oriented content that connects with your audience and drives real business growth.
+</p>
+
+--------------------------------------------------
+📈 WHY CONTENT MARKETING IS IMPORTANT
+--------------------------------------------------
+
+<ul>
+<li>Improves SEO rankings</li>
+<li>Attracts organic traffic</li>
+<li>Builds brand authority</li>
+<li>Engages your audience</li>
+<li>Generates leads and conversions</li>
+</ul>
+
+--------------------------------------------------
+🛠️ OUR SERVICES
+--------------------------------------------------
+
+<h2>Our Content Marketing Services Include:</h2>
+
+<ul>
+<li>Blog Writing & SEO Articles</li>
+<li>Website Content Writing</li>
+<li>Product & Service Descriptions</li>
+<li>Landing Page Copywriting</li>
+<li>Social Media Content</li>
+</ul>
+
+--------------------------------------------------
+🚀 BENEFITS
+--------------------------------------------------
+
+<h2>Benefits of Content Marketing</h2>
+
+<ul>
+<li>Better Google rankings</li>
+<li>Increased website traffic</li>
+<li>Stronger brand authority</li>
+<li>Higher engagement</li>
+<li>Improved conversion rates</li>
+</ul>
+
+--------------------------------------------------
+⚙️ PROCESS
+--------------------------------------------------
+
+<h2>Our Content Creation Process</h2>
+
+<ol>
+<li>Research & Strategy</li>
+<li>Content Planning</li>
+<li>Writing & Optimization</li>
+<li>Publishing</li>
+<li>Performance Tracking</li>
+</ol>
+
+--------------------------------------------------
+🏆 WHY CHOOSE US
+--------------------------------------------------
+
+<ul>
+<li>Professional writers</li>
+<li>SEO-focused content</li>
+<li>Unique and engaging writing</li>
+<li>Affordable pricing</li>
+<li>Result-driven approach</li>
+</ul>
+
+--------------------------------------------------
+❓ FAQ
+--------------------------------------------------
+
+<h2>Frequently Asked Questions</h2>
+
+<p><strong>Q1. Is content important for SEO?</strong><br>
+Yes, content is the foundation of SEO and helps rank your website.</p>
+
+<p><strong>Q2. Do you provide unique content?</strong><br>
+Yes, all content is 100% original and plagiarism-free.</p>
+
+<p><strong>Q3. How often should I publish content?</strong><br>
+Regular publishing improves performance — we guide you based on strategy.</p>
+
+--------------------------------------------------
+🚀 CTA SECTION
+--------------------------------------------------
+
+<h2>Ready to Grow Your Business with Content?</h2>
+
+<p>Start creating powerful content that drives results.</p>
+
+Buttons:
+- Call Now
+- WhatsApp Now
+- Get Free Consultation
+
+--------------------------------------------------
+📞 SIDEBAR
+--------------------------------------------------
+
+<div class="sidebar-box">
+
+<h3>Contact Us</h3>
+
+<button>📞 Call Now</button>
+<button>💬 WhatsApp Now</button>
+
+<h4>Get Free Consultation</h4>
+
+<form>
+<input type="text" placeholder="Your Name">
+<input type="text" placeholder="Phone Number">
+<input type="text" placeholder="Business Type">
+<button type="submit">Submit</button>
+</form>
+
+</div>
+
+--------------------------------------------------
+📱 RESPONSIVE
+--------------------------------------------------
+
+- Stack columns on mobile
+- Sidebar moves below
+- Buttons full width

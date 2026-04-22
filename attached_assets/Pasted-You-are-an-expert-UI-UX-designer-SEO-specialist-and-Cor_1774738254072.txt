@@ -1,0 +1,195 @@
+You are an expert UI/UX designer, SEO specialist, and Core PHP developer.
+
+Upgrade the LISTING PAGE (Search Results Page) into a PREMIUM, FAST, and HIGH-CONVERSION interface.
+
+--------------------------------------------------
+⚠️ RULES
+--------------------------------------------------
+
+- DO NOT break backend logic
+- KEEP data fetching same
+- ONLY improve UI, layout, filters, and UX
+- Must be mobile responsive
+
+--------------------------------------------------
+🎯 OBJECTIVE
+--------------------------------------------------
+
+Upgrade:
+
+1. Search UI
+2. Filters
+3. Listing Cards
+4. Sorting System
+5. Pagination / Load more
+6. CTA Optimization
+
+--------------------------------------------------
+🧱 1. TOP SEARCH BAR (IMPORTANT)
+--------------------------------------------------
+
+Create sticky search bar:
+
+- Keyword input
+- City input (autocomplete)
+- Category dropdown
+
+Buttons:
+- Search
+- Reset
+
+--------------------------------------------------
+🧱 2. FILTER SYSTEM
+--------------------------------------------------
+
+Add left sidebar filters:
+
+- Category
+- Rating
+- Verified only (checkbox)
+- Featured only (checkbox)
+
+--------------------------------------------------
+🧱 3. SORTING OPTIONS
+--------------------------------------------------
+
+Add dropdown:
+
+- Default
+- Top Rated
+- Most Relevant
+- Featured First
+
+--------------------------------------------------
+🧱 4. LISTING CARD DESIGN (VERY IMPORTANT)
+--------------------------------------------------
+
+Each business should be shown as a CARD:
+
+--------------------------------------------------
+CARD STRUCTURE:
+--------------------------------------------------
+
+- Business Name (bold)
+- Category + City
+- ⭐ Rating
+- 📍 Address (short)
+- 📞 Phone
+
+--------------------------------------------------
+BADGES:
+
+- ✔ Verified (green)
+- ⭐ Featured (highlight)
+- ⚠ By Google (if unverified)
+
+--------------------------------------------------
+CTA BUTTONS:
+
+- 📞 Call
+- 💬 WhatsApp
+- View Details
+
+--------------------------------------------------
+STYLE:
+
+- Card layout
+- Rounded corners
+- Shadow
+- Padding
+
+--------------------------------------------------
+🧱 5. HIGHLIGHT TOP RESULTS
+--------------------------------------------------
+
+First 2–3 listings:
+
+- Slightly bigger card
+- Highlight border
+
+--------------------------------------------------
+🧱 6. PAGINATION / LOAD MORE
+--------------------------------------------------
+
+Add:
+
+- Load More button OR
+- Pagination
+
+--------------------------------------------------
+🧱 7. EMPTY STATE (IMPORTANT)
+--------------------------------------------------
+
+If no results:
+
+Show:
+
+"No results found. Try different search."
+
+--------------------------------------------------
+🧱 8. RELATED SEARCHES
+--------------------------------------------------
+
+Show below:
+
+- Nearby cities
+- Related categories
+
+--------------------------------------------------
+🧱 9. MOBILE UX
+--------------------------------------------------
+
+- Filters in popup
+- Sticky bottom bar:
+   Call | WhatsApp
+
+--------------------------------------------------
+🧱 10. PERFORMANCE
+--------------------------------------------------
+
+- Limit results per page (10–20)
+- Lazy load images
+- Optimize queries
+
+--------------------------------------------------
+🧱 11. SEO OPTIMIZATION
+--------------------------------------------------
+
+Dynamic title:
+
+"{Category} in {City} | Top Listings"
+
+--------------------------------------------------
+Add intro text:
+
+"Find best {category} in {city} with verified listings."
+
+--------------------------------------------------
+🧱 12. CLICK TRACKING
+--------------------------------------------------
+
+Track:
+
+- Call clicks
+- WhatsApp clicks
+- Detail page clicks
+
+--------------------------------------------------
+🧱 13. FINAL VALIDATION
+--------------------------------------------------
+
+Ensure:
+
+- Search works fast
+- Filters working
+- Cards look clean
+- Mobile responsive
+
+--------------------------------------------------
+📌 FINAL OUTPUT
+--------------------------------------------------
+
+- Premium listing page
+- High CTR
+- Better UX
+- More conversions

@@ -1,0 +1,203 @@
+You are an expert frontend architect and Core PHP developer.
+
+We have a Business Directory project running on Replit.
+
+Recently we added:
+- Mega menu header
+- New homepage sections
+- Service pages
+
+Now the UI is broken due to CSS conflicts, layout issues, and responsiveness problems.
+
+Your task is to FIX and STANDARDIZE the ENTIRE FRONTEND SYSTEM without breaking backend functionality.
+
+--------------------------------------------------
+⚠️ CRITICAL RULES
+--------------------------------------------------
+
+- DO NOT modify backend PHP logic
+- DO NOT break database queries
+- DO NOT change routing
+- ONLY fix frontend (HTML, CSS, layout, responsiveness)
+
+--------------------------------------------------
+🎯 OBJECTIVE
+--------------------------------------------------
+
+- Create consistent layout system
+- Fix header and mega menu
+- Fix homepage structure
+- Fix mobile responsiveness
+- Remove CSS conflicts
+
+--------------------------------------------------
+🧱 STEP 1: CREATE GLOBAL DESIGN SYSTEM
+--------------------------------------------------
+
+Create base CSS:
+
+body {
+    font-family: Arial, sans-serif;
+    background: #F5F7FA;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+--------------------------------------------------
+🧱 STEP 2: REMOVE CSS CONFLICTS
+--------------------------------------------------
+
+- Identify duplicate classes
+- Remove repeated styles
+- Standardize:
+  - font sizes
+  - margins
+  - paddings
+
+--------------------------------------------------
+🧱 STEP 3: FIX HEADER + MEGA MENU
+--------------------------------------------------
+
+.header {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 999;
+}
+
+.mega-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+
+.menu-item:hover .mega-menu {
+    display: flex;
+}
+
+--------------------------------------------------
+🧱 STEP 4: CREATE GRID SYSTEM
+--------------------------------------------------
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.col-3 {
+    width: 30%;
+}
+
+.col-2 {
+    width: 48%;
+}
+
+--------------------------------------------------
+🧱 STEP 5: FIX HOMEPAGE SECTIONS
+--------------------------------------------------
+
+Ensure:
+
+- Proper spacing between sections
+- Clean alignment
+- No overlapping
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+--------------------------------------------------
+🧱 STEP 6: FIX CARD SYSTEM
+--------------------------------------------------
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+--------------------------------------------------
+🧱 STEP 7: FIX BUTTON SYSTEM
+--------------------------------------------------
+
+.btn {
+    padding: 10px 20px;
+    background: #FF6A00;
+    color: #fff;
+    border-radius: 5px;
+}
+
+--------------------------------------------------
+🧱 STEP 8: FULL RESPONSIVE SYSTEM
+--------------------------------------------------
+
+@media (max-width: 768px) {
+
+    .row {
+        flex-direction: column;
+    }
+
+    .col-3, .col-2 {
+        width: 100%;
+    }
+
+    .mega-menu {
+        display: none !important;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+}
+
+--------------------------------------------------
+🧱 STEP 9: MOBILE MENU FIX
+--------------------------------------------------
+
+- Add hamburger menu
+- Convert mega menu into vertical dropdown
+- Toggle with JS
+
+--------------------------------------------------
+🧱 STEP 10: PERFORMANCE CLEANUP
+--------------------------------------------------
+
+- Remove unused CSS
+- Optimize styles
+- Avoid inline styles
+
+--------------------------------------------------
+🔒 STEP 11: FINAL VALIDATION
+--------------------------------------------------
+
+Check:
+
+- Header working on all devices
+- Mega menu aligned
+- Homepage clean
+- Mobile UI perfect
+- No overlapping elements
+
+--------------------------------------------------
+📌 FINAL OUTPUT
+--------------------------------------------------
+
+- Clean UI system
+- Responsive layout
+- Stable header
+- Professional design

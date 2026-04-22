@@ -1,0 +1,191 @@
+You are an expert AI developer and Core PHP engineer.
+
+Build an AI Chatbot System for the website using Gemini API (free tier).
+
+--------------------------------------------------
+⚠️ RULES
+--------------------------------------------------
+
+- DO NOT break existing system
+- Keep chatbot lightweight
+- Must work on all pages
+- Use simple JS + PHP backend
+
+--------------------------------------------------
+🎯 OBJECTIVE
+--------------------------------------------------
+
+Build:
+
+1. Floating Chatbot Widget
+2. AI Response System (Gemini)
+3. Lead Capture via Chat
+4. WhatsApp Integration
+5. Admin Chat Logs
+
+--------------------------------------------------
+🧱 1. FLOATING CHATBOT UI
+--------------------------------------------------
+
+Add bottom-right floating button:
+
+<button id="chat-toggle">💬</button>
+
+Chatbox:
+
+<div id="chatbox">
+   <div id="chat-messages"></div>
+   <input type="text" id="chat-input">
+   <button onclick="sendMessage()">Send</button>
+</div>
+
+--------------------------------------------------
+STYLE:
+--------------------------------------------------
+
+- Fixed bottom right
+- Modern UI
+- Rounded box
+- Scrollable messages
+
+--------------------------------------------------
+🧱 2. CHATBOT FLOW (FRONTEND JS)
+--------------------------------------------------
+
+function sendMessage() {
+    let msg = document.getElementById("chat-input").value;
+
+    appendMessage("user", msg);
+
+    fetch("chatbot.php", {
+        method: "POST",
+        body: JSON.stringify({message: msg})
+    })
+    .then(res => res.json())
+    .then(data => {
+        appendMessage("bot", data.reply);
+    });
+}
+
+--------------------------------------------------
+🧱 3. BACKEND (chatbot.php)
+--------------------------------------------------
+
+- Receive user message
+- Send to Gemini API
+- Return response
+
+--------------------------------------------------
+GEMINI API CALL:
+--------------------------------------------------
+
+Use API key
+
+POST request:
+https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent
+
+--------------------------------------------------
+PROMPT:
+--------------------------------------------------
+
+"You are a business assistant for ConnectWith. Help users with services like SEO, website development, and marketing. Also encourage them to contact."
+
+--------------------------------------------------
+🧱 4. LEAD CAPTURE SYSTEM
+--------------------------------------------------
+
+If user says:
+
+- "I need service"
+- "Call me"
+- "Interested"
+
+👉 Ask:
+
+"Please share your name and phone number"
+
+--------------------------------------------------
+STORE DATA:
+--------------------------------------------------
+
+Save in leads table
+
+--------------------------------------------------
+🧱 5. WHATSAPP HANDOVER
+--------------------------------------------------
+
+After lead capture:
+
+Send button:
+
+"Continue on WhatsApp"
+
+Link:
+https://wa.me/919068899033
+
+--------------------------------------------------
+🧱 6. ADMIN CHAT LOGS
+--------------------------------------------------
+
+Create table:
+
+CREATE TABLE chat_logs (
+    id INT AUTO_INCREMENT,
+    message TEXT,
+    response TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+--------------------------------------------------
+STORE:
+
+- User message
+- Bot response
+
+--------------------------------------------------
+🧱 7. QUICK REPLIES (SMART UX)
+--------------------------------------------------
+
+Add buttons:
+
+- "SEO Services"
+- "Website Development"
+- "Pricing"
+
+--------------------------------------------------
+🧱 8. FALLBACK RESPONSES
+--------------------------------------------------
+
+If API fails:
+
+Reply:
+
+"Our team will assist you shortly. Please contact us on WhatsApp."
+
+--------------------------------------------------
+🧱 9. PERFORMANCE
+--------------------------------------------------
+
+- Limit API calls
+- Cache common responses
+
+--------------------------------------------------
+🧱 10. FINAL VALIDATION
+--------------------------------------------------
+
+Ensure:
+
+- Chatbot opens on click
+- AI replies working
+- Leads captured
+- WhatsApp redirect working
+- No UI issues
+
+--------------------------------------------------
+📌 FINAL OUTPUT
+--------------------------------------------------
+
+- Working AI chatbot
+- Lead capture via chat
+- Gemini AI integration
+- Admin chat logs

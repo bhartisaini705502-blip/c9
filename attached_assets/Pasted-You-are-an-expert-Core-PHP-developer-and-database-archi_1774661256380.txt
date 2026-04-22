@@ -1,0 +1,240 @@
+You are an expert Core PHP developer and database architect.
+
+Upgrade the Business Directory system with strong data structure, search UX, and admin import system.
+
+--------------------------------------------------
+⚠️ RULES
+--------------------------------------------------
+
+- DO NOT break existing system
+- EXTEND features only
+- Optimize performance
+- Make scalable structure
+
+--------------------------------------------------
+🎯 OBJECTIVE
+--------------------------------------------------
+
+Build:
+
+1. India States + Cities Search (Type & Select)
+2. Full Category System
+3. Minimum 5 Businesses per Category/Location
+4. Google Data Label ("By Google")
+5. Admin Import System (Google → DB)
+
+--------------------------------------------------
+🧱 1. INDIA STATES + CITIES DATABASE
+--------------------------------------------------
+
+Create tables:
+
+CREATE TABLE states (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100)
+);
+
+CREATE TABLE cities (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    state_id INT,
+    name VARCHAR(100)
+);
+
+--------------------------------------------------
+DATA:
+--------------------------------------------------
+
+- Insert ALL Indian states
+- Insert ALL districts / major cities
+
+--------------------------------------------------
+🧱 SEARCH SYSTEM (IMPORTANT UX)
+--------------------------------------------------
+
+Replace dropdown with searchable input:
+
+<input type="text" id="location-search" placeholder="Enter city...">
+
+--------------------------------------------------
+ADD AUTOCOMPLETE (AJAX)
+--------------------------------------------------
+
+- User types → fetch cities
+- Show dropdown suggestions
+- Click → select city
+
+--------------------------------------------------
+🧱 2. CATEGORY SYSTEM
+--------------------------------------------------
+
+Create table:
+
+CREATE TABLE categories (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    slug VARCHAR(100)
+);
+
+--------------------------------------------------
+ADD ALL BUSINESS CATEGORIES:
+--------------------------------------------------
+
+- Restaurant
+- Hospital
+- Salon
+- Gym
+- Real Estate
+- School
+- Coaching
+- Digital Marketing
+- etc.
+
+--------------------------------------------------
+🧱 3. BUSINESS TABLE UPDATE
+--------------------------------------------------
+
+ALTER TABLE businesses ADD:
+category_id INT,
+city_id INT,
+is_verified TINYINT DEFAULT 0,
+data_source VARCHAR(50) DEFAULT 'google';
+
+--------------------------------------------------
+🧱 4. MINIMUM 5 BUSINESSES LOGIC
+--------------------------------------------------
+
+Before showing results:
+
+IF count(businesses) < 5
+
+THEN:
+
+- Fetch from Google API
+- Store in local DB
+
+--------------------------------------------------
+SAVE:
+
+- name
+- address
+- phone
+- rating
+- lat/lng
+- category
+- city
+
+--------------------------------------------------
+🧱 5. GOOGLE LABEL SYSTEM
+--------------------------------------------------
+
+If:
+
+data_source = 'google' AND is_verified = 0
+
+SHOW:
+
+<span class="google-label">Data Source: Google</span>
+
+--------------------------------------------------
+IF VERIFIED:
+
+SHOW:
+
+<span class="verified-badge">✔ Verified</span>
+
+--------------------------------------------------
+🧱 6. ADMIN IMPORT SYSTEM
+--------------------------------------------------
+
+Add new section:
+
+👉 Admin → Import Businesses
+
+--------------------------------------------------
+FEATURES:
+--------------------------------------------------
+
+- Select Category
+- Select City
+- Click "Import from Google"
+
+--------------------------------------------------
+PROCESS:
+--------------------------------------------------
+
+- Fetch 10–20 businesses via Google API
+- Store in DB
+- Avoid duplicates
+
+--------------------------------------------------
+DUPLICATE CHECK:
+--------------------------------------------------
+
+Check by:
+
+- name + phone
+OR
+- name + address
+
+--------------------------------------------------
+🧱 7. ADMIN UI
+--------------------------------------------------
+
+Table:
+
+| Name | City | Category | Source | Verified |
+
+--------------------------------------------------
+ACTIONS:
+--------------------------------------------------
+
+- Verify business
+- Edit business
+- Delete
+
+--------------------------------------------------
+🧱 8. SEARCH IMPROVEMENT
+--------------------------------------------------
+
+Search by:
+
+- keyword
+- category
+- city
+
+--------------------------------------------------
+QUERY:
+
+SELECT * FROM businesses
+WHERE city_id = ?
+AND category_id = ?
+AND name LIKE '%keyword%'
+
+--------------------------------------------------
+🧱 9. PERFORMANCE OPTIMIZATION
+--------------------------------------------------
+
+- Add indexes on city_id, category_id
+- Cache popular searches
+- Limit API calls
+
+--------------------------------------------------
+🧱 10. FINAL VALIDATION
+--------------------------------------------------
+
+Ensure:
+
+- City search works with typing
+- Categories available
+- Minimum 5 listings always
+- Google label visible
+- Admin import works
+
+--------------------------------------------------
+📌 FINAL OUTPUT
+--------------------------------------------------
+
+- Strong directory data system
+- Smart search UX
+- Admin import panel
+- Verified + Google label system

@@ -1,0 +1,227 @@
+You are an expert UI/UX designer and frontend + PHP developer.
+
+We already have a working Business Directory system.
+
+Your task is to COMPLETELY UPGRADE the DISPLAY SYSTEM to make it:
+- Intelligent
+- Clean
+- Modern
+- Decision-focused (not just listing)
+
+--------------------------------------------------
+🎯 OBJECTIVE
+--------------------------------------------------
+
+Transform UI from:
+❌ Data Listing
+
+Into:
+✅ Smart Business Discovery Experience
+
+--------------------------------------------------
+🧠 1. SMART RESULT HEADER (TOP SECTION)
+--------------------------------------------------
+
+Add dynamic heading:
+
+"Top {count} {category} in {city} based on rating, popularity & distance"
+
+Example:
+"Top 18 salons in Dehradun based on rating, popularity & distance"
+
+Add subtext:
+"Showing results based on rating, popularity, and proximity"
+
+--------------------------------------------------
+🏆 2. BEST PICKS SECTION (VERY IMPORTANT)
+--------------------------------------------------
+
+Show 3 highlighted businesses:
+
+1. 🏆 Best Overall
+2. 💰 Best Budget (affordable tag)
+3. ⭐ Top Rated
+
+Each card should include:
+- Business name
+- Rating
+- Short AI summary
+- Category
+
+Design:
+- 3 cards in row
+- Highlight with border + shadow
+- Use colored badges
+
+--------------------------------------------------
+💬 3. AI SUMMARY ON LISTINGS
+--------------------------------------------------
+
+Each business card must show:
+
+Example:
+"Affordable salon known for quality service"
+
+- Max 12–15 words
+- Use ai_short_summary from DB
+- If not available → generate fallback text
+
+Style:
+- Small grey text below title
+
+--------------------------------------------------
+🏢 4. LISTING CARD REDESIGN
+--------------------------------------------------
+
+Each card should include:
+
+TOP:
+- Business Name
+- ⭐ Rating
+- Verified Badge (if applicable)
+
+MIDDLE:
+- AI Summary
+- Category
+- Address (short)
+- Distance (if available)
+
+BOTTOM:
+Buttons:
+- 📞 Call
+- 💬 WhatsApp
+- 🔍 View Details
+
+STYLE:
+- Card layout
+- Rounded corners (8–10px)
+- Soft shadow
+- Hover effect (lift + shadow)
+
+--------------------------------------------------
+🟢 5. VERIFIED & GOOGLE LABEL SYSTEM
+--------------------------------------------------
+
+If verified:
+✔ Show:
+"✔ Verified by Platform"
+
+If unverified:
+Show:
+"📍 Data sourced from Google"
+
+Optional note:
+"Information may vary. Please verify with business."
+
+--------------------------------------------------
+🗺️ 6. MAP + LIST VIEW (IMPORTANT)
+--------------------------------------------------
+
+Split layout:
+
+LEFT:
+- Listings
+
+RIGHT:
+- Google Map
+
+Map features:
+- Show markers for all businesses
+- On click → show mini card:
+  name, rating, summary
+
+Sync:
+- Clicking listing highlights map pin
+
+--------------------------------------------------
+📍 7. DISTANCE DISPLAY
+--------------------------------------------------
+
+Show:
+"1.2 km away"
+
+Use:
+- lat/lng calculation
+
+--------------------------------------------------
+🎯 8. VISUAL HIERARCHY (IMPORTANT)
+--------------------------------------------------
+
+Make UI readable:
+
+- Featured listings → highlighted
+- Best picks → top section
+- Normal listings → below
+
+Use:
+- font size variation
+- spacing
+- color contrast
+
+--------------------------------------------------
+❤️ 9. USER ENGAGEMENT ELEMENTS
+--------------------------------------------------
+
+Add:
+
+- ❤️ Save button on each card
+- Show "Recently Viewed"
+- Show "Recommended for you"
+
+--------------------------------------------------
+🔁 10. “WHY THIS BUSINESS” (DETAIL PAGE)
+--------------------------------------------------
+
+Add section:
+
+"Why choose this business?"
+
+Show:
+- Top rated in area
+- Affordable pricing
+- Popular for services
+
+Use:
+- AI tags
+
+--------------------------------------------------
+📱 11. RESPONSIVE DESIGN
+--------------------------------------------------
+
+Desktop:
+- Grid layout
+- Map + list
+
+Mobile:
+- Stack layout
+- Horizontal scroll for best picks
+
+--------------------------------------------------
+🎨 12. DESIGN SYSTEM
+--------------------------------------------------
+
+Use colors:
+
+- Dark Blue (#0B1C3D)
+- Blue (#1E3A8A)
+- Orange (#FF6A00)
+- Light Grey (#F5F7FA)
+
+--------------------------------------------------
+⚡ 13. PERFORMANCE
+--------------------------------------------------
+
+- Use pagination (LIMIT 20)
+- Lazy load images
+- Avoid heavy DOM
+
+--------------------------------------------------
+📌 FINAL REQUIREMENTS
+--------------------------------------------------
+
+- Clean modern UI
+- Fast loading
+- Mobile responsive
+- Looks like premium SaaS product
+
+Transform the entire display system into a modern intelligent experience.

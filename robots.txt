@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+Allow: /pages/
+Allow: /assets/
+Allow: /category/
+Allow: /business/
+Allow: /guide/
+Disallow: /admin/
+Disallow: /config/
+Disallow: /includes/
+Disallow: /setup/
+Disallow: /uploads/
+Disallow: /pages/search.php
+Disallow: /pages/claim-business.php
+Disallow: /pages/claim-listing.php
+Disallow: /pages/upgrade-plan.php
+Crawl-delay: 1
+
+# Sitemap Index with all pages and businesses
+Sitemap: /pages/sitemap-index.xml.php
+# Fallback sitemaps
+Sitemap: /pages/sitemap-pages.xml
+Sitemap: /pages/sitemap-businesses.xml.php?page=1
+Sitemap: /pages/sitemap-businesses.xml.php?page=2
+Sitemap: /pages/sitemap-businesses.xml.php?page=3

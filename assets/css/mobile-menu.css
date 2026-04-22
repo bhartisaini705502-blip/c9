@@ -1,0 +1,163 @@
+/* 
+   Mobile Menu & Header - Optimized for Mobile Devices
+   This file handles ALL mobile-specific styles for the header
+   Desktop styles are in style.css and mega-menu.css only
+*/
+
+@media (max-width: 768px) {
+    /* Show toggle button */
+    .header-toggle {
+        display: flex !important;
+        z-index: 2000;
+        position: relative;
+    }
+    
+    /* Mobile Navigation */
+    .header-nav {
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        max-width: 100vw;
+        height: calc(100vh - 60px);
+        background-color: #0B1C3D;
+        z-index: 1999;
+        display: flex;
+        flex-direction: column;
+        
+        /* Hidden by default */
+        visibility: hidden;
+        opacity: 0;
+        transform: translateX(-100%);
+        transition: all 0.3s ease;
+        
+        overflow-y: auto;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* Show menu when active */
+    .header-nav.active {
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+    /* Navigation items */
+    .nav-items {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .nav-items > li {
+        width: 100%;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        min-height: 50px;
+        display: flex;
+        align-items: stretch;
+    }
+    
+    .nav-items > li > a {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        padding: 15px 20px;
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+        background: transparent;
+        border: none;
+        transition: background 0.2s;
+    }
+    
+    .nav-items > li > a:hover,
+    .nav-items > li > a:active {
+        background: rgba(255, 255, 255, 0.1);
+        color: #FF6A00;
+    }
+    
+    /* Dropdown menus */
+    .dropdown,
+    .mega-dropdown {
+        position: static;
+        display: none;
+        background: rgba(30, 58, 138, 0.4);
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: none;
+        box-shadow: none;
+        max-width: 100%;
+    }
+    
+    .nav-group.active .dropdown,
+    .nav-group.active .mega-dropdown {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .dropdown a,
+    .mega-dropdown a {
+        display: flex;
+        align-items: center;
+        padding: 12px 40px;
+        color: #FFFFFF;
+        background: transparent;
+        text-decoration: none;
+        font-size: 13px;
+        border: none;
+        min-height: 40px;
+        transition: background 0.2s;
+    }
+    
+    .dropdown a:hover,
+    .mega-dropdown a:hover {
+        background: rgba(255, 255, 255, 0.15);
+        color: #FF6A00;
+    }
+    
+    .mega-column {
+        display: block;
+        width: 100%;
+    }
+    
+    .mega-column h5 {
+        padding: 15px 40px 8px;
+        margin: 0;
+        color: #FFFFFF;
+        font-size: 12px;
+        font-weight: 700;
+        border: none;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    
+    /* Header CTA Section - Hide on mobile */
+    .header-cta {
+        display: none !important;
+    }
+    
+    /* User button styling (if visible on mobile) */
+    .nav-user a {
+        padding: 12px 20px;
+        color: #FFFFFF;
+        text-decoration: none;
+        min-height: 45px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav-user .dropdown {
+        background: rgba(30, 58, 138, 0.4);
+    }
+    
+    .nav-user .dropdown a {
+        padding: 12px 40px;
+    }
+}

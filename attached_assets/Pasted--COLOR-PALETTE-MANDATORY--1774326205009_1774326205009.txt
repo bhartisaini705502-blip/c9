@@ -1,0 +1,112 @@
+--------------------------------------------------
+🎨 COLOR PALETTE (MANDATORY)
+--------------------------------------------------
+
+Primary Colors:
+- Dark Blue: #0B1C3D
+- Royal Blue: #1E3A8A
+
+Accent Colors:
+- Orange: #FF6A00
+- Light Orange: #FFA500
+
+Neutral Colors:
+- White: #FFFFFF
+- Light Grey: #F5F7FA
+- Dark Text: #333333
+
+--------------------------------------------------
+🎯 IMPLEMENTATION RULES
+--------------------------------------------------
+
+1. HEADER
+- Background: Dark Blue (#0B1C3D)
+- Text: White
+- Active menu / hover: Orange
+
+2. BUTTONS
+- Primary Button:
+  Background: Orange (#FF6A00)
+  Text: White
+  Hover: Darker Orange (#e65c00)
+
+- Secondary Button:
+  Background: Royal Blue (#1E3A8A)
+  Text: White
+
+3. LINKS
+- Default: Royal Blue
+- Hover: Orange
+
+4. CARDS (Business Listings)
+- Background: White
+- Border: Light Grey
+- Hover:
+  - Slight shadow
+  - Top border highlight (Orange)
+
+5. SECTION BACKGROUND
+- Alternate sections:
+  - White
+  - Light Grey (#F5F7FA)
+
+6. TEXT
+- Headings: Dark Blue
+- Paragraph: Dark Grey
+
+7. ICONS
+- Use Orange for highlights
+- Blue for default icons
+
+8. FOOTER
+- Background: Dark Blue
+- Text: White
+- Links hover: Orange
+
+--------------------------------------------------
+📱 UI CONSISTENCY
+--------------------------------------------------
+
+- Maintain same colors across:
+  - Homepage
+  - Category pages
+  - Business pages
+  - About & Contact pages
+
+- Ensure contrast is high for readability
+
+--------------------------------------------------
+✨ DESIGN STYLE
+--------------------------------------------------
+
+- Modern IT-style design
+- Clean spacing
+- Soft shadows
+- Rounded corners (6px–10px)
+
+--------------------------------------------------
+⚙️ CSS STRUCTURE
+--------------------------------------------------
+
+Create a global CSS file:
+
+:root {
+  --primary-dark: #0B1C3D;
+  --primary-blue: #1E3A8A;
+  --accent-orange: #FF6A00;
+  --accent-light-orange: #FFA500;
+  --white: #FFFFFF;
+  --light-grey: #F5F7FA;
+  --text-dark: #333333;
+}
+
+Use variables everywhere instead of hardcoding colors.
+
+--------------------------------------------------
+📌 FINAL REQUIREMENTS
+--------------------------------------------------
+
+- Apply color scheme consistently across all pages
+- Ensure mobile responsiveness
+- Keep UI clean and professional
+- Make it visually similar to a modern IT company + directory hybrid

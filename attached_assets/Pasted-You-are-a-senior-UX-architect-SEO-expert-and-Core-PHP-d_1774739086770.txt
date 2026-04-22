@@ -1,0 +1,271 @@
+You are a senior UX architect, SEO expert, and Core PHP developer.
+
+Completely UPGRADE the Business Detail Page into an ELITE, HIGH-CONVERSION, AI-DRIVEN PAGE.
+
+--------------------------------------------------
+⚠️ STRICT RULES
+--------------------------------------------------
+
+- DO NOT break backend logic
+- KEEP database structure
+- KEEP existing APIs
+- Only improve UI, UX, structure, and intelligence
+- Ensure blazing fast performance
+- Follow modern UX best practices
+
+--------------------------------------------------
+🎯 CORE OBJECTIVE
+--------------------------------------------------
+
+Transform this page into:
+
+- Lead generation machine
+- SEO landing page
+- Trust-building page
+- AI-enhanced content system
+
+--------------------------------------------------
+🧱 1. ABOVE THE FOLD (MOST IMPORTANT)
+--------------------------------------------------
+
+Create a PREMIUM HERO SECTION:
+
+Include:
+
+- Business Name (H1 large)
+- Category + City
+- ⭐ Rating (if available)
+- 📍 Address
+- ✔ Verified OR ⚠ "Data Source: Google"
+
+--------------------------------------------------
+🔥 ADD ACTION STRIP (HIGH PRIORITY)
+--------------------------------------------------
+
+Sticky action buttons:
+
+- 📞 Call Now (primary)
+- 💬 WhatsApp Now (highlight)
+- 📩 Send Enquiry
+
+👉 Make buttons BIG + visible
+
+--------------------------------------------------
+🧱 2. VISUAL HIERARCHY FIX (CRITICAL)
+--------------------------------------------------
+
+Apply:
+
+- Section separation (cards)
+- Proper spacing (20–30px)
+- Clear headings
+- Highlight important elements
+
+👉 Goal:
+User should scan page in 3 seconds
+
+--------------------------------------------------
+🧱 3. 2-COLUMN CONVERSION LAYOUT
+--------------------------------------------------
+
+LEFT (70%):
+
+- About Business (AI generated)
+- Business Details
+- Services / Info
+- Map
+- FAQs
+- Related Listings
+
+--------------------------------------------------
+
+RIGHT (30%) – STICKY SIDEBAR:
+
+- Contact box
+- Lead form
+- CTA buttons
+
+--------------------------------------------------
+🧱 4. AI DESCRIPTION SYSTEM
+--------------------------------------------------
+
+IF description empty:
+
+→ Generate using Gemini API
+
+Prompt:
+
+"Write a professional, engaging, SEO-friendly description for:
+{name}, a {category} in {city}.
+Keep it natural and 100 words."
+
+--------------------------------------------------
+SAVE to DB
+--------------------------------------------------
+
+--------------------------------------------------
+🧱 5. AI FAQ GENERATION (SMART FEATURE)
+--------------------------------------------------
+
+Generate 3–5 FAQs dynamically:
+
+Examples:
+
+- What services does this business offer?
+- Where is it located?
+- How to contact?
+
+--------------------------------------------------
+DISPLAY IN CARD FORMAT
+--------------------------------------------------
+
+--------------------------------------------------
+🧱 6. TRUST ENGINE (VERY IMPORTANT)
+--------------------------------------------------
+
+Show clearly:
+
+IF verified:
+→ ✔ Verified (green badge)
+
+IF Google data:
+→ ⚠ Data Source: Google (highlight)
+
+--------------------------------------------------
+ADD:
+
+- Rating stars
+- Contact availability
+
+--------------------------------------------------
+🧱 7. CONTACT & LEAD SYSTEM
+--------------------------------------------------
+
+Sidebar MUST include:
+
+--------------------------------------------------
+CONTACT BOX:
+--------------------------------------------------
+
+- Call Now
+- WhatsApp Now
+
+--------------------------------------------------
+LEAD FORM:
+--------------------------------------------------
+
+Fields:
+
+- Name
+- Phone
+- Service
+
+--------------------------------------------------
+ON SUBMIT:
+--------------------------------------------------
+
+- Save in DB
+- Send email
+- Redirect to WhatsApp
+
+--------------------------------------------------
+🧱 8. RELATED BUSINESSES (ENGAGEMENT)
+--------------------------------------------------
+
+Show:
+
+- Same category
+- Same city
+
+LIMIT: 4–6
+
+--------------------------------------------------
+🧱 9. USER ACTION FEATURES
+--------------------------------------------------
+
+Add:
+
+- Share on WhatsApp
+- Copy phone number
+- Click tracking (Call/WhatsApp)
+
+--------------------------------------------------
+🧱 10. MOBILE UX (CRITICAL)
+--------------------------------------------------
+
+Add bottom sticky bar:
+
+- 📞 Call
+- 💬 WhatsApp
+- 📩 Enquiry
+
+--------------------------------------------------
+🧱 11. SEO SYSTEM (VERY IMPORTANT)
+--------------------------------------------------
+
+Dynamic Title:
+
+"Best {Category} in {City} | {Business Name}"
+
+--------------------------------------------------
+Meta Description:
+
+"Find {business name}, trusted {category} in {city}. Call or WhatsApp now."
+
+--------------------------------------------------
+ADD SCHEMA:
+
+LocalBusiness JSON-LD
+
+--------------------------------------------------
+🧱 12. PERFORMANCE OPTIMIZATION
+--------------------------------------------------
+
+- Lazy load images
+- Avoid repeated API calls
+- Optimize queries
+- Cache AI content
+
+--------------------------------------------------
+🧱 13. UI DESIGN RULES
+--------------------------------------------------
+
+- Card-based layout
+- Soft shadows
+- Rounded corners
+- Clean typography
+- Highlight CTA buttons
+
+--------------------------------------------------
+🧱 14. EMPTY DATA HANDLING
+--------------------------------------------------
+
+IF any field missing:
+
+→ Generate fallback content
+
+Example:
+
+"No details available. Contact for more info."
+
+--------------------------------------------------
+🧱 15. FINAL QA CHECK
+--------------------------------------------------
+
+Ensure:
+
+- No empty sections
+- No broken layout
+- All buttons working
+- Mobile responsive
+- Fast loading (<2 sec)
+
+--------------------------------------------------
+📌 FINAL OUTPUT
+--------------------------------------------------
+
+- Premium UI (Justdial-level)
+- AI-generated content
+- High-conversion layout
+- SEO optimized page
+- Fully responsive design

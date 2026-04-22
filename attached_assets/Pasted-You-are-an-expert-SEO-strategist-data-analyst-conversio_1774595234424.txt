@@ -1,0 +1,227 @@
+You are an expert SEO strategist, data analyst, conversion copywriter, and Core PHP developer.
+
+Create a HIGHLY DETAILED Web Analytics Services page with strict layout structure, SEO optimization, and conversion-focused content.
+
+--------------------------------------------------
+⚠️ IMPORTANT RULES
+--------------------------------------------------
+
+- Use header.php and footer.php
+- Strict 2-column layout
+- LEFT = main content
+- RIGHT = sticky sidebar (CTA + form)
+- Fully responsive design
+- Content must feel 1000+ words (detailed, professional, insightful)
+- Maintain clean UI and spacing
+
+--------------------------------------------------
+🧱 PAGE LAYOUT STRUCTURE
+--------------------------------------------------
+
+include('header.php');
+
+<div class="container section">
+    <div class="row">
+
+        <!-- MAIN CONTENT -->
+        <div class="col-2 main-content">
+
+            [ALL CONTENT SECTIONS HERE]
+
+        </div>
+
+        <!-- SIDEBAR -->
+        <div class="col-2 sidebar">
+
+            [CONTACT FORM + CTA]
+
+        </div>
+
+    </div>
+</div>
+
+include('footer.php');
+
+--------------------------------------------------
+🧠 HERO SECTION
+--------------------------------------------------
+
+<h1>Web Analytics Services to Track, Measure & Grow Your Business</h1>
+
+<p>
+Understand your customers, track performance, and make data-driven decisions with advanced web analytics solutions designed to improve your business results.
+</p>
+
+Buttons:
+- 📞 Call Now
+- 💬 WhatsApp Now
+- 🚀 Get Free Consultation
+
+--------------------------------------------------
+📄 INTRODUCTION
+--------------------------------------------------
+
+<p>
+In today’s digital landscape, data is the key to success. Without proper tracking and analysis, businesses miss valuable insights that can improve performance and increase conversions.
+</p>
+
+<p>
+At ConnectWith, we provide comprehensive web analytics services that help you understand your audience behavior, measure marketing effectiveness, and optimize your strategies for better results.
+</p>
+
+--------------------------------------------------
+📈 WHY WEB ANALYTICS IS IMPORTANT
+--------------------------------------------------
+
+<ul>
+<li>Track user behavior on your website</li>
+<li>Measure marketing campaign performance</li>
+<li>Identify growth opportunities</li>
+<li>Improve conversion rates</li>
+<li>Make data-driven decisions</li>
+</ul>
+
+--------------------------------------------------
+🛠️ OUR WEB ANALYTICS SERVICES
+--------------------------------------------------
+
+<h2>Our Analytics Solutions Include:</h2>
+
+<ul>
+<li>Google Analytics Setup & Configuration</li>
+<li>Google Tag Manager Integration</li>
+<li>Conversion Tracking Setup</li>
+<li>User Behavior Analysis</li>
+<li>Funnel & Goal Tracking</li>
+<li>Custom Reporting & Dashboards</li>
+<li>Heatmap & Session Tracking</li>
+<li>E-commerce Analytics Setup</li>
+</ul>
+
+--------------------------------------------------
+🚀 BENEFITS
+--------------------------------------------------
+
+<h2>Benefits of Web Analytics</h2>
+
+<ul>
+<li>Better understanding of customer behavior</li>
+<li>Improved marketing ROI</li>
+<li>Higher conversion rates</li>
+<li>Smarter decision-making</li>
+<li>Enhanced user experience</li>
+</ul>
+
+--------------------------------------------------
+⚙️ OUR PROCESS
+--------------------------------------------------
+
+<h2>Our Analytics Process</h2>
+
+<ol>
+<li>Website & Business Analysis</li>
+<li>Tracking Setup & Configuration</li>
+<li>Data Collection & Monitoring</li>
+<li>Insights & Reporting</li>
+<li>Optimization Recommendations</li>
+</ol>
+
+--------------------------------------------------
+🏆 WHY CHOOSE CONNECTWITH?
+--------------------------------------------------
+
+<ul>
+<li>Data-driven strategies</li>
+<li>Advanced tracking setup</li>
+<li>Clear and actionable insights</li>
+<li>Affordable solutions</li>
+<li>Continuous optimization support</li>
+</ul>
+
+--------------------------------------------------
+🎯 WHO CAN BENEFIT?
+--------------------------------------------------
+
+<h2>Who Should Use Web Analytics?</h2>
+
+<ul>
+<li>Website owners</li>
+<li>E-commerce businesses</li>
+<li>Digital marketers</li>
+<li>Startups</li>
+<li>Service providers</li>
+</ul>
+
+--------------------------------------------------
+❓ FAQ SECTION
+--------------------------------------------------
+
+<h2>Frequently Asked Questions</h2>
+
+<p><strong>Q1. What is web analytics?</strong><br>
+Web analytics is the process of tracking and analyzing website data to improve performance.</p>
+
+<p><strong>Q2. Do you set up Google Analytics?</strong><br>
+Yes, we handle complete setup and configuration.</p>
+
+<p><strong>Q3. Can analytics improve conversions?</strong><br>
+Yes, it helps identify areas for improvement and optimize performance.</p>
+
+<p><strong>Q4. Will I get reports?</strong><br>
+Yes, we provide detailed reports with insights.</p>
+
+--------------------------------------------------
+🚀 STRONG CTA SECTION
+--------------------------------------------------
+
+<h2>Ready to Make Data-Driven Decisions?</h2>
+
+<p>
+Start understanding your audience and improving your business performance with our expert web analytics services.
+</p>
+
+Buttons:
+- 📞 Call Now
+- 💬 WhatsApp Now
+- 🚀 Get Free Consultation
+
+--------------------------------------------------
+📞 SIDEBAR (RIGHT SIDE)
+--------------------------------------------------
+
+<div class="sidebar-box">
+
+<h3>Track Your Business Growth</h3>
+
+<button>📞 Call Now</button>
+<button>💬 WhatsApp Now</button>
+
+<h4>Request Free Consultation</h4>
+
+<form>
+<input type="text" placeholder="Your Name">
+<input type="text" placeholder="Phone Number">
+<input type="text" placeholder="Business Type">
+<button type="submit">Submit</button>
+</form>
+
+</div>
+
+--------------------------------------------------
+📱 RESPONSIVE RULES
+--------------------------------------------------
+
+- Stack layout on mobile
+- Sidebar moves below content
+- Buttons full width
+- Maintain proper spacing
+
+--------------------------------------------------
+🎨 DESIGN RULES
+--------------------------------------------------
+
+- Clean modern UI
+- Use card layout
+- Soft shadows
+- Highlight CTA buttons
+- Use brand colors

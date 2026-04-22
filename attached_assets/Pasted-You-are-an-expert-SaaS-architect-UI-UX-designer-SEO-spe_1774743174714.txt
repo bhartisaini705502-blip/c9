@@ -1,0 +1,296 @@
+You are an expert SaaS architect, UI/UX designer, SEO specialist, and AI integration developer.
+
+Upgrade the Business Detail Page into a COMPLETE CONVERSION + TRUST + AI + MEDIA SYSTEM.
+
+--------------------------------------------------
+⚠️ STRICT RULES
+--------------------------------------------------
+
+- DO NOT break existing backend
+- KEEP current data fetching
+- EXTEND system only
+- Optimize performance
+- Avoid repeated API calls
+
+--------------------------------------------------
+🎯 OBJECTIVE
+--------------------------------------------------
+
+Build a COMPLETE BUSINESS PAGE including:
+
+1. Conversion-focused UI
+2. AI-generated Description
+3. AI-generated FAQs
+4. Google Photos Integration (store locally)
+5. Trust System (Verified / Google label)
+6. Lead Generation System
+
+--------------------------------------------------
+🧱 1. HERO SECTION (TOP PRIORITY)
+--------------------------------------------------
+
+Include:
+
+- Business Name (H1)
+- Category + City
+- ⭐ Rating
+- 📍 Address
+
+--------------------------------------------------
+TRUST BADGE:
+--------------------------------------------------
+
+IF verified:
+→ ✔ Verified Business
+
+ELSE:
+→ ⚠ Data Source: Google
+
+--------------------------------------------------
+CTA BUTTONS (VERY IMPORTANT)
+--------------------------------------------------
+
+- 📞 Call Now
+- 💬 WhatsApp Now
+- 📩 Send Enquiry
+
+--------------------------------------------------
+🧱 2. AI DESCRIPTION SYSTEM
+--------------------------------------------------
+
+IF description is empty:
+
+→ Generate using Gemini API
+
+PROMPT:
+
+"Write a professional, SEO-friendly description for:
+{name}, a {category} in {city}.
+Keep it natural, engaging, and 80-120 words."
+
+--------------------------------------------------
+SAVE TO DATABASE
+--------------------------------------------------
+
+- Store description in businesses table
+- Avoid repeated generation
+
+--------------------------------------------------
+DISPLAY:
+
+<h2>About Business</h2>
+<p>{description}</p>
+
+--------------------------------------------------
+🧱 3. AI FAQ SYSTEM (IMPORTANT)
+--------------------------------------------------
+
+IF FAQs not available:
+
+→ Generate 3–5 FAQs using Gemini
+
+PROMPT:
+
+"Generate 5 FAQs for a {category} business in {city}."
+
+--------------------------------------------------
+SAVE TO DATABASE:
+
+CREATE TABLE business_faqs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    business_id INT,
+    question TEXT,
+    answer TEXT
+);
+
+--------------------------------------------------
+DISPLAY:
+
+<h2>FAQs</h2>
+<ul>
+<li>Q/A</li>
+</ul>
+
+--------------------------------------------------
+🧱 4. GOOGLE PHOTOS SYSTEM (VERY IMPORTANT)
+--------------------------------------------------
+
+IF no images in database:
+
+→ Fetch images using Google Places API
+
+--------------------------------------------------
+SAVE LOCALLY:
+
+- Download images
+- Store in /uploads/business/
+- Save paths in DB
+
+--------------------------------------------------
+CREATE TABLE:
+
+CREATE TABLE business_images (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    business_id INT,
+    image_path TEXT
+);
+
+--------------------------------------------------
+DISPLAY:
+
+<h2>Photos</h2>
+
+- Grid layout
+- 4–6 images
+- Click to enlarge
+
+--------------------------------------------------
+IMPORTANT:
+
+- Fetch only ONCE
+- Store permanently
+- DO NOT call API again
+
+--------------------------------------------------
+🧱 5. 2-COLUMN LAYOUT
+--------------------------------------------------
+
+LEFT:
+
+- About (AI)
+- Photos (Google stored)
+- Business Details
+- Map
+- FAQs
+- Related Businesses
+
+--------------------------------------------------
+
+RIGHT (STICKY SIDEBAR):
+
+--------------------------------------------------
+CONTACT BOX:
+--------------------------------------------------
+
+- Call Now
+- WhatsApp Now
+
+--------------------------------------------------
+LEAD FORM:
+--------------------------------------------------
+
+- Name
+- Phone
+- Service
+
+Button:
+🚀 "Get Callback Now"
+
+--------------------------------------------------
+ON SUBMIT:
+--------------------------------------------------
+
+- Save lead
+- Send email
+- Redirect to WhatsApp
+
+--------------------------------------------------
+🧱 6. TRUST SYSTEM
+--------------------------------------------------
+
+Show clearly:
+
+- ✔ Verified badge
+- ⚠ Data Source: Google
+- ⭐ Ratings
+
+--------------------------------------------------
+🧱 7. RELATED BUSINESSES
+--------------------------------------------------
+
+Show:
+
+- Same category
+- Same city
+
+LIMIT: 4–6
+
+--------------------------------------------------
+🧱 8. MOBILE UX (CRITICAL)
+--------------------------------------------------
+
+Add sticky bottom bar:
+
+- Call
+- WhatsApp
+- Enquiry
+
+--------------------------------------------------
+🧱 9. SEO SYSTEM
+--------------------------------------------------
+
+Dynamic Title:
+
+"Best {Category} in {City} | {Business Name}"
+
+--------------------------------------------------
+Meta Description:
+
+"Find {business name}, trusted {category} in {city}. Contact now."
+
+--------------------------------------------------
+ADD SCHEMA:
+
+LocalBusiness JSON-LD
+
+--------------------------------------------------
+🧱 10. PERFORMANCE OPTIMIZATION
+--------------------------------------------------
+
+- Cache AI content
+- Store images locally
+- Avoid repeated API calls
+- Optimize DB queries
+
+--------------------------------------------------
+🧱 11. DESIGN RULES
+--------------------------------------------------
+
+- Card layout
+- 20px spacing
+- Rounded corners
+- Soft shadows
+- Highlight CTA buttons
+
+--------------------------------------------------
+🧱 12. FALLBACK SYSTEM
+--------------------------------------------------
+
+IF API fails:
+
+→ Generate basic description:
+
+"{Business Name} is a {category} in {city}. Contact for details."
+
+--------------------------------------------------
+🧱 13. FINAL VALIDATION
+--------------------------------------------------
+
+Ensure:
+
+- No empty sections
+- AI content visible
+- Images loading
+- CTA working
+- Sidebar sticky
+- Mobile responsive
+
+--------------------------------------------------
+📌 FINAL OUTPUT
+--------------------------------------------------
+
+- Premium UI
+- AI content + FAQs
+- Local stored images
+- High conversion system
+- SEO optimized page

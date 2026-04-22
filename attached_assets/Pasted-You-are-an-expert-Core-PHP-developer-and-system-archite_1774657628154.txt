@@ -1,0 +1,175 @@
+You are an expert Core PHP developer and system architect.
+
+The project already has:
+- Lead management system
+- Admin dashboard
+- WhatsApp integration
+
+Your task is to UPGRADE the system into an ADVANCED BUSINESS AUTOMATION PLATFORM.
+
+--------------------------------------------------
+⚠️ RULES
+--------------------------------------------------
+
+- DO NOT break existing features
+- EXTEND current system only
+- Keep UI clean and fast
+- Use lightweight libraries
+
+--------------------------------------------------
+🎯 OBJECTIVE
+--------------------------------------------------
+
+Add:
+
+1. Lead Analytics Dashboard
+2. Auto WhatsApp Reply System
+3. Email Auto Response System
+4. Lead Scoring System
+
+--------------------------------------------------
+🧱 1. LEAD ANALYTICS DASHBOARD
+--------------------------------------------------
+
+Add charts in admin panel:
+
+- Total Leads
+- Leads Today
+- Leads by Service
+- Leads by Source
+
+--------------------------------------------------
+IMPLEMENT:
+
+Fetch data from leads table
+
+Example:
+
+SELECT COUNT(*) FROM leads;
+SELECT COUNT(*) FROM leads WHERE DATE(created_at)=CURDATE();
+
+--------------------------------------------------
+CHARTS:
+
+- Use Chart.js
+- Bar chart → Leads per service
+- Line chart → Daily leads
+
+--------------------------------------------------
+🧱 2. AUTO WHATSAPP REPLY SYSTEM
+--------------------------------------------------
+
+After form submission:
+
+Redirect user to WhatsApp with message:
+
+$message = "Thank you for contacting ConnectWith. Our team will reach you shortly.";
+
+$wa_link = "https://wa.me/919068899033?text=" . urlencode($message);
+
+--------------------------------------------------
+ADVANCED:
+
+Include dynamic data:
+
+"Hi, I am $name, interested in $service"
+
+--------------------------------------------------
+🧱 3. EMAIL AUTO RESPONSE SYSTEM
+--------------------------------------------------
+
+After form submission:
+
+Send TWO emails:
+
+--------------------------------------------------
+ADMIN EMAIL:
+--------------------------------------------------
+
+To: connectwithddn@gmail.com
+
+Subject: New Lead
+
+Message:
+Name, Phone, Service
+
+--------------------------------------------------
+USER EMAIL:
+--------------------------------------------------
+
+Subject: Thank You for Contacting Us
+
+Message:
+
+"Thank you for reaching ConnectWith.
+Our team will contact you soon."
+
+--------------------------------------------------
+🧱 4. LEAD SCORING SYSTEM
+--------------------------------------------------
+
+Add column in DB:
+
+ALTER TABLE leads ADD score INT DEFAULT 0;
+
+--------------------------------------------------
+LOGIC:
+
+IF service = "Website" → score +10  
+IF service = "SEO" → score +8  
+IF phone not empty → score +5  
+
+--------------------------------------------------
+SAVE SCORE in DB
+
+--------------------------------------------------
+ADMIN VIEW:
+--------------------------------------------------
+
+Show:
+
+| Name | Phone | Service | Score |
+
+Highlight:
+- High score → green
+- Medium → yellow
+- Low → red
+
+--------------------------------------------------
+🧱 5. ADMIN DASHBOARD IMPROVEMENTS
+--------------------------------------------------
+
+Add cards:
+
+- Total Leads
+- High Value Leads
+- Conversion Potential
+
+--------------------------------------------------
+🧱 6. PERFORMANCE + SECURITY
+--------------------------------------------------
+
+- Use prepared statements
+- Validate input
+- Prevent spam submissions
+
+--------------------------------------------------
+🧱 7. FINAL VALIDATION
+--------------------------------------------------
+
+Ensure:
+
+- Leads saved
+- Emails sent
+- WhatsApp opens
+- Dashboard shows analytics
+- Score calculated correctly
+
+--------------------------------------------------
+📌 FINAL OUTPUT
+--------------------------------------------------
+
+- Smart lead system
+- Analytics dashboard
+- Auto reply system
+- Lead scoring

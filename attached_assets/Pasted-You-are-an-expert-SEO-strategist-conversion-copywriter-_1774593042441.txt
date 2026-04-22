@@ -1,0 +1,226 @@
+You are an expert SEO strategist, conversion copywriter, and Core PHP developer.
+
+Create a HIGHLY DETAILED, SEO-OPTIMIZED E-commerce Marketing Services page with strict layout structure and conversion-focused content.
+
+--------------------------------------------------
+⚠️ IMPORTANT RULES
+--------------------------------------------------
+
+- Use header.php and footer.php
+- Follow 2-column layout strictly
+- LEFT = main content
+- RIGHT = sticky sidebar (CTA + form)
+- Fully responsive
+- SEO optimized content (1000+ words feel)
+
+--------------------------------------------------
+🧱 PAGE LAYOUT STRUCTURE
+--------------------------------------------------
+
+include('header.php');
+
+<div class="container section">
+    <div class="row">
+
+        <!-- MAIN CONTENT -->
+        <div class="col-2 main-content">
+
+            [ALL CONTENT SECTIONS HERE]
+
+        </div>
+
+        <!-- SIDEBAR -->
+        <div class="col-2 sidebar">
+
+            [CONTACT FORM + CTA]
+
+        </div>
+
+    </div>
+</div>
+
+include('footer.php');
+
+--------------------------------------------------
+🧠 HERO SECTION
+--------------------------------------------------
+
+<h1>E-commerce Marketing Services to Boost Sales & Revenue</h1>
+
+<p>
+Grow your online store with powerful marketing strategies designed to increase traffic, conversions, and customer retention.
+</p>
+
+Buttons:
+- 📞 Call Now
+- 💬 WhatsApp Now
+- 🚀 Get Free Consultation
+
+--------------------------------------------------
+📄 INTRODUCTION
+--------------------------------------------------
+
+<p>
+In today’s competitive digital marketplace, simply having an online store is not enough. You need a strong marketing strategy to attract customers, increase conversions, and maximize revenue.
+</p>
+
+<p>
+At ConnectWith, we provide complete e-commerce marketing solutions that help online stores grow faster, reach the right audience, and achieve consistent sales. Whether you are selling on your website or platforms like Amazon and Flipkart, our strategies are tailored to deliver measurable results.
+</p>
+
+--------------------------------------------------
+📈 WHY E-COMMERCE MARKETING IS IMPORTANT
+--------------------------------------------------
+
+<ul>
+<li>Increase product visibility across platforms</li>
+<li>Drive targeted traffic to your store</li>
+<li>Improve conversion rates</li>
+<li>Boost sales and revenue</li>
+<li>Build customer loyalty and repeat purchases</li>
+</ul>
+
+--------------------------------------------------
+🛠️ OUR E-COMMERCE MARKETING SERVICES
+--------------------------------------------------
+
+<h2>Our Services Include:</h2>
+
+<ul>
+<li>Product Listing Optimization</li>
+<li>SEO for E-commerce Websites</li>
+<li>Google Shopping Ads</li>
+<li>Social Media Ads for Products</li>
+<li>Marketplace Optimization (Amazon, Flipkart)</li>
+<li>Conversion Rate Optimization (CRO)</li>
+<li>Email Marketing for Retargeting</li>
+<li>Cart Abandonment Strategy</li>
+</ul>
+
+--------------------------------------------------
+🚀 BENEFITS
+--------------------------------------------------
+
+<h2>Benefits of Our E-commerce Marketing Services</h2>
+
+<ul>
+<li>Increase product sales</li>
+<li>Improve customer targeting</li>
+<li>Boost return on investment (ROI)</li>
+<li>Enhance customer experience</li>
+<li>Build brand loyalty</li>
+</ul>
+
+--------------------------------------------------
+⚙️ OUR PROCESS
+--------------------------------------------------
+
+<h2>Our Working Process</h2>
+
+<ol>
+<li>Store Analysis & Competitor Research</li>
+<li>Marketing Strategy Development</li>
+<li>Campaign Setup & Optimization</li>
+<li>Traffic Generation</li>
+<li>Conversion Optimization</li>
+<li>Performance Tracking & Scaling</li>
+</ol>
+
+--------------------------------------------------
+🏆 WHY CHOOSE CONNECTWITH?
+--------------------------------------------------
+
+<ul>
+<li>Expert e-commerce marketing team</li>
+<li>Data-driven strategies</li>
+<li>Affordable pricing</li>
+<li>Proven track record</li>
+<li>Continuous optimization</li>
+</ul>
+
+--------------------------------------------------
+🎯 WHO CAN BENEFIT?
+--------------------------------------------------
+
+<h2>Who Should Use E-commerce Marketing?</h2>
+
+<ul>
+<li>Online store owners</li>
+<li>Amazon & Flipkart sellers</li>
+<li>Dropshipping businesses</li>
+<li>Retail brands</li>
+<li>Startups launching products</li>
+</ul>
+
+--------------------------------------------------
+❓ FAQ SECTION
+--------------------------------------------------
+
+<h2>Frequently Asked Questions</h2>
+
+<p><strong>Q1. Can you help increase my product sales?</strong><br>
+Yes, we focus on strategies that improve visibility and conversions.</p>
+
+<p><strong>Q2. Do you manage Amazon and Flipkart listings?</strong><br>
+Yes, we optimize marketplace listings for better performance.</p>
+
+<p><strong>Q3. How long does it take to see results?</strong><br>
+You can see initial results within a few weeks, with continuous growth over time.</p>
+
+<p><strong>Q4. Do you run ads for products?</strong><br>
+Yes, we run Google Shopping and social media ads.</p>
+
+--------------------------------------------------
+🚀 STRONG CTA SECTION
+--------------------------------------------------
+
+<h2>Ready to Grow Your Online Store?</h2>
+
+<p>
+Start increasing your sales and scaling your e-commerce business with expert marketing strategies.
+</p>
+
+Buttons:
+- 📞 Call Now
+- 💬 WhatsApp Now
+- 🚀 Get Free Consultation
+
+--------------------------------------------------
+📞 SIDEBAR (RIGHT SIDE)
+--------------------------------------------------
+
+<div class="sidebar-box">
+
+<h3>Boost Your Sales Now</h3>
+
+<button>📞 Call Now</button>
+<button>💬 WhatsApp Now</button>
+
+<h4>Request Free Consultation</h4>
+
+<form>
+<input type="text" placeholder="Your Name">
+<input type="text" placeholder="Phone Number">
+<input type="text" placeholder="Store / Business Type">
+<button type="submit">Submit</button>
+</form>
+
+</div>
+
+--------------------------------------------------
+📱 RESPONSIVE RULES
+--------------------------------------------------
+
+- Mobile: stack layout
+- Sidebar moves below
+- Buttons full width
+- Maintain spacing
+
+--------------------------------------------------
+🎨 DESIGN RULES
+--------------------------------------------------
+
+- Clean layout
+- Use cards and spacing
+- Highlight CTA buttons
+- Use brand colors

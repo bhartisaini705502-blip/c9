@@ -1,0 +1,207 @@
+You are an expert full-stack developer. Build a PROFESSIONAL, SCALABLE, and SEO-OPTIMIZED Business Directory Web Application using CORE PHP (NO frameworks), MySQL, HTML, CSS, and JavaScript.
+
+IMPORTANT:
+- Do NOT use Node.js or any backend framework.
+- Use Core PHP only.
+- The database is already hosted remotely on Hostinger. Connect directly using MySQL credentials.
+
+--------------------------------------------------
+🔗 DATABASE CONNECTION (REMOTE - HOSTINGER)
+--------------------------------------------------
+- Use MySQLi or PDO
+- Create a reusable db.php file
+- Optimize queries for performance
+- Use prepared statements for security
+
+--------------------------------------------------
+📦 PROJECT GOAL
+--------------------------------------------------
+Create a Smart Business Directory using Google Maps extracted data.
+
+The platform must:
+- Display businesses based on category + location
+- Be highly SEO optimized (VERY IMPORTANT)
+- Load fast and be mobile responsive
+- Handle large datasets efficiently
+
+--------------------------------------------------
+📁 PROJECT STRUCTURE (MANDATORY)
+--------------------------------------------------
+/config/db.php
+/includes/header.php
+/includes/footer.php
+/includes/functions.php
+/assets/css/
+/assets/js/
+/uploads/
+/pages/
+/admin/
+
+--------------------------------------------------
+🎯 CORE FEATURES
+--------------------------------------------------
+
+1. 🏠 HOMEPAGE
+- Search bar (Business / Category / Location)
+- Featured businesses
+- Popular categories
+- SEO content block
+
+2. 📂 CATEGORY PAGE
+- Dynamic category listing
+- URL: /category/{category-name}
+- SEO optimized titles & meta
+
+3. 📍 LOCATION PAGE
+- URL: /location/{city-name}
+- Show all businesses in that city
+
+4. 🏢 BUSINESS LISTING PAGE
+- Grid/List view
+- Pagination (IMPORTANT for performance)
+- Filters:
+  - Rating
+  - Category
+  - City
+  - Keywords
+
+5. 📄 BUSINESS DETAIL PAGE
+- URL: /business/{business-name}-{id}
+- Full business details:
+  - Name
+  - Address
+  - Phone
+  - Website
+  - Rating
+  - Reviews count
+  - Google Map Embed
+- Schema Markup (JSON-LD for LocalBusiness)
+- Click to Call button
+- WhatsApp button
+
+6. 🔎 ADVANCED SEARCH SYSTEM
+- Smart keyword search
+- Location-based filtering
+- Auto-suggestions (optional JS)
+
+7. ⚡ PERFORMANCE
+- Lazy loading
+- Pagination (LIMIT queries)
+- Index database columns
+- Cache frequently accessed data (optional)
+
+--------------------------------------------------
+🔐 ADMIN PANEL (/admin)
+--------------------------------------------------
+
+- Login system (secure)
+- Dashboard stats:
+  - Total businesses
+  - Categories
+  - Locations
+
+- Manage:
+  - Businesses (CRUD)
+  - Categories
+  - Locations
+  - SEO metadata
+
+--------------------------------------------------
+📊 SEO (VERY IMPORTANT)
+--------------------------------------------------
+
+Implement FULL SEO optimization:
+
+1. Clean URLs (.htaccess)
+   Example:
+   /category/electrician-dehradun
+   /business/abc-electricals-123
+
+2. Dynamic Meta Tags:
+   - Title
+   - Description
+   - Keywords
+
+3. Schema Markup:
+   - LocalBusiness JSON-LD
+
+4. Sitemap.xml auto-generate
+
+5. Robots.txt
+
+6. Internal linking between pages
+
+7. Add SEO content blocks on pages
+
+8. Optimize for keywords like:
+   "best electrician in Dehradun"
+   "top salon near me"
+   etc.
+
+--------------------------------------------------
+🎨 UI/UX REQUIREMENTS
+--------------------------------------------------
+
+- Modern, clean UI
+- Fully responsive (mobile-first)
+- Use cards for business listings
+- Sticky header with search
+- Fast loading design
+
+--------------------------------------------------
+🔍 DATABASE EXPECTATION
+--------------------------------------------------
+
+Assume database contains:
+- id
+- name
+- category
+- address
+- city
+- state
+- phone
+- website
+- rating
+- reviews_count
+- latitude
+- longitude
+
+Optimize queries accordingly.
+
+--------------------------------------------------
+🔒 SECURITY
+--------------------------------------------------
+
+- Use prepared statements
+- Escape outputs (XSS protection)
+- Basic input validation
+
+--------------------------------------------------
+⚙️ EXTRA SMART FEATURES (IMPORTANT)
+--------------------------------------------------
+
+- Auto-generate SEO slug from business name
+- Related businesses section
+- Trending businesses
+- Nearby businesses (based on city)
+
+--------------------------------------------------
+📌 FINAL REQUIREMENTS
+--------------------------------------------------
+
+- Code must be clean and well-structured
+- Use reusable components (header/footer)
+- Add comments for each section
+- Make it scalable for millions of records
+
+--------------------------------------------------
+
+Start building step by step:
+1. Database connection
+2. Homepage UI
+3. Category & listing pages
+4. Business detail page
+5. SEO implementation
+6. Admin panel
+
+Ensure everything is production-ready.

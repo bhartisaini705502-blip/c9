@@ -1,0 +1,557 @@
+[Wed Apr 15 11:51:54 2026] PHP 8.2.23 Development Server (http://0.0.0.0:5000) started
+[Wed Apr 15 11:51:55 2026] 127.0.0.1:53468 Accepted
+[Wed Apr 15 11:51:55 2026] 127.0.0.1:53468 [200]: GET /
+[Wed Apr 15 11:51:55 2026] 127.0.0.1:53468 Closing
+[Wed Apr 15 11:51:55 2026] 127.0.0.1:53484 Accepted
+[Wed Apr 15 11:51:55 2026] 127.0.0.1:53484 [200]: GET /assets/css/style.css
+[Wed Apr 15 11:51:55 2026] 127.0.0.1:53484 Closing
+[Wed Apr 15 11:51:55 2026] 127.0.0.1:53492 Accepted
+[Wed Apr 15 11:51:55 2026] 127.0.0.1:53492 [200]: GET /assets/css/mega-menu.css
+[Wed Apr 15 11:51:55 2026] 127.0.0.1:53492 Closing
+[Wed Apr 15 11:51:55 2026] 127.0.0.1:53508 Accepted
+[Wed Apr 15 11:51:55 2026] 127.0.0.1:53508 [200]: GET /assets/css/mobile-menu.css
+[Wed Apr 15 11:51:55 2026] 127.0.0.1:53508 Closing
+[Wed Apr 15 11:51:55 2026] 127.0.0.1:53510 Accepted
+[Wed Apr 15 11:51:55 2026] 127.0.0.1:53510 [200]: GET /assets/js/mega-menu.js
+[Wed Apr 15 11:51:55 2026] 127.0.0.1:53510 Closing
+[Wed Apr 15 11:51:55 2026] 127.0.0.1:53526 Accepted
+[Wed Apr 15 11:51:55 2026] 127.0.0.1:53526 [200]: GET /assets/images/connectwith-logo.webp
+[Wed Apr 15 11:51:55 2026] 127.0.0.1:53526 Closing
+[Wed Apr 15 11:51:55 2026] 127.0.0.1:53540 Accepted
+[Wed Apr 15 11:51:55 2026] 127.0.0.1:53540 [200]: GET /assets/js/main.js
+[Wed Apr 15 11:51:55 2026] 127.0.0.1:53540 Closing
+[Wed Apr 15 11:51:55 2026] 127.0.0.1:53548 Accepted
+[Wed Apr 15 11:51:55 2026] 127.0.0.1:53548 [200]: GET /
+[Wed Apr 15 11:51:55 2026] 127.0.0.1:53548 Closing
+[Wed Apr 15 11:52:00 2026] 127.0.0.1:53560 Accepted
+[Wed Apr 15 11:52:00 2026] 127.0.0.1:53576 Accepted
+[Wed Apr 15 11:52:00 2026] 127.0.0.1:53590 Accepted
+[Wed Apr 15 11:52:00 2026] 127.0.0.1:53604 Accepted
+[Wed Apr 15 11:52:00 2026] 127.0.0.1:53610 Accepted
+[Wed Apr 15 11:52:00 2026] 127.0.0.1:53560 [200]: GET /assets/css/style.css
+[Wed Apr 15 11:52:00 2026] 127.0.0.1:53576 [200]: GET /assets/css/mega-menu.css
+[Wed Apr 15 11:52:00 2026] 127.0.0.1:53560 Closing
+[Wed Apr 15 11:52:00 2026] 127.0.0.1:53576 Closing
+[Wed Apr 15 11:52:00 2026] 127.0.0.1:53590 [200]: GET /assets/css/mobile-menu.css
+[Wed Apr 15 11:52:00 2026] 127.0.0.1:53590 Closing
+[Wed Apr 15 11:52:00 2026] 127.0.0.1:53604 [200]: GET /assets/images/connectwith-logo.webp
+[Wed Apr 15 11:52:00 2026] 127.0.0.1:53610 [200]: GET /assets/js/mega-menu.js
+[Wed Apr 15 11:52:00 2026] 127.0.0.1:53604 Closing
+[Wed Apr 15 11:52:00 2026] 127.0.0.1:53610 Closing
+[Wed Apr 15 11:52:00 2026] 127.0.0.1:53624 Accepted
+[Wed Apr 15 11:52:00 2026] 127.0.0.1:53624 [200]: GET /assets/js/main.js
+[Wed Apr 15 11:52:00 2026] 127.0.0.1:53624 Closing
+[Wed Apr 15 11:52:01 2026] 127.0.0.1:53626 Accepted
+[Wed Apr 15 11:52:01 2026] 127.0.0.1:53626 [200]: GET /favicon.ico
+[Wed Apr 15 11:52:01 2026] 127.0.0.1:53626 Closing
+[Wed Apr 15 11:52:34 2026] 127.0.0.1:45628 Accepted
+[Wed Apr 15 11:52:34 2026] 127.0.0.1:45628 [200]: GET /
+[Wed Apr 15 11:52:34 2026] 127.0.0.1:45628 Closing
+[Wed Apr 15 11:53:12 2026] 127.0.0.1:47142 Accepted
+[Wed Apr 15 11:53:12 2026] 127.0.0.1:47142 [200]: GET /
+[Wed Apr 15 11:53:12 2026] 127.0.0.1:47142 Closing
+[Wed Apr 15 11:53:13 2026] 127.0.0.1:47154 Accepted
+[Wed Apr 15 11:53:13 2026] 127.0.0.1:47154 [200]: GET /assets/css/style.css
+[Wed Apr 15 11:53:13 2026] 127.0.0.1:47154 Closing
+[Wed Apr 15 11:53:13 2026] 127.0.0.1:47170 Accepted
+[Wed Apr 15 11:53:13 2026] 127.0.0.1:47170 [200]: GET /assets/css/mega-menu.css
+[Wed Apr 15 11:53:13 2026] 127.0.0.1:47170 Closing
+[Wed Apr 15 11:53:13 2026] 127.0.0.1:47186 Accepted
+[Wed Apr 15 11:53:13 2026] 127.0.0.1:47186 [200]: GET /assets/css/mobile-menu.css
+[Wed Apr 15 11:53:13 2026] 127.0.0.1:47186 Closing
+[Wed Apr 15 11:53:13 2026] 127.0.0.1:47194 Accepted
+[Wed Apr 15 11:53:13 2026] 127.0.0.1:47194 [200]: GET /assets/images/connectwith-logo.webp
+[Wed Apr 15 11:53:13 2026] 127.0.0.1:47194 Closing
+[Wed Apr 15 11:53:13 2026] 127.0.0.1:47200 Accepted
+[Wed Apr 15 11:53:13 2026] 127.0.0.1:47200 [200]: GET /assets/js/mega-menu.js
+[Wed Apr 15 11:53:13 2026] 127.0.0.1:47200 Closing
+[Wed Apr 15 11:53:13 2026] 127.0.0.1:47210 Accepted
+[Wed Apr 15 11:53:13 2026] 127.0.0.1:47210 [200]: GET /assets/js/main.js
+[Wed Apr 15 11:53:13 2026] 127.0.0.1:47210 Closing
+[Wed Apr 15 11:53:14 2026] 127.0.0.1:37300 Accepted
+[Wed Apr 15 11:53:14 2026] 127.0.0.1:37300 [200]: GET /favicon.ico
+[Wed Apr 15 11:53:14 2026] 127.0.0.1:37300 Closing
+[Wed Apr 15 11:53:21 2026] 127.0.0.1:37304 Accepted
+[Wed Apr 15 11:53:21 2026] 127.0.0.1:37304 [200]: GET /auth/login.php
+[Wed Apr 15 11:53:21 2026] 127.0.0.1:37304 Closing
+[Wed Apr 15 11:53:21 2026] 127.0.0.1:37312 Accepted
+[Wed Apr 15 11:53:21 2026] 127.0.0.1:37312 [200]: GET /assets/css/style.css
+[Wed Apr 15 11:53:21 2026] 127.0.0.1:37312 Closing
+[Wed Apr 15 11:53:21 2026] 127.0.0.1:37314 Accepted
+[Wed Apr 15 11:53:21 2026] 127.0.0.1:37314 [200]: GET /assets/css/mega-menu.css
+[Wed Apr 15 11:53:21 2026] 127.0.0.1:37314 Closing
+[Wed Apr 15 11:53:21 2026] 127.0.0.1:37320 Accepted
+[Wed Apr 15 11:53:21 2026] 127.0.0.1:37320 [200]: GET /assets/css/mobile-menu.css
+[Wed Apr 15 11:53:21 2026] 127.0.0.1:37320 Closing
+[Wed Apr 15 11:53:21 2026] 127.0.0.1:37334 Accepted
+[Wed Apr 15 11:53:21 2026] 127.0.0.1:37334 [200]: GET /assets/images/connectwith-logo.webp
+[Wed Apr 15 11:53:21 2026] 127.0.0.1:37334 Closing
+[Wed Apr 15 11:53:21 2026] 127.0.0.1:37336 Accepted
+[Wed Apr 15 11:53:21 2026] 127.0.0.1:37336 [200]: GET /assets/js/mega-menu.js
+[Wed Apr 15 11:53:21 2026] 127.0.0.1:37336 Closing
+[Wed Apr 15 11:53:21 2026] 127.0.0.1:37340 Accepted
+[Wed Apr 15 11:53:21 2026] 127.0.0.1:37340 [200]: GET /assets/js/main.js
+[Wed Apr 15 11:53:21 2026] 127.0.0.1:37340 Closing
+[Wed Apr 15 11:53:21 2026] 127.0.0.1:37344 Accepted
+[Wed Apr 15 11:53:21 2026] 127.0.0.1:37344 [200]: GET /favicon.ico
+[Wed Apr 15 11:53:21 2026] 127.0.0.1:37344 Closing
+[Wed Apr 15 11:53:48 2026] 127.0.0.1:37234 Accepted
+[Wed Apr 15 11:53:48 2026] 127.0.0.1:37234 [200]: POST /auth/login.php
+[Wed Apr 15 11:53:48 2026] 127.0.0.1:37234 Closing
+[Wed Apr 15 11:53:48 2026] 127.0.0.1:37246 Accepted
+[Wed Apr 15 11:53:48 2026] 127.0.0.1:37246 [200]: GET /assets/css/mega-menu.css
+[Wed Apr 15 11:53:48 2026] 127.0.0.1:37246 Closing
+[Wed Apr 15 11:53:48 2026] 127.0.0.1:37262 Accepted
+[Wed Apr 15 11:53:48 2026] 127.0.0.1:37262 [200]: GET /assets/css/mobile-menu.css
+[Wed Apr 15 11:53:48 2026] 127.0.0.1:37262 Closing
+[Wed Apr 15 11:53:48 2026] 127.0.0.1:37274 Accepted
+[Wed Apr 15 11:53:48 2026] 127.0.0.1:37274 [200]: GET /assets/js/mega-menu.js
+[Wed Apr 15 11:53:48 2026] 127.0.0.1:37274 Closing
+[Wed Apr 15 11:53:48 2026] 127.0.0.1:37286 Accepted
+[Wed Apr 15 11:53:48 2026] 127.0.0.1:37286 [200]: GET /assets/css/style.css
+[Wed Apr 15 11:53:48 2026] 127.0.0.1:37286 Closing
+[Wed Apr 15 11:53:48 2026] 127.0.0.1:37298 Accepted
+[Wed Apr 15 11:53:48 2026] 127.0.0.1:37298 [200]: GET /assets/images/connectwith-logo.webp
+[Wed Apr 15 11:53:48 2026] 127.0.0.1:37298 Closing
+[Wed Apr 15 11:53:48 2026] 127.0.0.1:37312 Accepted
+[Wed Apr 15 11:53:48 2026] 127.0.0.1:37312 [200]: GET /assets/js/main.js
+[Wed Apr 15 11:53:48 2026] 127.0.0.1:37312 Closing
+[Wed Apr 15 11:53:49 2026] 127.0.0.1:37326 Accepted
+[Wed Apr 15 11:53:49 2026] 127.0.0.1:37326 [200]: GET /favicon.ico
+[Wed Apr 15 11:53:49 2026] 127.0.0.1:37326 Closing
+[Wed Apr 15 11:54:18 2026] 127.0.0.1:56606 Accepted
+[Wed Apr 15 11:54:18 2026] 127.0.0.1:56606 [200]: POST /auth/login.php
+[Wed Apr 15 11:54:18 2026] 127.0.0.1:56606 Closing
+[Wed Apr 15 11:54:18 2026] 127.0.0.1:56608 Accepted
+[Wed Apr 15 11:54:18 2026] 127.0.0.1:56608 [200]: GET /assets/css/mobile-menu.css
+[Wed Apr 15 11:54:18 2026] 127.0.0.1:56608 Closing
+[Wed Apr 15 11:54:18 2026] 127.0.0.1:56622 Accepted
+[Wed Apr 15 11:54:18 2026] 127.0.0.1:56630 Accepted
+[Wed Apr 15 11:54:18 2026] 127.0.0.1:56622 [200]: GET /assets/js/mega-menu.js
+[Wed Apr 15 11:54:18 2026] 127.0.0.1:56630 [200]: GET /assets/images/connectwith-logo.webp
+[Wed Apr 15 11:54:18 2026] 127.0.0.1:56622 Closing
+[Wed Apr 15 11:54:18 2026] 127.0.0.1:56630 Closing
+[Wed Apr 15 11:54:18 2026] 127.0.0.1:56640 Accepted
+[Wed Apr 15 11:54:18 2026] 127.0.0.1:56640 [200]: GET /assets/css/style.css
+[Wed Apr 15 11:54:18 2026] 127.0.0.1:56640 Closing
+[Wed Apr 15 11:54:18 2026] 127.0.0.1:56654 Accepted
+[Wed Apr 15 11:54:18 2026] 127.0.0.1:56654 [200]: GET /assets/css/mega-menu.css
+[Wed Apr 15 11:54:18 2026] 127.0.0.1:56654 Closing
+[Wed Apr 15 11:54:19 2026] 127.0.0.1:56656 Accepted
+[Wed Apr 15 11:54:19 2026] 127.0.0.1:56656 [200]: GET /assets/js/main.js
+[Wed Apr 15 11:54:19 2026] 127.0.0.1:56656 Closing
+[Wed Apr 15 11:54:19 2026] 127.0.0.1:56670 Accepted
+[Wed Apr 15 11:54:19 2026] 127.0.0.1:56670 [200]: GET /favicon.ico
+[Wed Apr 15 11:54:19 2026] 127.0.0.1:56670 Closing
+[Wed Apr 15 11:54:34 2026] 127.0.0.1:41824 Accepted
+[Wed Apr 15 11:54:34 2026] 127.0.0.1:41824 [200]: POST /auth/login.php
+[Wed Apr 15 11:54:34 2026] 127.0.0.1:41824 Closing
+[Wed Apr 15 11:54:34 2026] 127.0.0.1:55534 Accepted
+[Wed Apr 15 11:54:34 2026] 127.0.0.1:55534 [200]: GET /assets/css/mega-menu.css
+[Wed Apr 15 11:54:34 2026] 127.0.0.1:55534 Closing
+[Wed Apr 15 11:54:34 2026] 127.0.0.1:55550 Accepted
+[Wed Apr 15 11:54:34 2026] 127.0.0.1:55550 [200]: GET /assets/css/style.css
+[Wed Apr 15 11:54:34 2026] 127.0.0.1:55550 Closing
+[Wed Apr 15 11:54:34 2026] 127.0.0.1:55560 Accepted
+[Wed Apr 15 11:54:34 2026] 127.0.0.1:55560 [200]: GET /assets/css/mobile-menu.css
+[Wed Apr 15 11:54:34 2026] 127.0.0.1:55574 Accepted
+[Wed Apr 15 11:54:34 2026] 127.0.0.1:55560 Closing
+[Wed Apr 15 11:54:34 2026] 127.0.0.1:55574 [200]: GET /assets/images/connectwith-logo.webp
+[Wed Apr 15 11:54:34 2026] 127.0.0.1:55574 Closing
+[Wed Apr 15 11:54:34 2026] 127.0.0.1:55590 Accepted
+[Wed Apr 15 11:54:34 2026] 127.0.0.1:55590 [200]: GET /assets/js/mega-menu.js
+[Wed Apr 15 11:54:34 2026] 127.0.0.1:55590 Closing
+[Wed Apr 15 11:54:34 2026] 127.0.0.1:55592 Accepted
+[Wed Apr 15 11:54:34 2026] 127.0.0.1:55592 [200]: GET /assets/js/main.js
+[Wed Apr 15 11:54:34 2026] 127.0.0.1:55592 Closing
+[Wed Apr 15 11:54:35 2026] 127.0.0.1:55606 Accepted
+[Wed Apr 15 11:54:35 2026] 127.0.0.1:55606 [200]: GET /favicon.ico
+[Wed Apr 15 11:54:35 2026] 127.0.0.1:55606 Closing
+[Wed Apr 15 11:55:44 2026] 127.0.0.1:37718 Accepted
+[Wed Apr 15 11:55:44 2026] 127.0.0.1:37718 [200]: GET /pages/manage-services.php
+[Wed Apr 15 11:55:44 2026] 127.0.0.1:37718 Closing
+[Wed Apr 15 11:55:44 2026] 127.0.0.1:37720 Accepted
+[Wed Apr 15 11:55:44 2026] 127.0.0.1:37720 [200]: GET /assets/css/style.css
+[Wed Apr 15 11:55:44 2026] 127.0.0.1:37720 Closing
+[Wed Apr 15 11:55:44 2026] 127.0.0.1:37726 Accepted
+[Wed Apr 15 11:55:44 2026] 127.0.0.1:37726 [200]: GET /assets/css/mega-menu.css
+[Wed Apr 15 11:55:44 2026] 127.0.0.1:37726 Closing
+[Wed Apr 15 11:55:44 2026] 127.0.0.1:37736 Accepted
+[Wed Apr 15 11:55:44 2026] 127.0.0.1:37736 [200]: GET /assets/css/mobile-menu.css
+[Wed Apr 15 11:55:44 2026] 127.0.0.1:37736 Closing
+[Wed Apr 15 11:55:44 2026] 127.0.0.1:37750 Accepted
+[Wed Apr 15 11:55:44 2026] 127.0.0.1:37750 [200]: GET /assets/js/mega-menu.js
+[Wed Apr 15 11:55:44 2026] 127.0.0.1:37750 Closing
+[Wed Apr 15 11:55:44 2026] 127.0.0.1:37756 Accepted
+[Wed Apr 15 11:55:44 2026] 127.0.0.1:37756 [200]: GET /assets/images/connectwith-logo.webp
+[Wed Apr 15 11:55:44 2026] 127.0.0.1:37756 Closing
+[Wed Apr 15 11:55:44 2026] 127.0.0.1:37760 Accepted
+[Wed Apr 15 11:55:44 2026] 127.0.0.1:37760 [200]: GET /assets/js/main.js
+[Wed Apr 15 11:55:44 2026] 127.0.0.1:37760 Closing
+[Wed Apr 15 11:55:45 2026] 127.0.0.1:37776 Accepted
+[Wed Apr 15 11:55:45 2026] 127.0.0.1:37776 [200]: GET /favicon.ico
+[Wed Apr 15 11:55:45 2026] 127.0.0.1:37776 Closing
+[Wed Apr 15 11:56:28 2026] 127.0.0.1:60090 Accepted
+[Wed Apr 15 11:56:29 2026] 127.0.0.1:60090 [200]: POST /pages/manage-services.php - Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/runner/workspace/pages/manage-services.php:65
+Stack trace:
+#0 /home/runner/workspace/pages/manage-services.php(65): mysqli_stmt->bind_param('ssdsi', 'AI Powered Adva...', '', 0.0, '6-8 months', 39, 69134)
+#1 {main}
+  thrown in /home/runner/workspace/pages/manage-services.php on line 65
+[Wed Apr 15 11:56:29 2026] 127.0.0.1:60090 Closing
+[Wed Apr 15 11:56:29 2026] 127.0.0.1:60102 Accepted
+[Wed Apr 15 11:56:29 2026] 127.0.0.1:60102 [200]: GET /favicon.ico
+[Wed Apr 15 11:56:29 2026] 127.0.0.1:60102 Closing
+[Wed Apr 15 11:57:09 2026] 127.0.0.1:48526 Accepted
+[Wed Apr 15 11:57:09 2026] 127.0.0.1:48526 [200]: POST /auth/login.php
+[Wed Apr 15 11:57:09 2026] 127.0.0.1:48526 Closing
+[Wed Apr 15 11:57:09 2026] 127.0.0.1:48542 Accepted
+[Wed Apr 15 11:57:09 2026] 127.0.0.1:48542 [200]: GET /assets/css/style.css
+[Wed Apr 15 11:57:09 2026] 127.0.0.1:48542 Closing
+[Wed Apr 15 11:57:09 2026] 127.0.0.1:48546 Accepted
+[Wed Apr 15 11:57:09 2026] 127.0.0.1:48546 [200]: GET /assets/css/mobile-menu.css
+[Wed Apr 15 11:57:09 2026] 127.0.0.1:48546 Closing
+[Wed Apr 15 11:57:09 2026] 127.0.0.1:48560 Accepted
+[Wed Apr 15 11:57:09 2026] 127.0.0.1:48560 [200]: GET /assets/css/mega-menu.css
+[Wed Apr 15 11:57:09 2026] 127.0.0.1:48560 Closing
+[Wed Apr 15 11:57:09 2026] 127.0.0.1:48564 Accepted
+[Wed Apr 15 11:57:09 2026] 127.0.0.1:48564 [200]: GET /assets/images/connectwith-logo.webp
+[Wed Apr 15 11:57:09 2026] 127.0.0.1:48564 Closing
+[Wed Apr 15 11:57:09 2026] 127.0.0.1:48576 Accepted
+[Wed Apr 15 11:57:09 2026] 127.0.0.1:48576 [200]: GET /assets/js/mega-menu.js
+[Wed Apr 15 11:57:09 2026] 127.0.0.1:48576 Closing
+[Wed Apr 15 11:57:09 2026] 127.0.0.1:48590 Accepted
+[Wed Apr 15 11:57:09 2026] 127.0.0.1:48590 [200]: GET /assets/js/main.js
+[Wed Apr 15 11:57:09 2026] 127.0.0.1:48590 Closing
+[Wed Apr 15 11:57:10 2026] 127.0.0.1:48600 Accepted
+[Wed Apr 15 11:57:10 2026] 127.0.0.1:48600 [200]: GET /favicon.ico
+[Wed Apr 15 11:57:10 2026] 127.0.0.1:48600 Closing
+[Wed Apr 15 11:57:14 2026] 127.0.0.1:48606 Accepted
+[Wed Apr 15 11:57:14 2026] 127.0.0.1:48606 [200]: GET /auth/register.php
+[Wed Apr 15 11:57:14 2026] 127.0.0.1:48606 Closing
+[Wed Apr 15 11:57:14 2026] 127.0.0.1:48608 Accepted
+[Wed Apr 15 11:57:14 2026] 127.0.0.1:48608 [200]: GET /assets/css/style.css
+[Wed Apr 15 11:57:14 2026] 127.0.0.1:48608 Closing
+[Wed Apr 15 11:57:14 2026] 127.0.0.1:48610 Accepted
+[Wed Apr 15 11:57:14 2026] 127.0.0.1:48610 [200]: GET /assets/css/mobile-menu.css
+[Wed Apr 15 11:57:14 2026] 127.0.0.1:48610 Closing
+[Wed Apr 15 11:57:14 2026] 127.0.0.1:48612 Accepted
+[Wed Apr 15 11:57:14 2026] 127.0.0.1:48612 [200]: GET /assets/js/mega-menu.js
+[Wed Apr 15 11:57:14 2026] 127.0.0.1:48612 Closing
+[Wed Apr 15 11:57:14 2026] 127.0.0.1:48626 Accepted
+[Wed Apr 15 11:57:14 2026] 127.0.0.1:48626 [200]: GET /assets/images/connectwith-logo.webp
+[Wed Apr 15 11:57:14 2026] 127.0.0.1:48626 Closing
+[Wed Apr 15 11:57:14 2026] 127.0.0.1:48640 Accepted
+[Wed Apr 15 11:57:14 2026] 127.0.0.1:48640 [200]: GET /assets/css/mega-menu.css
+[Wed Apr 15 11:57:14 2026] 127.0.0.1:48640 Closing
+[Wed Apr 15 11:57:14 2026] 127.0.0.1:47906 Accepted
+[Wed Apr 15 11:57:14 2026] 127.0.0.1:47906 [200]: GET /assets/js/main.js
+[Wed Apr 15 11:57:14 2026] 127.0.0.1:47906 Closing
+[Wed Apr 15 11:57:14 2026] 127.0.0.1:47914 Accepted
+[Wed Apr 15 11:57:14 2026] 127.0.0.1:47914 [200]: GET /favicon.ico
+[Wed Apr 15 11:57:14 2026] 127.0.0.1:47914 Closing
+[Wed Apr 15 11:57:18 2026] 127.0.0.1:47920 Accepted
+[Wed Apr 15 11:57:18 2026] 127.0.0.1:47920 [200]: GET /auth/login.php
+[Wed Apr 15 11:57:18 2026] 127.0.0.1:47920 Closing
+[Wed Apr 15 11:57:19 2026] 127.0.0.1:47930 Accepted
+[Wed Apr 15 11:57:19 2026] 127.0.0.1:47930 [200]: GET /assets/css/mega-menu.css
+[Wed Apr 15 11:57:19 2026] 127.0.0.1:47930 Closing
+[Wed Apr 15 11:57:19 2026] 127.0.0.1:47940 Accepted
+[Wed Apr 15 11:57:19 2026] 127.0.0.1:47940 [200]: GET /assets/images/connectwith-logo.webp
+[Wed Apr 15 11:57:19 2026] 127.0.0.1:47940 Closing
+[Wed Apr 15 11:57:19 2026] 127.0.0.1:47942 Accepted
+[Wed Apr 15 11:57:19 2026] 127.0.0.1:47942 [200]: GET /assets/css/style.css
+[Wed Apr 15 11:57:19 2026] 127.0.0.1:47942 Closing
+[Wed Apr 15 11:57:19 2026] 127.0.0.1:47956 Accepted
+[Wed Apr 15 11:57:19 2026] 127.0.0.1:47956 [200]: GET /assets/css/mobile-menu.css
+[Wed Apr 15 11:57:19 2026] 127.0.0.1:47956 Closing
+[Wed Apr 15 11:57:19 2026] 127.0.0.1:47970 Accepted
+[Wed Apr 15 11:57:19 2026] 127.0.0.1:47970 [200]: GET /assets/js/mega-menu.js
+[Wed Apr 15 11:57:19 2026] 127.0.0.1:47970 Closing
+[Wed Apr 15 11:57:19 2026] 127.0.0.1:47974 Accepted
+[Wed Apr 15 11:57:19 2026] 127.0.0.1:47974 [200]: GET /assets/js/main.js
+[Wed Apr 15 11:57:19 2026] 127.0.0.1:47974 Closing
+[Wed Apr 15 11:57:19 2026] 127.0.0.1:47990 Accepted
+[Wed Apr 15 11:57:19 2026] 127.0.0.1:47990 [200]: GET /favicon.ico
+[Wed Apr 15 11:57:19 2026] 127.0.0.1:47990 Closing
+[Wed Apr 15 11:57:51 2026] 127.0.0.1:53208 Accepted
+[Wed Apr 15 11:57:51 2026] 127.0.0.1:53208 [200]: POST /pages/manage-services.php
+[Wed Apr 15 11:57:51 2026] 127.0.0.1:53208 Closing
+[Wed Apr 15 11:57:51 2026] 127.0.0.1:53210 Accepted
+[Wed Apr 15 11:57:51 2026] 127.0.0.1:53210 [200]: GET /assets/css/style.css
+[Wed Apr 15 11:57:51 2026] 127.0.0.1:53210 Closing
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53218 Accepted
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53218 [200]: GET /assets/css/mega-menu.css
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53218 Closing
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53222 Accepted
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53222 [200]: GET /assets/css/mobile-menu.css
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53222 Closing
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53236 Accepted
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53236 [200]: POST /auth/login.php
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53236 Closing
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53242 Accepted
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53246 Accepted
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53242 [200]: GET /assets/images/connectwith-logo.webp
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53246 [200]: GET /assets/js/mega-menu.js
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53242 Closing
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53246 Closing
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53250 Accepted
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53250 [200]: GET /assets/js/main.js
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53250 Closing
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53260 Accepted
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53260 [200]: GET /assets/css/style.css
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53260 Closing
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53268 Accepted
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53268 [200]: GET /assets/images/connectwith-logo.webp
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53268 Closing
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53270 Accepted
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53270 [200]: GET /assets/css/mega-menu.css
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53270 Closing
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53276 Accepted
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53276 [200]: GET /assets/css/mobile-menu.css
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53276 Closing
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53286 Accepted
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53286 [200]: GET /assets/js/mega-menu.js
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53286 Closing
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53290 Accepted
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53290 [200]: GET /assets/js/main.js
+[Wed Apr 15 11:57:52 2026] 127.0.0.1:53290 Closing
+[Wed Apr 15 11:57:53 2026] 127.0.0.1:53300 Accepted
+[Wed Apr 15 11:57:53 2026] 127.0.0.1:53300 [200]: GET /favicon.ico
+[Wed Apr 15 11:57:53 2026] 127.0.0.1:53300 Closing
+[Wed Apr 15 11:57:53 2026] 127.0.0.1:53316 Accepted
+[Wed Apr 15 11:57:53 2026] 127.0.0.1:53316 [200]: GET /favicon.ico
+[Wed Apr 15 11:57:53 2026] 127.0.0.1:53316 Closing
+[Wed Apr 15 11:58:15 2026] 127.0.0.1:35938 Accepted
+[Wed Apr 15 11:58:15 2026] 127.0.0.1:35938 [200]: POST /auth/login.php
+[Wed Apr 15 11:58:15 2026] 127.0.0.1:35938 Closing
+[Wed Apr 15 11:58:16 2026] 127.0.0.1:35952 Accepted
+[Wed Apr 15 11:58:16 2026] 127.0.0.1:35952 [200]: GET /assets/css/style.css
+[Wed Apr 15 11:58:16 2026] 127.0.0.1:35952 Closing
+[Wed Apr 15 11:58:16 2026] 127.0.0.1:35964 Accepted
+[Wed Apr 15 11:58:16 2026] 127.0.0.1:35964 [200]: GET /assets/css/mobile-menu.css
+[Wed Apr 15 11:58:16 2026] 127.0.0.1:35964 Closing
+[Wed Apr 15 11:58:16 2026] 127.0.0.1:35980 Accepted
+[Wed Apr 15 11:58:16 2026] 127.0.0.1:35980 [200]: GET /assets/css/mega-menu.css
+[Wed Apr 15 11:58:16 2026] 127.0.0.1:35980 Closing
+[Wed Apr 15 11:58:16 2026] 127.0.0.1:35996 Accepted
+[Wed Apr 15 11:58:16 2026] 127.0.0.1:35996 [200]: GET /assets/images/connectwith-logo.webp
+[Wed Apr 15 11:58:16 2026] 127.0.0.1:36000 Accepted
+[Wed Apr 15 11:58:16 2026] 127.0.0.1:35996 Closing
+[Wed Apr 15 11:58:16 2026] 127.0.0.1:36000 [200]: GET /assets/js/mega-menu.js
+[Wed Apr 15 11:58:16 2026] 127.0.0.1:36000 Closing
+[Wed Apr 15 11:58:16 2026] 127.0.0.1:36014 Accepted
+[Wed Apr 15 11:58:16 2026] 127.0.0.1:36014 [200]: GET /assets/js/main.js
+[Wed Apr 15 11:58:16 2026] 127.0.0.1:36014 Closing
+[Wed Apr 15 11:58:16 2026] 127.0.0.1:36024 Accepted
+[Wed Apr 15 11:58:16 2026] 127.0.0.1:36024 [200]: GET /favicon.ico
+[Wed Apr 15 11:58:16 2026] 127.0.0.1:36024 Closing
+[Wed Apr 15 11:59:38 2026] 127.0.0.1:51316 Accepted
+[Wed Apr 15 11:59:38 2026] 127.0.0.1:51316 [200]: GET /
+[Wed Apr 15 11:59:38 2026] 127.0.0.1:51316 Closing
+[Wed Apr 15 11:59:38 2026] 127.0.0.1:51326 Accepted
+[Wed Apr 15 11:59:38 2026] 127.0.0.1:51326 [200]: GET /assets/images/connectwith-logo.webp
+[Wed Apr 15 11:59:38 2026] 127.0.0.1:51326 Closing
+[Wed Apr 15 11:59:38 2026] 127.0.0.1:51332 Accepted
+[Wed Apr 15 11:59:38 2026] 127.0.0.1:51332 [200]: GET /assets/css/mobile-menu.css
+[Wed Apr 15 11:59:38 2026] 127.0.0.1:51332 Closing
+[Wed Apr 15 11:59:38 2026] 127.0.0.1:51336 Accepted
+[Wed Apr 15 11:59:38 2026] 127.0.0.1:51336 [200]: GET /assets/css/style.css
+[Wed Apr 15 11:59:38 2026] 127.0.0.1:51336 Closing
+[Wed Apr 15 11:59:38 2026] 127.0.0.1:51338 Accepted
+[Wed Apr 15 11:59:38 2026] 127.0.0.1:51338 [200]: GET /assets/css/mega-menu.css
+[Wed Apr 15 11:59:38 2026] 127.0.0.1:51338 Closing
+[Wed Apr 15 11:59:38 2026] 127.0.0.1:51352 Accepted
+[Wed Apr 15 11:59:38 2026] 127.0.0.1:51352 [200]: GET /assets/js/mega-menu.js
+[Wed Apr 15 11:59:38 2026] 127.0.0.1:51352 Closing
+[Wed Apr 15 11:59:38 2026] 127.0.0.1:51364 Accepted
+[Wed Apr 15 11:59:38 2026] 127.0.0.1:51364 [200]: GET /assets/js/main.js
+[Wed Apr 15 11:59:38 2026] 127.0.0.1:51364 Closing
+[Wed Apr 15 11:59:39 2026] 127.0.0.1:51380 Accepted
+[Wed Apr 15 11:59:39 2026] 127.0.0.1:51380 [200]: GET /favicon.ico
+[Wed Apr 15 11:59:39 2026] 127.0.0.1:51380 Closing
+[Wed Apr 15 11:59:52 2026] 127.0.0.1:33094 Accepted
+[Wed Apr 15 11:59:52 2026] 127.0.0.1:33094 [200]: GET /pages/social-media-marketing.php
+[Wed Apr 15 11:59:52 2026] 127.0.0.1:33094 Closing
+[Wed Apr 15 11:59:52 2026] 127.0.0.1:33160 Accepted
+[Wed Apr 15 11:59:52 2026] 127.0.0.1:33160 [200]: GET /assets/css/style.css
+[Wed Apr 15 11:59:52 2026] 127.0.0.1:33160 Closing
+[Wed Apr 15 11:59:52 2026] 127.0.0.1:33166 Accepted
+[Wed Apr 15 11:59:52 2026] 127.0.0.1:33166 [200]: GET /assets/js/mega-menu.js
+[Wed Apr 15 11:59:52 2026] 127.0.0.1:33166 Closing
+[Wed Apr 15 11:59:52 2026] 127.0.0.1:33178 Accepted
+[Wed Apr 15 11:59:52 2026] 127.0.0.1:33178 [200]: GET /assets/css/mega-menu.css
+[Wed Apr 15 11:59:52 2026] 127.0.0.1:33178 Closing
+[Wed Apr 15 11:59:52 2026] 127.0.0.1:33186 Accepted
+[Wed Apr 15 11:59:52 2026] 127.0.0.1:33186 [200]: GET /assets/css/mobile-menu.css
+[Wed Apr 15 11:59:52 2026] 127.0.0.1:33186 Closing
+[Wed Apr 15 11:59:52 2026] 127.0.0.1:33198 Accepted
+[Wed Apr 15 11:59:52 2026] 127.0.0.1:33198 [200]: GET /assets/images/connectwith-logo.webp
+[Wed Apr 15 11:59:52 2026] 127.0.0.1:33198 Closing
+[Wed Apr 15 11:59:52 2026] 127.0.0.1:33200 Accepted
+[Wed Apr 15 11:59:52 2026] 127.0.0.1:33200 [200]: GET /assets/js/main.js
+[Wed Apr 15 11:59:52 2026] 127.0.0.1:33200 Closing
+[Wed Apr 15 11:59:53 2026] 127.0.0.1:33204 Accepted
+[Wed Apr 15 11:59:53 2026] 127.0.0.1:33204 [200]: GET /favicon.ico
+[Wed Apr 15 11:59:53 2026] 127.0.0.1:33204 Closing
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52224 Accepted
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52224 [200]: GET /pages/locations.php
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52224 Closing
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52234 Accepted
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52234 [200]: GET /assets/css/style.css
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52234 Closing
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52246 Accepted
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52246 [200]: GET /assets/images/connectwith-logo.webp
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52246 Closing
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52260 Accepted
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52260 [200]: GET /assets/css/mega-menu.css
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52260 Closing
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52268 Accepted
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52268 [200]: GET /assets/js/mega-menu.js
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52268 Closing
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52274 Accepted
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52274 [200]: GET /assets/css/mobile-menu.css
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52274 Closing
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52282 Accepted
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52282 [200]: GET /assets/css/smart-display.css
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52282 Closing
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52290 Accepted
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52290 [200]: GET /assets/js/main.js
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52290 Closing
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52300 Accepted
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52300 [200]: GET /assets/js/smart-display.js
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52300 Closing
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52306 Accepted
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52306 [200]: GET /favicon.ico
+[Wed Apr 15 12:00:10 2026] 127.0.0.1:52306 Closing
+[Wed Apr 15 12:00:14 2026] 127.0.0.1:52322 Accepted
+[Wed Apr 15 12:00:14 2026] 127.0.0.1:52322 [200]: GET /pages/smart-search.php
+[Wed Apr 15 12:00:14 2026] 127.0.0.1:52322 Closing
+[Wed Apr 15 12:00:14 2026] 127.0.0.1:48740 Accepted
+[Wed Apr 15 12:00:14 2026] 127.0.0.1:48754 Accepted
+[Wed Apr 15 12:00:14 2026] 127.0.0.1:48740 [200]: GET /assets/js/mega-menu.js
+[Wed Apr 15 12:00:14 2026] 127.0.0.1:48740 Closing
+[Wed Apr 15 12:00:14 2026] 127.0.0.1:48754 [200]: GET /assets/css/mega-menu.css
+[Wed Apr 15 12:00:14 2026] 127.0.0.1:48754 Closing
+[Wed Apr 15 12:00:14 2026] 127.0.0.1:48770 Accepted
+[Wed Apr 15 12:00:14 2026] 127.0.0.1:48770 [200]: GET /assets/images/connectwith-logo.webp
+[Wed Apr 15 12:00:14 2026] 127.0.0.1:48770 Closing
+[Wed Apr 15 12:00:14 2026] 127.0.0.1:48774 Accepted
+[Wed Apr 15 12:00:14 2026] 127.0.0.1:48774 [200]: GET /assets/css/style.css
+[Wed Apr 15 12:00:14 2026] 127.0.0.1:48774 Closing
+[Wed Apr 15 12:00:14 2026] 127.0.0.1:48788 Accepted
+[Wed Apr 15 12:00:14 2026] 127.0.0.1:48788 [200]: GET /assets/css/mobile-menu.css
+[Wed Apr 15 12:00:14 2026] 127.0.0.1:48788 Closing
+[Wed Apr 15 12:00:14 2026] 127.0.0.1:48794 Accepted
+[Wed Apr 15 12:00:14 2026] 127.0.0.1:48794 [200]: GET /assets/css/smart-display.css
+[Wed Apr 15 12:00:14 2026] 127.0.0.1:48794 Closing
+[Wed Apr 15 12:00:14 2026] 127.0.0.1:48800 Accepted
+[Wed Apr 15 12:00:14 2026] 127.0.0.1:48800 [200]: GET /assets/js/smart-display.js
+[Wed Apr 15 12:00:14 2026] 127.0.0.1:48800 Closing
+[Wed Apr 15 12:00:15 2026] 127.0.0.1:48810 Accepted
+[Wed Apr 15 12:00:15 2026] 127.0.0.1:48810 [200]: GET /api/recent-searches.php?action=get
+[Wed Apr 15 12:00:15 2026] 127.0.0.1:48810 Closing
+[Wed Apr 15 12:00:15 2026] 127.0.0.1:48816 Accepted
+[Wed Apr 15 12:00:15 2026] 127.0.0.1:48816 [200]: GET /favicon.ico
+[Wed Apr 15 12:00:15 2026] 127.0.0.1:48816 Closing
+[Wed Apr 15 12:00:19 2026] 127.0.0.1:48818 Accepted
+[Wed Apr 15 12:00:19 2026] 127.0.0.1:48818 [200]: GET /api/smart-search.php?q=baudhyantram&tag=&minRating=0&category=&limit=20
+[Wed Apr 15 12:00:19 2026] 127.0.0.1:48818 Closing
+[Wed Apr 15 12:00:19 2026] 127.0.0.1:48828 Accepted
+[Wed Apr 15 12:00:19 2026] 127.0.0.1:48828 [200]: POST /api/store-search-results.php
+[Wed Apr 15 12:00:19 2026] 127.0.0.1:48828 Closing
+[Wed Apr 15 12:00:36 2026] 127.0.0.1:45984 Accepted
+[Wed Apr 15 12:00:36 2026] 127.0.0.1:45984 [200]: GET /pages/business-detail.php?id=69142
+[Wed Apr 15 12:00:36 2026] 127.0.0.1:45984 Closing
+[Wed Apr 15 12:00:36 2026] 127.0.0.1:46000 Accepted
+[Wed Apr 15 12:00:36 2026] 127.0.0.1:46000 [200]: GET /assets/css/mobile-menu.css
+[Wed Apr 15 12:00:36 2026] 127.0.0.1:46016 Accepted
+[Wed Apr 15 12:00:36 2026] 127.0.0.1:46000 Closing
+[Wed Apr 15 12:00:36 2026] 127.0.0.1:46016 [200]: GET /assets/images/connectwith-logo.webp
+[Wed Apr 15 12:00:36 2026] 127.0.0.1:46016 Closing
+[Wed Apr 15 12:00:36 2026] 127.0.0.1:46024 Accepted
+[Wed Apr 15 12:00:36 2026] 127.0.0.1:46024 [200]: GET /assets/css/mega-menu.css
+[Wed Apr 15 12:00:36 2026] 127.0.0.1:46024 Closing
+[Wed Apr 15 12:00:36 2026] 127.0.0.1:46026 Accepted
+[Wed Apr 15 12:00:36 2026] 127.0.0.1:46026 [200]: GET /assets/css/style.css
+[Wed Apr 15 12:00:36 2026] 127.0.0.1:46026 Closing
+[Wed Apr 15 12:00:36 2026] 127.0.0.1:46032 Accepted
+[Wed Apr 15 12:00:36 2026] 127.0.0.1:46032 [200]: GET /assets/js/mega-menu.js
+[Wed Apr 15 12:00:36 2026] 127.0.0.1:46032 Closing
+[Wed Apr 15 12:00:36 2026] 127.0.0.1:46042 Accepted
+[Wed Apr 15 12:00:36 2026] 127.0.0.1:46042 [200]: GET /assets/js/main.js
+[Wed Apr 15 12:00:36 2026] 127.0.0.1:46042 Closing
+[Wed Apr 15 12:00:37 2026] 127.0.0.1:46048 Accepted
+[Wed Apr 15 12:00:37 2026] 127.0.0.1:46048 [200]: POST /api/store-business-images.php
+[Wed Apr 15 12:00:37 2026] 127.0.0.1:46048 Closing
+[Wed Apr 15 12:00:38 2026] 127.0.0.1:46064 Accepted
+[Wed Apr 15 12:00:38 2026] 127.0.0.1:46064 [200]: GET /favicon.ico
+[Wed Apr 15 12:00:38 2026] 127.0.0.1:46064 Closing
+[Wed Apr 15 12:03:06 2026] 127.0.0.1:43532 Accepted
+[Wed Apr 15 12:03:06 2026] 127.0.0.1:43532 [200]: GET /pages/smart-search.php
+[Wed Apr 15 12:03:06 2026] 127.0.0.1:43532 Closing
+[Wed Apr 15 12:03:06 2026] 127.0.0.1:43536 Accepted
+[Wed Apr 15 12:03:06 2026] 127.0.0.1:43536 [200]: GET /assets/css/style.css
+[Wed Apr 15 12:03:06 2026] 127.0.0.1:43536 Closing
+[Wed Apr 15 12:03:06 2026] 127.0.0.1:43550 Accepted
+[Wed Apr 15 12:03:06 2026] 127.0.0.1:43550 [200]: GET /assets/css/mega-menu.css
+[Wed Apr 15 12:03:06 2026] 127.0.0.1:43550 Closing
+[Wed Apr 15 12:03:06 2026] 127.0.0.1:43556 Accepted
+[Wed Apr 15 12:03:06 2026] 127.0.0.1:43556 [200]: GET /assets/css/mobile-menu.css
+[Wed Apr 15 12:03:06 2026] 127.0.0.1:43556 Closing
+[Wed Apr 15 12:03:06 2026] 127.0.0.1:43562 Accepted
+[Wed Apr 15 12:03:06 2026] 127.0.0.1:43562 [200]: GET /assets/images/connectwith-logo.webp
+[Wed Apr 15 12:03:06 2026] 127.0.0.1:43562 Closing
+[Wed Apr 15 12:03:06 2026] 127.0.0.1:43564 Accepted
+[Wed Apr 15 12:03:06 2026] 127.0.0.1:43564 [200]: GET /assets/js/mega-menu.js
+[Wed Apr 15 12:03:06 2026] 127.0.0.1:43564 Closing
+[Wed Apr 15 12:03:06 2026] 127.0.0.1:43576 Accepted
+[Wed Apr 15 12:03:06 2026] 127.0.0.1:43576 [200]: GET /assets/css/smart-display.css
+[Wed Apr 15 12:03:06 2026] 127.0.0.1:43576 Closing
+[Wed Apr 15 12:03:06 2026] 127.0.0.1:43592 Accepted
+[Wed Apr 15 12:03:06 2026] 127.0.0.1:43592 [200]: GET /assets/js/smart-display.js
+[Wed Apr 15 12:03:06 2026] 127.0.0.1:43592 Closing
+[Wed Apr 15 12:03:07 2026] 127.0.0.1:43604 Accepted
+[Wed Apr 15 12:03:07 2026] 127.0.0.1:43604 [200]: GET /api/recent-searches.php?action=get
+[Wed Apr 15 12:03:07 2026] 127.0.0.1:43604 Closing
+[Wed Apr 15 12:03:07 2026] 127.0.0.1:43610 Accepted
+[Wed Apr 15 12:03:07 2026] 127.0.0.1:43610 [200]: GET /favicon.ico
+[Wed Apr 15 12:03:07 2026] 127.0.0.1:43610 Closing
+[Wed Apr 15 12:03:14 2026] 127.0.0.1:52098 Accepted
+[Wed Apr 15 12:03:14 2026] 127.0.0.1:52098 [200]: GET /favicon.ico
+[Wed Apr 15 12:03:14 2026] 127.0.0.1:52098 Closing
+[Wed Apr 15 12:03:15 2026] 127.0.0.1:52112 Accepted
+[Wed Apr 15 12:03:15 2026] 127.0.0.1:52112 [200]: GET /api/smart-search.php?q=baudhyantram&tag=&minRating=0&category=&limit=20
+[Wed Apr 15 12:03:15 2026] 127.0.0.1:52112 Closing
+[Wed Apr 15 12:03:15 2026] 127.0.0.1:52122 Accepted
+[Wed Apr 15 12:03:15 2026] 127.0.0.1:52122 [200]: POST /api/store-search-results.php
+[Wed Apr 15 12:03:15 2026] 127.0.0.1:52122 Closing
+[Wed Apr 15 12:03:16 2026] 127.0.0.1:52136 Accepted
+[Wed Apr 15 12:03:16 2026] 127.0.0.1:52136 [200]: GET /api/smart-search.php?q=baudhyantram&tag=&minRating=0&category=&limit=20
+[Wed Apr 15 12:03:16 2026] 127.0.0.1:52136 Closing
+[Wed Apr 15 12:03:16 2026] 127.0.0.1:52144 Accepted
+[Wed Apr 15 12:03:16 2026] 127.0.0.1:52144 [200]: POST /api/store-search-results.php
+[Wed Apr 15 12:03:16 2026] 127.0.0.1:52144 Closing
+[Wed Apr 15 12:03:22 2026] 127.0.0.1:52148 Accepted
+[Wed Apr 15 12:03:22 2026] 127.0.0.1:52148 [200]: GET /pages/hybrid-search.php
+[Wed Apr 15 12:03:22 2026] 127.0.0.1:52148 Closing
+[Wed Apr 15 12:03:22 2026] 127.0.0.1:52152 Accepted
+[Wed Apr 15 12:03:22 2026] 127.0.0.1:52152 [200]: GET /assets/css/style.css
+[Wed Apr 15 12:03:22 2026] 127.0.0.1:52152 Closing
+[Wed Apr 15 12:03:22 2026] 127.0.0.1:52158 Accepted
+[Wed Apr 15 12:03:22 2026] 127.0.0.1:52158 [200]: GET /assets/css/mega-menu.css
+[Wed Apr 15 12:03:22 2026] 127.0.0.1:52158 Closing
+[Wed Apr 15 12:03:22 2026] 127.0.0.1:52166 Accepted
+[Wed Apr 15 12:03:22 2026] 127.0.0.1:52166 [200]: GET /assets/css/mobile-menu.css
+[Wed Apr 15 12:03:22 2026] 127.0.0.1:52166 Closing
+[Wed Apr 15 12:03:22 2026] 127.0.0.1:52176 Accepted
+[Wed Apr 15 12:03:22 2026] 127.0.0.1:52176 [200]: GET /assets/js/mega-menu.js
+[Wed Apr 15 12:03:22 2026] 127.0.0.1:52176 Closing
+[Wed Apr 15 12:03:22 2026] 127.0.0.1:52190 Accepted
+[Wed Apr 15 12:03:22 2026] 127.0.0.1:52190 [200]: GET /assets/images/connectwith-logo.webp
+[Wed Apr 15 12:03:22 2026] 127.0.0.1:52190 Closing
+[Wed Apr 15 12:03:23 2026] 127.0.0.1:52206 Accepted
+[Wed Apr 15 12:03:23 2026] 127.0.0.1:52206 [200]: GET /favicon.ico
+[Wed Apr 15 12:03:23 2026] 127.0.0.1:52206 Closing
+[Wed Apr 15 12:03:24 2026] 127.0.0.1:34710 Accepted
+[Wed Apr 15 12:03:24 2026] 127.0.0.1:34710 [200]: GET /pages/business-detail.php?id=69142
+[Wed Apr 15 12:03:24 2026] 127.0.0.1:34710 Closing

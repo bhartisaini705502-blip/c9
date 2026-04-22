@@ -1,0 +1,206 @@
+You are an expert UI/UX designer, SEO specialist, and Core PHP developer.
+
+Upgrade the Business Detail Page into a HIGH-CONVERSION, SEO-OPTIMIZED, AI-ENHANCED PAGE.
+
+--------------------------------------------------
+⚠️ RULES
+--------------------------------------------------
+
+- DO NOT break backend logic
+- KEEP existing data fetching
+- ENHANCE layout, UX, and features
+- Make page fast and responsive
+
+--------------------------------------------------
+🎯 OBJECTIVE
+--------------------------------------------------
+
+Upgrade page with:
+
+1. Premium Hero Section
+2. Trust System
+3. AI Content (Description + FAQ)
+4. Lead Conversion System
+5. SEO Optimization
+6. Engagement Sections
+
+--------------------------------------------------
+🧱 1. PREMIUM HERO SECTION
+--------------------------------------------------
+
+Include:
+
+- Business Name (H1)
+- Category + City
+- Rating ⭐
+- Verified badge OR "Data Source: Google"
+
+--------------------------------------------------
+ADD CTA STRIP:
+
+- 📞 Call Now
+- 💬 WhatsApp
+- 📩 Enquiry
+
+--------------------------------------------------
+🧱 2. TRUST ELEMENTS
+--------------------------------------------------
+
+Display:
+
+- ✔ Verified badge (green)
+- ⚠ "Data Source: Google" (if unverified)
+- ⭐ Ratings
+- 📍 Location
+
+--------------------------------------------------
+🧱 3. AI CONTENT UPGRADE
+--------------------------------------------------
+
+IF description empty:
+
+→ Generate using Gemini API
+
+--------------------------------------------------
+ALSO GENERATE:
+
+FAQs:
+
+Example:
+
+Q: What services does this business provide?
+Q: Where is it located?
+
+--------------------------------------------------
+DISPLAY:
+
+<h2>About Business</h2>
+<p>{description}</p>
+
+<h2>FAQs</h2>
+<ul>
+<li>Q/A</li>
+</ul>
+
+--------------------------------------------------
+🧱 4. 2-COLUMN LAYOUT
+--------------------------------------------------
+
+LEFT:
+
+- About
+- Details
+- Map
+- FAQs
+
+RIGHT (STICKY):
+
+- Contact box
+- Lead form
+- CTA buttons
+
+--------------------------------------------------
+🧱 5. LEAD CAPTURE SYSTEM
+--------------------------------------------------
+
+Add form:
+
+- Name
+- Phone
+- Service
+
+--------------------------------------------------
+ON SUBMIT:
+
+- Save in DB
+- Send email
+- Redirect to WhatsApp
+
+--------------------------------------------------
+🧱 6. RELATED BUSINESSES
+--------------------------------------------------
+
+Show:
+
+- Same category
+- Same city
+
+--------------------------------------------------
+LIMIT: 4–6 listings
+
+--------------------------------------------------
+🧱 7. SEO OPTIMIZATION
+--------------------------------------------------
+
+Dynamic title:
+
+"Best {Category} in {City} | {Business Name}"
+
+--------------------------------------------------
+Meta description:
+
+"Find {business name}, top {category} in {city}. Contact now."
+
+--------------------------------------------------
+ADD SCHEMA:
+
+LocalBusiness JSON-LD
+
+--------------------------------------------------
+🧱 8. ENGAGEMENT FEATURES
+--------------------------------------------------
+
+Add:
+
+- Share buttons (WhatsApp / Facebook)
+- Copy phone button
+- Click tracking
+
+--------------------------------------------------
+🧱 9. MOBILE UX
+--------------------------------------------------
+
+Add bottom sticky bar:
+
+- Call
+- WhatsApp
+- Enquiry
+
+--------------------------------------------------
+🧱 10. PERFORMANCE
+--------------------------------------------------
+
+- Lazy load images
+- Optimize queries
+- Avoid extra API calls
+
+--------------------------------------------------
+🧱 11. DESIGN RULES
+--------------------------------------------------
+
+- Card layout
+- Clean spacing
+- Soft shadow
+- Rounded corners
+- Highlight CTA buttons
+
+--------------------------------------------------
+🧱 12. FINAL VALIDATION
+--------------------------------------------------
+
+Ensure:
+
+- Layout clean
+- No empty sections
+- AI content working
+- Forms working
+- Mobile responsive
+
+--------------------------------------------------
+📌 FINAL OUTPUT
+--------------------------------------------------
+
+- Premium detail page
+- High conversion UI
+- AI-enhanced content
+- SEO optimized

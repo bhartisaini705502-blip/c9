@@ -1,0 +1,348 @@
+You are an expert full-stack developer, AI engineer, and SEO architect.
+
+We have already built a Business Directory using:
+- Core PHP
+- MySQL (Remote DB - Hostinger)
+- Google Maps API (for business data & location)
+- Gemini API (Free Tier)
+
+Your task is to upgrade this system into a SMART, AI-POWERED, MAP-BASED BUSINESS DISCOVERY PLATFORM while keeping API usage minimal.
+
+--------------------------------------------------
+🎯 CORE OBJECTIVE
+--------------------------------------------------
+
+- Use Google Maps API for location intelligence
+- Use Gemini API only where necessary (generate once, store in DB)
+- Build a scalable, SEO-friendly, high-performance system
+
+--------------------------------------------------
+⚠️ IMPORTANT AI USAGE RULE (CRITICAL)
+--------------------------------------------------
+
+- NEVER call Gemini API repeatedly for same data
+- Generate content ONCE → store in database → reuse
+- Use AI only for:
+  - descriptions
+  - SEO content
+  - summaries
+
+--------------------------------------------------
+🧠 1. AI FEATURES (GEMINI - OPTIMIZED USAGE)
+--------------------------------------------------
+
+A. AI BUSINESS DESCRIPTION (ONE TIME)
+
+For each business:
+- Input:
+  name, category, city, rating
+
+- Generate:
+  - SEO-friendly description
+  - services summary
+
+- Store in DB:
+  ai_description TEXT
+
+--------------------------------------------------
+
+B. AI TAG GENERATION (ONE TIME)
+
+Generate tags:
+- affordable
+- premium
+- family-friendly
+- quick-service
+
+Store in DB:
+tags VARCHAR
+
+--------------------------------------------------
+
+C. AI REVIEW SUMMARY (OPTIONAL - LIMITED)
+
+Generate:
+- Pros
+- Cons
+- Summary
+
+Store in DB:
+review_summary TEXT
+
+--------------------------------------------------
+
+D. AI SEO PAGE CONTENT
+
+For pages like:
+- /{category}-in-{city}
+
+Generate:
+- 300–500 words content
+- FAQs
+
+Store in DB:
+seo_content TEXT
+
+--------------------------------------------------
+
+--------------------------------------------------
+🗺️ 2. GOOGLE MAPS POWER FEATURES
+--------------------------------------------------
+
+A. USER LOCATION DETECTION
+
+- Use browser geolocation
+- Fetch nearby businesses
+
+--------------------------------------------------
+
+B. DISTANCE CALCULATION
+
+- Calculate distance using lat/lng
+- Store temporarily or calculate dynamically
+
+Display:
+- "1.5 km away"
+
+--------------------------------------------------
+
+C. MAP VIEW
+
+- Show all listings on map
+- Add markers (pins)
+
+On click:
+- Show popup card with:
+  - name
+  - rating
+  - AI summary
+
+--------------------------------------------------
+
+D. RADIUS SEARCH
+
+Allow user to filter:
+- 1 km
+- 5 km
+- 10 km
+
+--------------------------------------------------
+
+E. CATEGORY FILTER ON MAP
+
+- Filter pins by category
+- Update dynamically
+
+--------------------------------------------------
+
+F. DIRECTIONS BUTTON
+
+- Open Google Maps navigation
+
+--------------------------------------------------
+
+--------------------------------------------------
+🔎 3. SMART SEARCH (NO HEAVY AI)
+--------------------------------------------------
+
+Build intelligent search using PHP logic:
+
+Keyword mapping:
+- "cheap" → affordable
+- "best" → high rating
+- "near me" → user location
+
+Query DB accordingly.
+
+Optional:
+Use Gemini only to format output response.
+
+--------------------------------------------------
+
+--------------------------------------------------
+🏢 4. LISTING PAGE IMPROVEMENTS
+--------------------------------------------------
+
+Each listing card:
+
+- Business Name
+- Rating
+- Verified Badge
+- Category
+- Address
+- Distance
+
+Buttons:
+- Call
+- WhatsApp
+- View
+
+Add:
+- AI summary (short 1 line)
+- Hover effect
+
+--------------------------------------------------
+
+--------------------------------------------------
+🟢 5. TRUST SYSTEM
+--------------------------------------------------
+
+Verified:
+- Show green badge
+
+Unverified:
+Show notice:
+"Data sourced from Google. Claim for verification."
+
+Add:
+"Claim Business" button
+
+--------------------------------------------------
+
+--------------------------------------------------
+📈 6. SEO SYSTEM (HIGH PRIORITY)
+--------------------------------------------------
+
+Create pages:
+
+- /category/{category}
+- /location/{city}
+- /{category}-in-{city}
+
+Each page:
+- AI-generated content (stored)
+- Listings
+- Internal links
+
+Meta:
+- dynamic title
+- description
+
+--------------------------------------------------
+
+--------------------------------------------------
+📊 7. ANALYTICS & SMART FEATURES (NO AI NEEDED)
+--------------------------------------------------
+
+Track:
+- views
+- clicks
+- searches
+
+Build:
+
+A. Trending Businesses
+- most viewed
+
+B. Recommended
+- based on user searches
+
+C. People Also Searched
+- same category + city
+
+--------------------------------------------------
+
+--------------------------------------------------
+💼 8. BUSINESS OWNER FEATURES
+--------------------------------------------------
+
+Dashboard:
+
+- views
+- clicks
+- leads
+
+Show suggestions:
+- add phone
+- add images
+
+--------------------------------------------------
+
+--------------------------------------------------
+📩 9. CLAIM BUSINESS SYSTEM
+--------------------------------------------------
+
+Form:
+- name
+- phone
+- email
+
+Store in DB
+
+Admin:
+- approve
+- mark verified
+
+--------------------------------------------------
+
+--------------------------------------------------
+⚡ 10. PERFORMANCE OPTIMIZATION
+--------------------------------------------------
+
+- Pagination (LIMIT 20)
+- DB Index:
+  city, category, name
+
+- Lazy load images
+- Cache AI outputs
+
+--------------------------------------------------
+
+--------------------------------------------------
+⚙️ 11. AUTOMATION
+--------------------------------------------------
+
+Use CRON jobs:
+
+- generate SEO pages
+- generate AI descriptions
+- update tags
+
+--------------------------------------------------
+
+--------------------------------------------------
+🎨 12. UI DESIGN
+--------------------------------------------------
+
+- Card-based layout
+- Clean modern UI
+- Mobile responsive
+
+Color scheme:
+- Dark Blue (#0B1C3D)
+- Blue (#1E3A8A)
+- Orange (#FF6A00)
+
+--------------------------------------------------
+
+--------------------------------------------------
+🔒 13. SECURITY
+--------------------------------------------------
+
+- Prepared statements
+- Input validation
+- XSS protection
+
+--------------------------------------------------
+
+--------------------------------------------------
+📌 FINAL REQUIREMENTS
+--------------------------------------------------
+
+- Use AI efficiently (store results)
+- Use Maps for location intelligence
+- Build scalable system
+- Keep UI clean and fast
+- SEO optimized structure
+
+--------------------------------------------------
+
+Build in phases:
+
+1. AI description + tags
+2. Map + nearby system
+3. SEO pages
+4. Smart search
+5. Dashboard + analytics
+
+Ensure production-ready system.

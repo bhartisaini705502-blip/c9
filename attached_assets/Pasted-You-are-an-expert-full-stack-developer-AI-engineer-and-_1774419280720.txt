@@ -1,0 +1,306 @@
+You are an expert full-stack developer, AI engineer, and SEO architect.
+
+We already have a working Business Directory built using Core PHP + MySQL (Hostinger remote DB). Listings are imported from Google Maps.
+
+Your task is to upgrade this system into a HIGH-END AI-POWERED BUSINESS DIRECTORY PLATFORM with advanced UX, SEO, AI, monetization, and scalability features.
+
+--------------------------------------------------
+🎯 CORE OBJECTIVE
+--------------------------------------------------
+
+Transform the system into:
+"AI-Powered Local Business Discovery & Lead Generation Platform"
+
+--------------------------------------------------
+🧠 1. AI-POWERED FEATURES (CORE DIFFERENTIATOR)
+--------------------------------------------------
+
+Integrate Google Gemini API.
+
+A. AI SEARCH (INTENT BASED)
+- Understand queries like:
+  "cheap gym near me"
+  "best family restaurant"
+- Match using:
+  - tags (affordable, premium, family-friendly)
+  - ratings
+  - category
+- Return top relevant listings
+
+--------------------------------------------------
+
+B. AI CHAT ASSISTANT
+- Add chatbot UI
+- User asks natural queries
+- Return:
+  - Top 5 businesses
+  - Summary
+  - Direct links
+
+--------------------------------------------------
+
+C. AI BUSINESS DESCRIPTION
+- Generate SEO-friendly descriptions dynamically
+- Inputs:
+  name, category, city
+
+--------------------------------------------------
+
+D. AI REVIEW SUMMARY
+- Generate:
+  - Pros
+  - Cons
+  - Summary
+
+--------------------------------------------------
+
+E. AI TAG GENERATION
+- Auto assign tags:
+  affordable, premium, family-friendly, quick-service
+
+--------------------------------------------------
+
+F. AI BUSINESS COMPARISON
+- Compare 2–3 businesses
+- Output:
+  - Best option
+  - Differences
+
+--------------------------------------------------
+
+--------------------------------------------------
+📈 2. SEO DOMINATION SYSTEM
+--------------------------------------------------
+
+A. PROGRAMMATIC SEO PAGES
+
+Auto create:
+- /{category}-in-{city}
+- /best-{category}-in-{city}
+- /top-{category}-in-{city}
+
+Each page:
+- 300–500 words AI content
+- Listings
+- FAQs
+- Internal linking
+
+--------------------------------------------------
+
+B. BLOG AUTO GENERATOR
+- Generate blogs like:
+  "Top 10 salons in Dehradun"
+- Link to listings
+
+--------------------------------------------------
+
+C. INTERNAL LINKING ENGINE
+- Auto link:
+  blogs ↔ categories ↔ listings
+
+--------------------------------------------------
+
+D. TRENDING PAGES
+- "Trending in Dehradun"
+- "Most searched businesses"
+
+--------------------------------------------------
+
+--------------------------------------------------
+🏢 3. BUSINESS LISTING IMPROVEMENTS
+--------------------------------------------------
+
+- Modern card UI
+- Verified badge
+- Unverified warning
+- AI summary (1 line)
+- Buttons:
+  Call, WhatsApp, View
+
+Sorting:
+ORDER BY verified DESC, rating DESC
+
+--------------------------------------------------
+
+--------------------------------------------------
+📍 4. LOCATION INTELLIGENCE
+--------------------------------------------------
+
+A. GPS BASED SEARCH
+- Detect user location
+- Show nearby listings
+
+--------------------------------------------------
+
+B. MAP VIEW
+- Show listings on map with pins
+- Click pin → show card
+
+--------------------------------------------------
+
+C. DISTANCE DISPLAY
+- Show:
+  "2.5 km away"
+
+--------------------------------------------------
+
+--------------------------------------------------
+💬 5. USER & REVIEW SYSTEM
+--------------------------------------------------
+
+- User login system
+- Add review + rating
+- Store in DB
+- Show average rating
+
+Optional:
+- AI detects fake reviews
+
+--------------------------------------------------
+
+--------------------------------------------------
+💼 6. BUSINESS OWNER DASHBOARD
+--------------------------------------------------
+
+When business is claimed:
+
+Dashboard shows:
+- Views
+- Clicks (call, WhatsApp)
+- Leads count
+- Ranking position
+
+--------------------------------------------------
+
+--------------------------------------------------
+📩 7. CLAIM BUSINESS SYSTEM
+--------------------------------------------------
+
+- Button: "Claim This Business"
+- Form:
+  name, phone, email
+
+Flow:
+- Store request
+- Admin approves
+- Mark verified
+
+--------------------------------------------------
+
+--------------------------------------------------
+💰 8. MONETIZATION SYSTEM
+--------------------------------------------------
+
+A. FEATURED LISTINGS
+- Top positions
+- Highlighted card
+- Badge: "Sponsored"
+
+--------------------------------------------------
+
+B. PAY PER LEAD
+- Track clicks
+- Store leads
+
+--------------------------------------------------
+
+C. ADS SYSTEM
+- Banner ads
+- Category ads
+
+--------------------------------------------------
+
+--------------------------------------------------
+🎯 9. GROWTH FEATURES
+--------------------------------------------------
+
+- Share listing (WhatsApp)
+- Top 10 lists
+- Email capture (lead magnet)
+
+--------------------------------------------------
+
+--------------------------------------------------
+🔐 10. TRUST SYSTEM
+--------------------------------------------------
+
+- Verified badge
+- Multi-level verification (future)
+- Photo verification
+
+--------------------------------------------------
+
+--------------------------------------------------
+⚡ 11. PERFORMANCE & SCALE
+--------------------------------------------------
+
+- Pagination (LIMIT 20)
+- DB Indexes:
+  INDEX(city)
+  INDEX(category)
+  INDEX(name)
+
+- Lazy loading
+- Caching system
+
+--------------------------------------------------
+
+--------------------------------------------------
+⚙️ 12. BACKEND & AUTOMATION
+--------------------------------------------------
+
+- Cron jobs:
+  - Auto generate SEO pages
+  - Update data
+  - Generate AI content
+
+- API layer (future mobile app)
+
+--------------------------------------------------
+
+--------------------------------------------------
+🎨 13. UI DESIGN
+--------------------------------------------------
+
+Color scheme:
+- Dark Blue: #0B1C3D
+- Blue: #1E3A8A
+- Orange: #FF6A00
+- Light Grey: #F5F7FA
+
+Style:
+- Modern card-based UI
+- Clean spacing
+- Mobile responsive
+
+--------------------------------------------------
+
+--------------------------------------------------
+🔒 14. SECURITY
+--------------------------------------------------
+
+- Prepared statements
+- Input validation
+- XSS protection
+
+--------------------------------------------------
+
+--------------------------------------------------
+📌 FINAL REQUIREMENTS
+--------------------------------------------------
+
+- Clean, modular code
+- SEO optimized
+- Scalable for millions of listings
+- Professional UI (like Justdial + modern SaaS)
+
+--------------------------------------------------
+
+Build in phases:
+1. AI features
+2. SEO system
+3. Map & location features
+4. Dashboard & monetization
+5. Performance optimization
+
+Ensure production-ready system.
